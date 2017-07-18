@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/gtk/pyatnashkee">
+    <file preprocess="xml-stripblanks">window.ui</file>
+    <file>tiles.css</file>
+  </gresource>
+</gresources>
