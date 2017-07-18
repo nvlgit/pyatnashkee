@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=15
+Comment=Classic slide puzzle game
+Keywords=Game;Puzzle;
+Exec=pyatnashkee
+Terminal=false
+Type=Application
+Icon=pyatnashkee
+X-GNOME-DocPath=rhythmbox/rhythmbox.xml
+Categories=GNOME;GTK;Game;
+
