@@ -6,6 +6,4 @@ Exec=pyatnashkee
 Terminal=false
 Type=Application
 Icon=pyatnashkee
-X-GNOME-DocPath=rhythmbox/rhythmbox.xml
 Categories=GNOME;GTK;Game;
-
