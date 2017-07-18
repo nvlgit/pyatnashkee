@@ -27,17 +27,17 @@ namespace Pyatnashkee {
         public ApplicationWindow window;
 
         public Application () {
-            application_id = "org.gtk.pyatnashkee";
+            application_id = "com.github.nvlgit.pyatnashkee";
         }
 
 		public override void startup () {
 
 			base.startup ();
 			var css_provider = new Gtk.CssProvider ();
-       		css_provider.load_from_resource ("/org/gtk/pyatnashkee/tiles.css");
+       		css_provider.load_from_resource ("/com/github/nvlgit/pyatnashkee/tiles.css");
        		Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (),
-            										  css_provider,
-													  STYLE_PROVIDER_PRIORITY_APPLICATION);
+            						  css_provider,
+							  STYLE_PROVIDER_PRIORITY_APPLICATION);
 			var action = new GLib.SimpleAction ("quit", null);
             action.activate.connect (quit);
             add_action (action);
