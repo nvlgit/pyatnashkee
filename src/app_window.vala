@@ -1,6 +1,6 @@
 namespace Pyatnashkee {
 	
-    [GtkTemplate (ui = "/org/gtk/pyatnashkee/window.ui")]
+    [GtkTemplate (ui = "/com/github/nvlgit/pyatnashkee/window.ui")]
     public class ApplicationWindow : Gtk.ApplicationWindow {
 
         [GtkChild]
