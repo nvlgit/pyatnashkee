@@ -26,48 +26,41 @@ namespace Pyatnashkee {
         public ApplicationWindow window;
 
         public Application () {
-            application_id = "com.github.nvlgit.pyatnashkee";
+	
+		application_id = "com.github.nvlgit.pyatnashkee";
         }
 
-		public override void startup () {
+	public override void startup () {
 
-			base.startup ();
-			var css_provider = new Gtk.CssProvider ();
+		base.startup ();
+		var css_provider = new Gtk.CssProvider ();
        		css_provider.load_from_resource ("/com/github/nvlgit/pyatnashkee/tiles.css");
        		Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (),
             						  css_provider,
 							  STYLE_PROVIDER_PRIORITY_APPLICATION);
-			var action = new GLib.SimpleAction ("quit", null);
-            action.activate.connect (quit);
-            add_action (action);
-			string[] accels = { "<Ctrl>Q" };
-			set_accels_for_action ("app.quit", accels);
-
-			
-		}	
+		var action = new GLib.SimpleAction ("quit", null);
+		action.activate.connect (quit);
+		add_action (action);
+		string[] accels = { "<Ctrl>Q" };
+		set_accels_for_action ("app.quit", accels);
+	}	
 
         public override void activate () {
 
-			var window = new ApplicationWindow (this);
-			/*var geometry = Gdk.Geometry();
-			geometry.min_aspect = 0.88;
-			geometry.max_aspect = 0.88;
-			window.set_geometry_hints (window, geometry, Gdk.WindowHints.ASPECT);*/
-			window.new_game();
-                        window.present ();
+		var window = new ApplicationWindow (this);
+		/*var geometry = Gdk.Geometry();
+		geometry.min_aspect = 0.88;
+		geometry.max_aspect = 0.88;
+		window.set_geometry_hints (window, geometry, Gdk.WindowHints.ASPECT);*/
+		window.new_game();
+		window.present ();
         }
-
-
     }
-
-
 
 
     public static int main (string[] args) {
 
-        var application = new Application ();
-
-
+		var application = new Application ();
 		return application.run (args);
     }
 }
