@@ -65,15 +65,15 @@ namespace Pyatnashkee {
 		[GtkCallback]
         private void button_3_2_clicked_handler () { tile_clicked (3, 2); }
 		[GtkCallback]
-        private void button_0_3_clicked_handler () { tile_clicked (0, 3); }
+        private void button_0_3_clicked_handler() { tile_clicked (0, 3); }
 		[GtkCallback]
-        private void button_1_3_clicked_handler () { tile_clicked (1, 3); }
+        private void button_1_3_clicked_handler() { tile_clicked (1, 3); }
 		[GtkCallback]
-        private void button_2_3_clicked_handler () { tile_clicked (2, 3); }
+        private void button_2_3_clicked_handler() { tile_clicked (2, 3); }
 		[GtkCallback]
-        private void button_3_3_clicked_handler () { tile_clicked (3, 3); }
+        private void button_3_3_clicked_handler() { tile_clicked (3, 3); }
 		[GtkCallback]
-        private void new_game_clicked_handler () { new_game(); }
+        private void new_game_clicked_handler() { new_game(); }
 		/*======================================================*/
         public ApplicationWindow (Gtk.Application application) {
             GLib.Object (application: application);
@@ -82,10 +82,10 @@ namespace Pyatnashkee {
 		/*======================================================*/
 		public void new_game () {
 
-			do { arr = mixing (arr); }
-			while (is_solved(arr));
+			do { arr = mixing(arr); }
+			while ( is_solved(arr) );
 			
-			redraw_tiles( arr );
+			redraw_tiles(arr);
 
 			if ( info_bar.visible ) {
 				info_bar.visible = false;
@@ -100,7 +100,7 @@ namespace Pyatnashkee {
 		/*======================================================*/
 		private void tile_clicked ( int x, int y ) {
 			
-		 if (!is_solved ( arr )) {
+		 if ( !is_solved(arr) ) {
 			
 			
 			int zero_x = 0, zero_y = 0;
@@ -144,17 +144,17 @@ namespace Pyatnashkee {
 
 		 }
 
-			redraw_tiles( arr );
+			redraw_tiles(arr);
 
-			if ( (is_solved(arr)) && (!info_bar.visible) ) {
-				stdout.printf ("Solved!\n ");
+			if ( ( is_solved(arr) ) && ( !info_bar.visible ) ) {
+				//stdout.printf ("Solved!\n ");
 				info_bar.visible = true;
 			} else {
 				info_bar.visible = false;
 			}
 		}
 		/*======================================================*/
-		private void redraw_tiles( int[,] a ) {
+		private void redraw_tiles(int[,] a) {
 
 		  for (int y = 0; y < 4; y++) {
 			for (int x = 0; x < 4; x++) {
@@ -313,46 +313,44 @@ namespace Pyatnashkee {
 			int k = 0, l = 0;
 			int[] inv = new int[16];
 
-    		do {
+    		    do {
         		for (int i = 0; i < 4; i++) {
-            		for (int j = 0; j < 4; j++) {
+            		    for (int j = 0; j < 4; j++) {
                 		a[i,j] = 0;
                 		inv[i * 4 + j] = 0;
-            		}
+            		    }
         		}
         		for (int i = 1; i < 16; i++) {
-            		do {
+            		    do {
                 		k = Random.int_range (0, 4);
                 		l = Random.int_range (0, 4);
-            		}
-            		while (a[k,l] != 0);
-            		a[k, l] = i;
-            		inv[k * 4 + l] = i;
+            		    } while (a[k,l] != 0);
+            		    a[k, l] = i;
+            		    inv[k * 4 + l] = i;
         		}
-    		}
-    		while (!can_be_solved(a));
-			return a; //Return mixed array
+    		    } while (!can_be_solved(a));
+		    return a; //Return mixed array
 		}
 		/*======================================================*/
 		private bool can_be_solved ( int[,] a ) {
 	
 			int inv_count = 0;
 			for(int i = 0; i < 15; i++)	{
-    			for(int j = i+1; j < 16; j++) {
-        			if ( a[i / 4, i % 4] > a[j / 4, j % 4] ) { inv_count++; }
+    				for(int j = i+1; j < 16; j++) {
+        				if ( a[i / 4, i % 4] > a[j / 4, j % 4] ) { inv_count++; }
 				}
 			}
 			int pos_y = 0;
 			for (int i = 4 - 1; i >= 0; i--) {
-    			for (int j = 4 - 1; j >= 0; j--) {
-        			if (a[i,j] == 0) { pos_y = 4 - i; }
+    				for (int j = 4 - 1; j >= 0; j--) {
+        				if (a[i,j] == 0) { pos_y = 4 - i; }
 				}
 			}
 			
 			int pos_x = 0;
 			for (int j = 4 - 1; j >= 0; j--) {
-    			for (int i = 4 - 1; i >= 0; i--) {
-        			if (a[i,j] == 0) { pos_x = 4 - j; }
+    				for (int i = 4 - 1; i >= 0; i--) {
+        				if (a[i,j] == 0) { pos_x = 4 - j; }
 				}
 			}
 
@@ -364,9 +362,9 @@ namespace Pyatnashkee {
 			if ( (pos_y % 2 == 0) && (pos_x % 2 == 0) && (inv_count % 2 != 0) ) {
 				stdout.printf ("solvible\n");
 				return true;
-		//	} else if ( (pos_y % 2 != 0) && (inv_count % 2 == 0) ) {
-		//		stdout.printf ("solvible\n");
-		//		return true;
+		/*	} else if ( (pos_y % 2 != 0) && (inv_count % 2 == 0) ) {
+				stdout.printf ("solvible\n");
+				return true; */
 			} else {
 				stdout.printf ("not solvible\n");
 				return false;
