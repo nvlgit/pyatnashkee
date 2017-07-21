@@ -2,7 +2,7 @@
 Name:           pyatnashkee
 Version:        0.1
 Release:        1%{?dist}
-Summary:        15 classic slide puzzle game
+Summary:        15-puzzle
 
 License:        GPLv3      
 URL:            https://github.com/nvlgit/pyatnashkee
@@ -10,7 +10,7 @@ Source0:        https://github.com/nvlgit/pyatnashkee/%{name}-%{version}.tar.gz
 
 
 %description
-Fifteen is a classic slide puzzle game. 
+15-puzzle is a classic sliding puzzle game 
 
 
 %prep
