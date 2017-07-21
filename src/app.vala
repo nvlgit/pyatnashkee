@@ -54,7 +54,7 @@ namespace Pyatnashkee {
 			geometry.max_aspect = 0.88;
 			window.set_geometry_hints (window, geometry, Gdk.WindowHints.ASPECT);*/
 			window.new_game();
-            window.present ();
+                        window.present ();
         }
 
 
