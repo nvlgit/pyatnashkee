@@ -6,9 +6,12 @@
 uidir = $(pkgdatadir)/data
 
 
-ui_DATA = $(top_srcdir)/data/window.ui $(top_srcdir)/data/tiles.css
+ui_DATA = \
+	$(uidir)/window.ui	\
+	$(uidir)/tiles.css
 
-gresource_file = $(top_srcdir)/data/pyatnashkee.gresource.xml
+gresource_file = \
+	$(top_srcdir)/data/pyatnashkee.gresource.xml
 
 
 AM_CPPFLAGS = \
@@ -17,9 +20,9 @@ AM_CPPFLAGS = \
 	-DPACKAGE_DATA_DIR=\""$(pkgdatadir)"\" \
 	$(PYATNASHKEE_CFLAGS)
 
-AM_CFLAGS =\
-	 -O2\
-	 -Wall\
+AM_CFLAGS = \
+	 -O2	\
+	 -Wall	\
 	 -g
 
 bin_PROGRAMS = pyatnashkee
@@ -50,4 +53,3 @@ EXTRA_DIST = $(ui_DATA) $(gresource_file)
 uninstall-local:
 #	-rm -r $(ui_DATA)
 	-rm -r $(pkgdatadir)
-
