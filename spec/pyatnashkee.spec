@@ -8,6 +8,8 @@ License:        GPLv3
 URL:            https://github.com/nvlgit/pyatnashkee
 Source0:        https://github.com/nvlgit/pyatnashkee/%{name}-%{version}.tar.xz
 
+BuildRequires:  meson
+
 %description
 15-puzzle is a classic sliding puzzle game 
 
