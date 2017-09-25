@@ -1,0 +1,8 @@
+How to create pyatnashkee.RPM
+
+git clone https://github.com/nvlgit/pyatnashkee.git && cd pyatnashkee
+cp ./spec/pyatnashkee.spec ~/rpmbuild/SPECS
+tar cf - * | xz -zf - > ~/rpmbuild/SOURCES/pyatnashkee-0.1.0.tar.xz
+cp ./spec/pyatnashkee.spec ~/rpmbuild/SPECS
+cd .. && rm -r pyatnashkee
+rpmbuild -bb ~/rpmbuild/SPECS/pyatnashkee.spec
