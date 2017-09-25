@@ -1,35 +1,33 @@
 
 Name:           pyatnashkee
-Version:        0.1
+Version:        0.1.0
 Release:        1%{?dist}
 Summary:        15-puzzle
 
 License:        GPLv3      
 URL:            https://github.com/nvlgit/pyatnashkee
-Source0:        https://github.com/nvlgit/pyatnashkee/%{name}-%{version}.tar.gz
-
+Source0:        https://github.com/nvlgit/pyatnashkee/%{name}-%{version}.tar.xz
 
 %description
 15-puzzle is a classic sliding puzzle game 
 
 
 %prep
-%autosetup
+%autosetup -c
 
 
 %build
-%configure
-make %{?_smp_mflags}
+%meson
+%meson_build
 
 
 %install
-rm -rf $RPM_BUILD_ROOT
+%meson_install
 
-%make_install
-rm %{buildroot}%{_datadir}/%{name}/data/*
 
 %check
-desktop-file-validate $RPM_BUILD_ROOT%{_datadir}/applications/%{name}.desktop
+%meson_test
+desktop-file-validate $RPM_BUILD_ROOT%{_datadir}/applications/com.github.nvlgit.%{name}.desktop
 
 
 %post
@@ -49,13 +47,16 @@ fi
 
 %files
 %license COPYING
-%doc README.md INSTALL AUTHORS NEWS ChangeLog
-%{_bindir}/%{name}
-%{_datadir}/applications/%{name}.desktop
+%doc README.md INSTALL AUTHORS
+%{_bindir}/com.github.nvlgit.%{name}
+%{_datadir}/applications/com.github.nvlgit.%{name}.desktop
 %{_datadir}/icons/hicolor/*/apps/%{name}.svg
 %{_datadir}/icons/hicolor/symbolic/apps/%{name}-symbolic.svg
 
 
 %changelog
-* Sat Jun 10 2017 - 0.1-0
+* Mon Sep 25 2017 - 0.1.0-1
+- jump to meson
+
+* Sat Jun 10 2017 - 0.1.0-0
 - initial spec
