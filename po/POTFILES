@@ -1,0 +1,6 @@
+data/com.github.nvlgit.pyatnashkee.desktop.in
+src/window.ui
+
+src/app.vala
+src/app_window.vala
+
