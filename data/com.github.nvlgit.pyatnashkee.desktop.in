@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=15
+Comment=Classic sliding puzzle game
+Keywords=Game;Puzzle;
+Exec=com.github.nvlgit.pyatnashkee
+Terminal=false
+Type=Application
+Icon=pyatnashkee
+Categories=GNOME;GTK;Game;
