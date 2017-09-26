@@ -370,7 +370,7 @@
         <property name="vexpand">True</property>
         <property name="title" translatable="no" comments="Puzzle">15</property>
         <property name="has_subtitle">True</property>
-        <property name="subtitle" translatable="no" comments="Puzzle">Puzzle</property>
+        <property name="subtitle" translatable="yes" comments="Puzzle">Puzzle</property>
 
         <child>
           <object class="GtkBox" id="open_box">
