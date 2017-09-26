@@ -15,7 +15,7 @@ pyatnashkee_sources += gnome.compile_resources('pyatnashkee-resources',
   c_name: 'pyatnashkee'
 )
 
-executable('com.github.nvlgit.pyatnashkee', pyatnashkee_sources,
+executable('pyatnashkee', pyatnashkee_sources,
   vala_args: '--target-glib=2.50',
   dependencies: pyatnashkee_deps,
   install: true,
