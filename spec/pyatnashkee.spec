@@ -28,6 +28,7 @@ BuildRequires:  meson
 
 %install
 %meson_install
+%find_lang %{name}
 
 
 %check
@@ -50,11 +51,11 @@ fi
 %posttrans
 /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &> /dev/null || :
 
-%files
+%files -f %{name}.lang
 %license COPYING
 %doc README.md INSTALL AUTHORS
-%{_bindir}/com.github.nvlgit.%{name}
-%{_datadir}/applications/com.github.nvlgit.%{name}.desktop
+%{_bindir}/%{name}
+%{_datadir}/applications/%{name}.desktop
 %{_datadir}/icons/hicolor/*/apps/%{name}.svg
 %{_datadir}/icons/hicolor/symbolic/apps/%{name}-symbolic.svg
 
