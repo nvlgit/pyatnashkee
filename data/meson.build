@@ -1,6 +1,6 @@
 desktop_file = i18n.merge_file(
-  input: 'com.github.nvlgit.pyatnashkee.desktop.in',
-  output: 'com.github.nvlgit.pyatnashkee.desktop',
+  input: 'pyatnashkee.desktop.in',
+  output: 'pyatnashkee.desktop',
   type: 'desktop',
   po_dir: '../po',
   install: true,
