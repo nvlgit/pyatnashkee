@@ -2,7 +2,7 @@
 Name=15
 Comment=Classic sliding puzzle game
 Keywords=Game;Puzzle;
-Exec=com.github.nvlgit.pyatnashkee
+Exec=pyatnashkee
 Terminal=false
 Type=Application
 Icon=pyatnashkee
