@@ -33,7 +33,7 @@ BuildRequires:  meson
 
 %check
 %meson_test
-desktop-file-validate $RPM_BUILD_ROOT%{_datadir}/applications/com.github.nvlgit.%{name}.desktop
+desktop-file-validate $RPM_BUILD_ROOT%{_datadir}/applications/%{name}.desktop
 
 
 %post
