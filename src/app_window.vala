@@ -54,7 +54,7 @@ namespace Pyatnashkee {
         [GtkChild]
         private Gtk.Button button_3_3;
 	[GtkChild]
-	private Gtk.Button reload;
+	public Gtk.Button reload;
 	[GtkChild]
 	private Gtk.InfoBar info_bar;
 		/*======================================================*/
