@@ -1,3 +1,4 @@
+%global debug_package   %{nil}
 
 Name:           pyatnashkee
 Version:        0.1.0
@@ -8,6 +9,8 @@ License:        GPLv3
 URL:            https://github.com/nvlgit/pyatnashkee
 Source0:        https://github.com/nvlgit/pyatnashkee/%{name}-%{version}.tar.xz
 
+BuildRequires:  gtk3-devel
+BuildRequires:  vala-tools
 BuildRequires:  meson
 
 %description
