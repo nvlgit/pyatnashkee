@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the pyatnashkee package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pyatnashkee\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-26 14:03+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/com.github.nvlgit.pyatnashkee.desktop.in:4
+msgid "Classic sliding puzzle game"
+msgstr ""
+
+#: data/com.github.nvlgit.pyatnashkee.desktop.in:5
+msgid "Game;Puzzle;"
+msgstr ""
+
+#: data/com.github.nvlgit.pyatnashkee.desktop.in:9
+msgid "pyatnashkee"
+msgstr ""
+
+#: src/window.ui:42
+msgid "Puzzle Solved!"
+msgstr ""
+
+#. Puzzle
+#: src/window.ui:373
+msgid "Puzzle"
+msgstr ""
+
+#. Tooltip New game
+#: src/window.ui:387
+msgid "New game"
+msgstr ""
