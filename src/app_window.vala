@@ -381,10 +381,10 @@ namespace Pyatnashkee {
 				stdout.printf ("solvible\n");
 				return true;
 		/*	} else if ( (pos_y % 2 != 0) && (inv_count % 2 == 0) ) {
-				stdout.printf ("solvible\n");
+				stdout.printf ("solvable\n");
 				return true; */
 			} else {
-				stdout.printf ("not solvible\n");
+				stdout.printf ("not solvable\n");
 				return false;
 			} 
 		}
