@@ -39,11 +39,12 @@ namespace Pyatnashkee {
        		Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (),
             						  css_provider,
 							  STYLE_PROVIDER_PRIORITY_APPLICATION);
+		/*
 		var action = new GLib.SimpleAction ("quit", null);
 		action.activate.connect (quit);
 		add_action (action);
 		string[] accels = { "<Ctrl>Q" };
-		set_accels_for_action ("app.quit", accels);
+		set_accels_for_action ("app.quit", accels); */
 	}	
 
         public override void activate () {
