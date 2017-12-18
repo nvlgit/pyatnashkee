@@ -10,8 +10,10 @@ URL:            https://github.com/nvlgit/pyatnashkee
 Source0:        https://github.com/nvlgit/pyatnashkee/%{name}-%{version}.tar.xz
 
 BuildRequires:  gtk3-devel
-BuildRequires:  vala-tools
+BuildRequires:  vala
 BuildRequires:  meson
+
+Requires:       gtk3
 
 %description
 15-puzzle is a classic sliding puzzle game 
