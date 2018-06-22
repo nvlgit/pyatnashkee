@@ -1,8 +1,8 @@
 desktop_conf = configuration_data()
 
 desktop_file = i18n.merge_file(
-  input: 'pyatnashkee.desktop.in',
-  output: 'pyatnashkee.desktop',
+  input: 'com.gitlab.nvlgit.pyatnashkee.desktop.in',
+  output: 'com.gitlab.nvlgit.pyatnashkee.desktop',
   type: 'desktop',
   po_dir: po_dir,
   install: true,
