@@ -3,6 +3,23 @@ project('pyatnashkee','c', 'vala',
   meson_version: '>= 0.40.0',
 )
 i18n = import('i18n')
+gnome = import('gnome')
+
+# Directory variables
+bindir = get_option('bindir')
+datadir = get_option('datadir')
+desktopdir = join_paths(datadir, 'applications')
+localedir = get_option('localedir')
+po_dir = join_paths(meson.source_root(), 'po')
+prefix = get_option('prefix')
+
+doc_subdir = join_paths(datadir, 'doc', meson.project_name())
+install_data('README.md', 'INSTALL', 'AUTHORS',
+    install_dir: doc_subdir)
+
+licenses_subdir = join_paths(datadir, 'licenses', meson.project_name())
+install_data('COPYING',
+    install_dir: licenses_subdir)
 
 
 subdir('data')

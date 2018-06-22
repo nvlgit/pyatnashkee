@@ -415,7 +415,7 @@
         <property name="visible">True</property>
         <property name="can_focus">False</property>
         <property name="vexpand">True</property>
-        <property name="title">15</property>
+        <property name="title" translatable="yes">15</property>
         <property name="subtitle">Puzzle</property>
         <property name="show_close_button">True</property>
         <child>
@@ -428,7 +428,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <property name="receives_default">False</property>
-                <property name="tooltip_text" translatable="yes" comments="Tooltip New game">New game</property>
+                <property name="tooltip_text" translatable="yes" comments="Tooltip New game">Start a new game</property>
                 <property name="relief">none</property>
                 <signal name="clicked" handler="new_game_clicked_handler" swapped="no"/>
                 <child>

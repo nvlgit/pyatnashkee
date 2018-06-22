@@ -1,9 +1,9 @@
 [Desktop Entry]
 Name=15
-Comment=Classic sliding puzzle game
+Comment=A classic 15-puzzle game
 Keywords=Game;Puzzle;
 Exec=pyatnashkee
 Terminal=false
 Type=Application
 Icon=pyatnashkee
-Categories=GNOME;GTK;Game;
+Categories=GNOME;GTK;Game;LogicGame;

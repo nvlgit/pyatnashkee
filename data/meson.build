@@ -1,11 +1,25 @@
+desktop_conf = configuration_data()
+
 desktop_file = i18n.merge_file(
   input: 'pyatnashkee.desktop.in',
   output: 'pyatnashkee.desktop',
   type: 'desktop',
-  po_dir: '../po',
+  po_dir: po_dir,
   install: true,
-  install_dir: join_paths(get_option('datadir'), 'applications')
+  install_dir: desktopdir
 )
+#  'desktop',
+#  input: configure_file(
+#    input: files('com.gitlab.nvlgit.pyatnashkee.desktop.in.in'),
+#    output: 'com.gitlab.nvlgit.pyatnashkee.desktop.in',
+#    configuration: desktop_conf
+#  ),
+#  output: '@0@.desktop'.format(application_id),
+#  install: true,
+#  install_dir: desktopdir,
+#  po_dir: po_dir,
+#  type: 'desktop'
+
 
 desktop_utils = find_program('desktop-file-validate', required: false)
 if desktop_utils.found()
