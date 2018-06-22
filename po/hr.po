@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-taquin master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"POT-Creation-Date: 2018-06-23 00:27+0300\n"
 "PO-Revision-Date: 2018-03-14 13:59+0100\n"
 "Last-Translator: \n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -19,180 +19,44 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 2.0.6\n"
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/ui/window.ui:418
 msgid "15"
 msgstr ""
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4 src/app-about-dialog.vala:33
 msgid "A classic 15-puzzle game"
 msgstr "Klasična igra 15-slagalica"
 
 #: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
-#, fuzzy
 msgid "Game;Puzzle;"
-msgstr "slagalica;"
+msgstr ""
 
 #: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
 msgid "pyatnashkee"
 msgstr ""
 
-#: src/window.ui:365
+#: src/ui/app-menu.ui:6
+msgid "_About"
+msgstr "_O programu"
+
+#: src/ui/app-menu.ui:10
+msgid "_Quit"
+msgstr "_Zatvori"
+
+#: src/ui/window.ui:365
 msgid "Puzzle Solved!"
 msgstr ""
 
+#: src/ui/window.ui:419
+msgid "puzzle"
+msgstr "slagalica"
+
 #. Tooltip New game
-#: src/window.ui:431
+#: src/ui/window.ui:431
 msgid "Start a new game"
 msgstr "Pokreni novu igru"
 
-#~ msgid "_Sound"
-#~ msgstr "_Zvuk"
+#: src/app-about-dialog.vala:30
+msgid "15-puzzle"
+msgstr "15-slagalica"
 
-#~ msgid "_Help"
-#~ msgstr "_Priručnik"
-
-#~ msgid "_About"
-#~ msgstr "_O programu"
-
-#~ msgid "_Quit"
-#~ msgstr "_Zatvori"
-
-#~ msgid "3 × 3"
-#~ msgstr "3 × 3"
-
-#~ msgid "4 × 4"
-#~ msgstr "4 × 4"
-
-#~ msgid "5 × 5"
-#~ msgstr "5 × 5"
-
-#~ msgid "Cats"
-#~ msgstr "Mačke"
-
-#~ msgid "Numbers"
-#~ msgstr "Brojevi"
-
-#~ msgid "15-Puzzle"
-#~ msgstr "15-slagalica"
-
-#~ msgid "16-Puzzle"
-#~ msgstr "16-slagalica"
-
-#~ msgid "Go back to the current game"
-#~ msgstr "Vrati se natrag na trenutnu igru"
-
-#~ msgid "_Start Over"
-#~ msgstr "_Pokreni ponovo"
-
-#~ msgid "Configure a new game"
-#~ msgstr "Podesi novu igru"
-
-#~ msgid "GNOME Taquin"
-#~ msgstr "GNOME Taquin"
-
-#~ msgid "Slide tiles to their correct places"
-#~ msgstr "Pomičite pločice na njihova odgovarajuća mjesta"
-
-#~ msgid ""
-#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
-#~ msgstr ""
-#~ "Taquin je računalna inačica 15-slagalica i ostalih pomičnih slagalica."
-
-#~ msgid ""
-#~ "The object of Taquin is to move tiles so that they reach their places, "
-#~ "either indicated with numbers, or with parts of a great image."
-#~ msgstr ""
-#~ "Cilj Taquina je pomicanje pločica tako da se poslože, prema bojevima ili "
-#~ "dijelovima velike slike."
-
-#~ msgid "A GNOME taquin game preview"
-#~ msgstr "GNOME taquin pregled igre"
-
-#~ msgid "The GNOME Project"
-#~ msgstr "GNOME projekt"
-
-#~ msgid "Taquin"
-#~ msgstr "Taquin"
-
-#~ msgid "15-puzzle"
-#~ msgstr "15-slagalica"
-
-#~ msgid "Number of tiles on each edge."
-#~ msgstr "Broj pločica na svakom rubu."
-
-#~ msgid ""
-#~ "The game offers to play with a board size from 3 to 5. The setting could "
-#~ "be set from 2 (good for testing) to 9, limited by the way files are "
-#~ "selected."
-#~ msgstr ""
-#~ "Igra nudi igranje s pločom veličine od 3 do 5. Postavka se može postaviti "
-#~ "od 2 (prikladno za testiranje) do 9, ograničeno načinom na koji su "
-#~ "datoteke odabrane."
-
-#~ msgid "Name of the theme folder."
-#~ msgstr "Naziv teme mape."
-
-#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
-#~ msgstr "Taquin ima dvije zadane teme: 'mačke' i 'brojeve'."
-
-#~ msgid "Sound"
-#~ msgstr "Zvuk"
-
-#~ msgid "Whether or not to play event sounds."
-#~ msgstr "Treba li ili ne reproducirati zvukove događaja."
-
-#~ msgid "Width of the window in pixels."
-#~ msgstr "Širina prozora u pikselima."
-
-#~ msgid "Height of the window in pixels."
-#~ msgstr "Visina prozora u pikselima."
-
-#~ msgid "true if the window is maximized."
-#~ msgstr "istinito ako je prozor uvećan."
-
-#~ msgid "_Start Game"
-#~ msgstr "_Pokreni igru"
-
-#~ msgid "Undo your most recent move"
-#~ msgstr "Poništi posljednji potez"
-
-#~ msgid "Play the classical 1880s’ 15-puzzle"
-#~ msgstr "Igrajte klasičnu 15-slagalicu iz 1880 godine"
-
-#~ msgid "Try this fun alternative 16-puzzle"
-#~ msgstr "Probajte ovu zabavnu alternativnu 16-slagalicu"
-
-#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
-#~ msgstr "Postavi veličinu rubova slagalice (3-5, 2-9 za otklanjanje greške)"
-
-#~ msgid "Turn off the sound"
-#~ msgstr "Isključi zvuk"
-
-#~ msgid "Turn on the sound"
-#~ msgstr "Uključi zvuk"
-
-#~ msgid "Print release version and exit"
-#~ msgstr "Prikaži inačicu izdanja i zatvori"
-
-#~ msgid "(see COPYING.themes for informations)"
-#~ msgstr "(pogledajte COPYING.themes za više informacija)"
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "Launchpad Contributions:\n"
-#~ "  gogo https://launchpad.net/~trebelnik-stefina"
-
-#~ msgid "You can’t move this tile!"
-#~ msgstr "Ne možete pomaknuti ovu pločicu!"
-
-#~ msgid "Bravo! You finished the game!"
-#~ msgstr "Bravo! Završili ste igru!"
-
-#~ msgid "Size: %d × %d ▾"
-#~ msgstr "Veličina: %d × %d ▾"
-
-#~ msgid "Theme: Cats ▾"
-#~ msgstr "Tema: Mačke ▾"
-
-#~ msgid "Theme: Numbers ▾"
-#~ msgstr "Tema: Brojevi ▾"

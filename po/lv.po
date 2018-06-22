@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"POT-Creation-Date: 2018-06-23 00:27+0300\n"
 "PO-Revision-Date: 2016-09-08 19:11+0200\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
@@ -18,177 +18,44 @@ msgstr ""
 "2);\n"
 "X-Generator: Lokalize 2.0\n"
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/ui/window.ui:418
 msgid "15"
 msgstr ""
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4 src/app-about-dialog.vala:33
 msgid "A classic 15-puzzle game"
 msgstr "Klasiskā 15-mīklas spēle"
 
 #: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
-#, fuzzy
 msgid "Game;Puzzle;"
-msgstr "puzle;mīkla;"
+msgstr ""
 
 #: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
 msgid "pyatnashkee"
 msgstr ""
 
-#: src/window.ui:365
+#: src/ui/app-menu.ui:6
+msgid "_About"
+msgstr "P_ar"
+
+#: src/ui/app-menu.ui:10
+msgid "_Quit"
+msgstr "_Iziet"
+
+#: src/ui/window.ui:365
 msgid "Puzzle Solved!"
 msgstr ""
 
+#: src/ui/window.ui:419
+msgid "puzzle"
+msgstr "mīkla"
+
 #. Tooltip New game
-#: src/window.ui:431
+#: src/ui/window.ui:431
 msgid "Start a new game"
 msgstr "Sākt jaunu spēli"
 
-#~ msgid "_Sound"
-#~ msgstr "_Skaņa"
+#: src/app-about-dialog.vala:30
+msgid "15-puzzle"
+msgstr "15-mīkla"
 
-#~ msgid "_Help"
-#~ msgstr "_Palīdzība"
-
-#~ msgid "_About"
-#~ msgstr "P_ar"
-
-#~ msgid "_Quit"
-#~ msgstr "_Iziet"
-
-#~ msgid "3 × 3"
-#~ msgstr "3 × 3"
-
-#~ msgid "4 × 4"
-#~ msgstr "4 × 4"
-
-#~ msgid "5 × 5"
-#~ msgstr "5 × 5"
-
-#~ msgid "Cats"
-#~ msgstr "Kaķi"
-
-#~ msgid "Numbers"
-#~ msgstr "Skaitļi"
-
-#~ msgid "15-Puzzle"
-#~ msgstr "15-mīkla"
-
-#~ msgid "16-Puzzle"
-#~ msgstr "16-mīkla"
-
-#~ msgid "Go back to the current game"
-#~ msgstr "Iet uz pašreizējo spēli"
-
-#~ msgid "_Start Over"
-#~ msgstr "_Sākt no jauna"
-
-#~ msgid "Configure a new game"
-#~ msgstr "Konfigurēt jaunu spēli"
-
-#~ msgid "GNOME Taquin"
-#~ msgstr "GNOME Taquin"
-
-#~ msgid "Slide tiles to their correct places"
-#~ msgstr "Slidiniet kauliņus uz tiem paredzētajām vietām"
-
-#~ msgid ""
-#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
-#~ msgstr "Taquin ir datora variants 15-mīklai un citām slidināšanas spēlēm."
-
-#~ msgid ""
-#~ "The object of Taquin is to move tiles so that they reach their places, "
-#~ "either indicated with numbers, or with parts of a great image."
-#~ msgstr ""
-#~ "Taquin mērķis ir pārvietot kauliņus, lai tie sasniegtu savu vietu, vai nu "
-#~ "tie ir numuri, vai daļa no lielāka attēla."
-
-#~ msgid "A GNOME taquin game preview"
-#~ msgstr "GNOME taquin spēles priekšskatījums"
-
-#~ msgid "The GNOME Project"
-#~ msgstr "GNOME projekts"
-
-#~ msgid "Taquin"
-#~ msgstr "Taquin"
-
-#~ msgid "15-puzzle"
-#~ msgstr "15-mīkla"
-
-#~ msgid "Number of tiles on each edge."
-#~ msgstr "Kauliņu skaits katrā malā."
-
-#~ msgid ""
-#~ "The game offers to play with a board size from 3 to 5. The setting could "
-#~ "be set from 2 (good for testing) to 9, limited by the way files are "
-#~ "selected."
-#~ msgstr ""
-#~ "Spēle piedāvā spēlēt ar laukuma izmēru no 3 līdz 5. Iestatījumu var "
-#~ "mainīt no 2 (noder testēšanai) līdz 9, ierobežo veids, kādā tiek "
-#~ "izvēlētas datnes."
-
-#~ msgid "Name of the theme folder."
-#~ msgstr "Motīvu mapes nosaukums."
-
-#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
-#~ msgstr "Taquin ir divi noklusējuma motīvi — “cats” un “numbers”."
-
-#~ msgid "Sound"
-#~ msgstr "Skaņa"
-
-#~ msgid "Whether or not to play event sounds."
-#~ msgstr "Vai atskaņot notikumu skaņas."
-
-#~ msgid "Width of the window in pixels."
-#~ msgstr "Galvenā loga platums pikseļos."
-
-#~ msgid "Height of the window in pixels."
-#~ msgstr "Galvenā loga augstums pikseļos."
-
-#~ msgid "true if the window is maximized."
-#~ msgstr "patiess, ja logs ir maksimizēts."
-
-#~ msgid "_Start Game"
-#~ msgstr "_Sākt spēli"
-
-#~ msgid "Undo your most recent move"
-#~ msgstr "Atsaukt savu pēdējo gājienu"
-
-#~ msgid "Play the classical 1880s’ 15-puzzle"
-#~ msgstr "Spēlēt klasisko 1880-to gadu 15-mīklu"
-
-#~ msgid "Try this fun alternative 16-puzzle"
-#~ msgstr "Pamēģiniet šo jautro alternatīvo 16-mīklu"
-
-#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
-#~ msgstr "Iestata mīklas malu izmēru (3–5, 2–9 atkļūdošanai)"
-
-#~ msgid "Turn off the sound"
-#~ msgstr "Izslēgt skaņu"
-
-#~ msgid "Turn on the sound"
-#~ msgstr "Ieslēgt skaņu"
-
-#~ msgid "Print release version and exit"
-#~ msgstr "Parādīt informāciju par laidienu un iziet"
-
-#~ msgid "(see COPYING.themes for informations)"
-#~ msgstr "(skatiet COPYING.themes, lai uzzinātu vairāk)"
-
-#~ msgid "translator-credits"
-#~ msgstr "Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>"
-
-#~ msgid "You can’t move this tile!"
-#~ msgstr "Jūs nevarat pārvietot šo kauliņu!"
-
-#~ msgid "Bravo! You finished the game!"
-#~ msgstr "Bravo! Jūs pabeidzāt spēli!"
-
-#~ msgid "Size: %d × %d ▾"
-#~ msgstr "Izmērs: %d × %d ▾"
-
-#~ msgid "Theme: Cats ▾"
-#~ msgstr "Motīvs: kaķi ▾"
-
-#~ msgid "Theme: Numbers ▾"
-#~ msgstr "Motīvs: skaitļi ▾"

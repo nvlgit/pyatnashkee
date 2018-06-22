@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-taquin master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"POT-Creation-Date: 2018-06-23 00:27+0300\n"
 "PO-Revision-Date: 2017-09-10 15:28+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
@@ -20,181 +20,43 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Gtranslator 2.91.7\n"
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/ui/window.ui:418
 msgid "15"
 msgstr ""
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4 src/app-about-dialog.vala:33
 msgid "A classic 15-puzzle game"
 msgstr "Bir klasik 15-bulmaca oyunu"
 
 #: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
-#, fuzzy
 msgid "Game;Puzzle;"
-msgstr "bulmaca;"
+msgstr ""
 
 #: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
 msgid "pyatnashkee"
 msgstr ""
 
-#: src/window.ui:365
+#: src/ui/app-menu.ui:6
+msgid "_About"
+msgstr "_Hakkında"
+
+#: src/ui/app-menu.ui:10
+msgid "_Quit"
+msgstr "_Çık"
+
+#: src/ui/window.ui:365
 msgid "Puzzle Solved!"
 msgstr ""
 
+#: src/ui/window.ui:419
+msgid "puzzle"
+msgstr "bulmaca"
+
 #. Tooltip New game
-#: src/window.ui:431
+#: src/ui/window.ui:431
 msgid "Start a new game"
 msgstr "Yeni bir oyun başlat"
 
-#~ msgid "_Sound"
-#~ msgstr "_Ses"
-
-#~ msgid "_Help"
-#~ msgstr "_Yardım"
-
-#~ msgid "_About"
-#~ msgstr "_Hakkında"
-
-#~ msgid "_Quit"
-#~ msgstr "_Çık"
-
-#~ msgid "3 × 3"
-#~ msgstr "3 × 3"
-
-#~ msgid "4 × 4"
-#~ msgstr "4 × 4"
-
-#~ msgid "5 × 5"
-#~ msgstr "5 × 5"
-
-#~ msgid "Cats"
-#~ msgstr "Kediler"
-
-#~ msgid "Numbers"
-#~ msgstr "Sayılar"
-
-#~ msgid "15-Puzzle"
-#~ msgstr "15-Bulmaca"
-
-#~ msgid "16-Puzzle"
-#~ msgstr "16-Bulmaca"
-
-#~ msgid "Go back to the current game"
-#~ msgstr "Şimdiki oyuna geri dön"
-
-#~ msgid "_Start Over"
-#~ msgstr "_Baştan Başla"
-
-#~ msgid "Configure a new game"
-#~ msgstr "Yeni bir oyun yapılandır"
-
-#~ msgid "GNOME Taquin"
-#~ msgstr "GNOME Taquin"
-
-#~ msgid "Slide tiles to their correct places"
-#~ msgstr "Karoları doğru yerlerine kaydır"
-
-#~ msgid ""
-#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
-#~ msgstr ""
-#~ "Taquin 15-bulmaca ve diğer sürgülü bulmacaların bilgisayar sürümüdür."
-
-#~ msgid ""
-#~ "The object of Taquin is to move tiles so that they reach their places, "
-#~ "either indicated with numbers, or with parts of a great image."
-#~ msgstr ""
-#~ "Taquin’in amacı, numaralarla veya büyük bir resmin parçalarından herhangi "
-#~ "biriyle gösterilen karoların kendi yerlerine ulaşması için hareket "
-#~ "ettirmektir."
-
-#~ msgid "A GNOME taquin game preview"
-#~ msgstr "Bir GNOME taquin oyunu önizlemesi"
-
-#~ msgid "The GNOME Project"
-#~ msgstr "GNOME Projesi"
-
-#~ msgid "Taquin"
-#~ msgstr "Taquin"
-
-#~ msgid "15-puzzle"
-#~ msgstr "15-bulmaca"
-
-#~ msgid "Number of tiles on each edge."
-#~ msgstr "Her kenardaki karo sayısı."
-
-#~ msgid ""
-#~ "The game offers to play with a board size from 3 to 5. The setting could "
-#~ "be set from 2 (good for testing) to 9, limited by the way files are "
-#~ "selected."
-#~ msgstr ""
-#~ "Oyun, 3 ila 5 arasında bir pano boyutu ile oynamayı sunuyor. Ayarlar, "
-#~ "dosyaların seçilme biçimine göre sınırlı olmak üzere 2’den (sınama için "
-#~ "iyi) 9’a kadar ayarlanabilir."
-
-#~ msgid "Name of the theme folder."
-#~ msgstr "Gövde klasörünün adı."
-
-#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
-#~ msgstr ""
-#~ "Taquin’in iki öntanımlı gövdesi vardır: 'cats' (kediler) ve "
-#~ "'numbers' (sayılar)."
-
-#~ msgid "Sound"
-#~ msgstr "Ses"
-
-#~ msgid "Whether or not to play event sounds."
-#~ msgstr "Olay seslerinin çalınıp çalınmayacağı."
-
-#~ msgid "Width of the window in pixels."
-#~ msgstr "Pencerenin piksel olarak genişliği."
-
-#~ msgid "Height of the window in pixels."
-#~ msgstr "Pencerenin piksel olarak yüksekliği."
-
-#~ msgid "true if the window is maximized."
-#~ msgstr "eğer pencere en büyük boyuta getirilmişse işaretle"
-
-#~ msgid "_Start Game"
-#~ msgstr "_Oynu Başlat"
-
-#~ msgid "Undo your most recent move"
-#~ msgstr "Son hareketinizi geri alın"
-
-#~ msgid "Play the classical 1880s’ 15-puzzle"
-#~ msgstr "1880’lerin klasik 15-bulmacasını oyna"
-
-#~ msgid "Try this fun alternative 16-puzzle"
-#~ msgstr "Bu eğlenceli 16-bulmaca seçeneğini deneyin"
-
-#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
-#~ msgstr "Bulmaca kenarlarının boyutunu ayarlar (hata ayıklama için 3-5, 2-9)"
-
-#~ msgid "Turn off the sound"
-#~ msgstr "Sesi kapat"
-
-#~ msgid "Turn on the sound"
-#~ msgstr "Sesi aç"
-
-#~ msgid "Print release version and exit"
-#~ msgstr "Yayım sürümünü yazdır ve çık"
-
-#~ msgid "(see COPYING.themes for informations)"
-#~ msgstr "(ilgili bilgiler için COPYING.themes dosyasına bakınız)"
-
-#~ msgid "translator-credits"
-#~ msgstr "Muhammet Kara <muhammetk@gmail.com>"
-
-#~ msgid "You can’t move this tile!"
-#~ msgstr "Bu karoyu hareket ettiremezsin!"
-
-#~ msgid "Bravo! You finished the game!"
-#~ msgstr "Tebrikler! Oyunu bitirdiniz!"
-
-#~ msgid "Size: %d × %d ▾"
-#~ msgstr "Boyut: %d × %d ▾"
-
-#~ msgid "Theme: Cats ▾"
-#~ msgstr "Gövde: Kediler ▾"
-
-#~ msgid "Theme: Numbers ▾"
-#~ msgstr "Gövde: Sayılar ▾"
+#: src/app-about-dialog.vala:30
+msgid "15-puzzle"
+msgstr "15-Bulmaca"

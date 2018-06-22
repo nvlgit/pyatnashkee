@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-taquin master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"POT-Creation-Date: 2018-06-23 00:27+0300\n"
 "PO-Revision-Date: 2017-08-18 20:37+0200\n"
 "Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
@@ -16,184 +16,43 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/ui/window.ui:418
 msgid "15"
 msgstr ""
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4 src/app-about-dialog.vala:33
 msgid "A classic 15-puzzle game"
 msgstr "Класическата игра с 15 плочки"
 
 #: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
-#, fuzzy
 msgid "Game;Puzzle;"
-msgstr "петнадесет;загадка;плочки;15;16;puzzle;"
+msgstr ""
 
 #: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
 msgid "pyatnashkee"
 msgstr ""
 
-#: src/window.ui:365
+#: src/ui/app-menu.ui:6
+msgid "_About"
+msgstr "_Относно"
+
+#: src/ui/app-menu.ui:10
+msgid "_Quit"
+msgstr "_Спиране на програмата"
+
+#: src/ui/window.ui:365
 msgid "Puzzle Solved!"
 msgstr ""
 
+#: src/ui/window.ui:419
+msgid "puzzle"
+msgstr "плочки"
+
 #. Tooltip New game
-#: src/window.ui:431
+#: src/ui/window.ui:431
 msgid "Start a new game"
 msgstr "Започване на нова игра"
 
-#~ msgid "_Sound"
-#~ msgstr "_Звук"
-
-#~ msgid "_Help"
-#~ msgstr "Помо_щ"
-
-#~ msgid "_About"
-#~ msgstr "_Относно"
-
-#~ msgid "_Quit"
-#~ msgstr "_Спиране на програмата"
-
-#~ msgid "3 × 3"
-#~ msgstr "3 × 3"
-
-#~ msgid "4 × 4"
-#~ msgstr "4 × 4"
-
-#~ msgid "5 × 5"
-#~ msgstr "5 × 5"
-
-#~ msgid "Cats"
-#~ msgstr "Котки"
-
-#~ msgid "Numbers"
-#~ msgstr "Числа"
-
-#~ msgid "15-Puzzle"
-#~ msgstr "15 плочки"
-
-#~ msgid "16-Puzzle"
-#~ msgstr "16 плочки"
-
-#~ msgid "Go back to the current game"
-#~ msgstr "Към текущата игра"
-
-#~ msgid "_Start Over"
-#~ msgstr "Отна_чало"
-
-#~ msgid "Configure a new game"
-#~ msgstr "Настройване на нова игра"
-
-#~ msgid "GNOME Taquin"
-#~ msgstr "Пет6найсе"
-
-#~ msgid "Slide tiles to their correct places"
-#~ msgstr "Поставете плочките на правилните места чрез плъзгане"
-
-#~ msgid ""
-#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
-#~ msgstr "„Пет6найсе“ е версия на популярната игра с 15 плъзгащи се блокчета"
-
-#~ msgid ""
-#~ "The object of Taquin is to move tiles so that they reach their places, "
-#~ "either indicated with numbers, or with parts of a great image."
-#~ msgstr ""
-#~ "Целта е да подредите плочките като ги плъзгате и те да се подредят "
-#~ "последователно или като част от картинка."
-
-#~ msgid "A GNOME taquin game preview"
-#~ msgstr "Преглед на игра „Пет6найсе“ от GNOME"
-
-#~ msgid "The GNOME Project"
-#~ msgstr "Проектът GNOME"
-
-#~ msgid "Taquin"
-#~ msgstr "Пет6найсе"
-
-#~ msgid "15-puzzle"
-#~ msgstr "Квадрат с 15-16 плочки"
-
-#~ msgid "Number of tiles on each edge."
-#~ msgstr "Брой плочки на всяка страна"
-
-#~ msgid ""
-#~ "The game offers to play with a board size from 3 to 5. The setting could "
-#~ "be set from 2 (good for testing) to 9, limited by the way files are "
-#~ "selected."
-#~ msgstr ""
-#~ "Стандартно можете да играете с размер на ръба на дъската от 3 до 5 "
-#~ "плочки. 2 е добре при тестване на играта, а над 5 до 9 е са по-трудни "
-#~ "варианти и има определени ограничения."
-
-#~ msgid "Name of the theme folder."
-#~ msgstr "Име на папката с темата."
-
-#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
-#~ msgstr "„Пет6найсе“ идва с две стандартни теми: „Котки“ и „Числа“."
-
-#~ msgid "Sound"
-#~ msgstr "Звук"
-
-#~ msgid "Whether or not to play event sounds."
-#~ msgstr "Дали събитията да се придружават с изпълнение на звук"
-
-#~ msgid "Width of the window in pixels."
-#~ msgstr "Широчина на прозореца в пиксели."
-
-#~ msgid "Height of the window in pixels."
-#~ msgstr "Височина на прозореца в пиксели."
-
-#~ msgid "true if the window is maximized."
-#~ msgstr "истина, ако прозорецът е максимизиран."
-
-#~ msgid "_Start Game"
-#~ msgstr "_Начало на играта"
-
-#~ msgid "Undo your most recent move"
-#~ msgstr "Отмяна на последния ход"
-
-#~ msgid "Play the classical 1880s’ 15-puzzle"
-#~ msgstr "Класическата игра от 80-те години на 19 век"
-
-#~ msgid "Try this fun alternative 16-puzzle"
-#~ msgstr "Алтернативен вариант с всички плочки"
-
-#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
-#~ msgstr "Задаване на броя плочки по страните (3-5, 2-9 за трасиране)"
-
-#~ msgid "Turn off the sound"
-#~ msgstr "Без звук"
-
-#~ msgid "Turn on the sound"
-#~ msgstr "Със звук"
-
-#~ msgid "Print release version and exit"
-#~ msgstr "Извеждане на версията и спиране на програмата"
-
-#~ msgid "(see COPYING.themes for informations)"
-#~ msgstr "(за информация погледнете файла „COPYING.themes“)"
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "Александър Шопов <ash@kambanaria.org>\n"
-#~ "\n"
-#~ "Проектът за превод на GNOME има нужда от подкрепа.\n"
-#~ "Научете повече за нас на <a href=\"http://gnome.cult.bg\">http://gnome."
-#~ "cult.bg</a>\n"
-#~ "Докладвайте за грешки на <a href=\"http://gnome.cult.bg/bugs\">http://"
-#~ "gnome.cult.bg/bugs</a>"
-
-#~ msgid "You can’t move this tile!"
-#~ msgstr "Не може да местите тази плочка!"
-
-#~ msgid "Bravo! You finished the game!"
-#~ msgstr "Браво, подредихте плочките!"
-
-#~ msgid "Size: %d × %d ▾"
-#~ msgstr "Размер: %d × %d ▾"
-
-#~ msgid "Theme: Cats ▾"
-#~ msgstr "Тема: Котки ▾"
-
-#~ msgid "Theme: Numbers ▾"
-#~ msgstr "Тема: Числа ▾"
+#: src/app-about-dialog.vala:30
+msgid "15-puzzle"
+msgstr "15 плочки"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-taquin master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"POT-Creation-Date: 2018-06-23 00:27+0300\n"
 "PO-Revision-Date: 2016-09-08 08:34+0200\n"
 "Last-Translator: David King <amigadave@amigadave.com>\n"
 "Language-Team: British English <en_GB@li.org>\n"
@@ -17,178 +17,43 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);;\n"
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/ui/window.ui:418
 msgid "15"
 msgstr ""
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4 src/app-about-dialog.vala:33
 msgid "A classic 15-puzzle game"
 msgstr "A classic 15-puzzle game"
 
 #: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
-#, fuzzy
 msgid "Game;Puzzle;"
-msgstr "puzzle;"
+msgstr ""
 
 #: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
 msgid "pyatnashkee"
 msgstr ""
 
-#: src/window.ui:365
+#: src/ui/app-menu.ui:6
+msgid "_About"
+msgstr "_About"
+
+#: src/ui/app-menu.ui:10
+msgid "_Quit"
+msgstr "_Quit"
+
+#: src/ui/window.ui:365
 msgid "Puzzle Solved!"
-msgstr ""
+msgstr "Puzzle Solved!"
+
+#: src/ui/window.ui:419
+msgid "puzzle"
+msgstr "puzzle"
 
 #. Tooltip New game
-#: src/window.ui:431
+#: src/ui/window.ui:431
 msgid "Start a new game"
 msgstr "Start a new game"
 
-#~ msgid "_Sound"
-#~ msgstr "_Sound"
-
-#~ msgid "_Help"
-#~ msgstr "_Help"
-
-#~ msgid "_About"
-#~ msgstr "_About"
-
-#~ msgid "_Quit"
-#~ msgstr "_Quit"
-
-#~ msgid "3 × 3"
-#~ msgstr "3 × 3"
-
-#~ msgid "4 × 4"
-#~ msgstr "4 × 4"
-
-#~ msgid "5 × 5"
-#~ msgstr "5 × 5"
-
-#~ msgid "Cats"
-#~ msgstr "Cats"
-
-#~ msgid "Numbers"
-#~ msgstr "Numbers"
-
-#~ msgid "15-Puzzle"
-#~ msgstr "15-Puzzle"
-
-#~ msgid "16-Puzzle"
-#~ msgstr "16-Puzzle"
-
-#~ msgid "Go back to the current game"
-#~ msgstr "Go back to the current game"
-
-#~ msgid "_Start Over"
-#~ msgstr "_Start Over"
-
-#~ msgid "Configure a new game"
-#~ msgstr "Configure a new game"
-
-#~ msgid "GNOME Taquin"
-#~ msgstr "GNOME Taquin"
-
-#~ msgid "Slide tiles to their correct places"
-#~ msgstr "Slide tiles to their correct places"
-
-#~ msgid ""
-#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
-#~ msgstr ""
-#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
-
-#~ msgid ""
-#~ "The object of Taquin is to move tiles so that they reach their places, "
-#~ "either indicated with numbers, or with parts of a great image."
-#~ msgstr ""
-#~ "The object of Taquin is to move tiles so that they reach their places, "
-#~ "either indicated with numbers, or with parts of a great image."
-
-#~ msgid "A GNOME taquin game preview"
-#~ msgstr "A GNOME taquin game preview"
-
-#~ msgid "The GNOME Project"
-#~ msgstr "The GNOME Project"
-
-#~ msgid "Taquin"
-#~ msgstr "Taquin"
-
-#~ msgid "15-puzzle"
-#~ msgstr "15-puzzle"
-
-#~ msgid "Number of tiles on each edge."
-#~ msgstr "Number of tiles on each edge."
-
-#~ msgid ""
-#~ "The game offers to play with a board size from 3 to 5. The setting could "
-#~ "be set from 2 (good for testing) to 9, limited by the way files are "
-#~ "selected."
-#~ msgstr ""
-#~ "The game offers to play with a board size from 3 to 5. The setting could "
-#~ "be set from 2 (good for testing) to 9, limited by the way files are "
-#~ "selected."
-
-#~ msgid "Name of the theme folder."
-#~ msgstr "Name of the theme folder."
-
-#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
-#~ msgstr "Taquin has two default themes: ‘cats’ and ‘numbers’."
-
-#~ msgid "Sound"
-#~ msgstr "Sound"
-
-#~ msgid "Whether or not to play event sounds."
-#~ msgstr "Whether or not to play event sounds."
-
-#~ msgid "Width of the window in pixels."
-#~ msgstr "Width of the window in pixels."
-
-#~ msgid "Height of the window in pixels."
-#~ msgstr "Height of the window in pixels."
-
-#~ msgid "true if the window is maximized."
-#~ msgstr "true if the window is maximized."
-
-#~ msgid "_Start Game"
-#~ msgstr "_Start Game"
-
-#~ msgid "Undo your most recent move"
-#~ msgstr "Undo your most recent move"
-
-#~ msgid "Play the classical 1880s’ 15-puzzle"
-#~ msgstr "Play the classical 1880s’ 15-puzzle"
-
-#~ msgid "Try this fun alternative 16-puzzle"
-#~ msgstr "Try this fun alternative 16-puzzle"
-
-#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
-#~ msgstr "Sets the size of the puzzle edges (3-5, 2-9 for debug)"
-
-#~ msgid "Turn off the sound"
-#~ msgstr "Turn off the sound"
-
-#~ msgid "Turn on the sound"
-#~ msgstr "Turn on the sound"
-
-#~ msgid "Print release version and exit"
-#~ msgstr "Print release version and exit"
-
-#~ msgid "(see COPYING.themes for informations)"
-#~ msgstr "(see COPYING.themes for informations)"
-
-#~ msgid "translator-credits"
-#~ msgstr "David King <amigadave@amigadave.com>"
-
-#~ msgid "You can’t move this tile!"
-#~ msgstr "You cannot move this tile!"
-
-#~ msgid "Bravo! You finished the game!"
-#~ msgstr "Bravo! You finished the game!"
-
-#~ msgid "Size: %d × %d ▾"
-#~ msgstr "Size: %d × %d ▾"
-
-#~ msgid "Theme: Cats ▾"
-#~ msgstr "Theme: Cats ▾"
-
-#~ msgid "Theme: Numbers ▾"
-#~ msgstr "Theme: Numbers ▾"
+#: src/app-about-dialog.vala:30
+msgid "15-puzzle"
+msgstr "15-puzzle"

@@ -1,2 +1,4 @@
 data/com.gitlab.nvlgit.pyatnashkee.desktop.in
-src/window.ui
+src/ui/app-menu.ui
+src/ui/window.ui
+src/app-about-dialog.vala

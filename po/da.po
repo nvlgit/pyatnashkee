@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-taquin master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"POT-Creation-Date: 2018-06-23 00:27+0300\n"
 "PO-Revision-Date: 2016-09-08 02:50+0200\n"
 "Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -17,186 +17,43 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/ui/window.ui:418
 msgid "15"
 msgstr ""
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4 src/app-about-dialog.vala:33
 msgid "A classic 15-puzzle game"
 msgstr "Et klassisk 15-spil"
 
 #: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
-#, fuzzy
 msgid "Game;Puzzle;"
-msgstr "spil;opgave;tænkespil;puslespil;"
+msgstr ""
 
 #: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
 msgid "pyatnashkee"
 msgstr ""
 
-#: src/window.ui:365
+#: src/ui/app-menu.ui:6
+msgid "_About"
+msgstr "_Om"
+
+#: src/ui/app-menu.ui:10
+msgid "_Quit"
+msgstr "_Afslut"
+
+#: src/ui/window.ui:365
 msgid "Puzzle Solved!"
 msgstr ""
 
+#: src/ui/window.ui:419
+msgid "puzzle"
+msgstr "spil"
+
 #. Tooltip New game
-#: src/window.ui:431
+#: src/ui/window.ui:431
 msgid "Start a new game"
 msgstr "Start et nyt spil"
 
-#~ msgid "_Sound"
-#~ msgstr "_Lyd"
-
-#~ msgid "_Help"
-#~ msgstr "_Hjælp"
-
-#~ msgid "_About"
-#~ msgstr "_Om"
-
-#~ msgid "_Quit"
-#~ msgstr "_Afslut"
-
-#~ msgid "3 × 3"
-#~ msgstr "3 × 3"
-
-#~ msgid "4 × 4"
-#~ msgstr "4 × 4"
-
-#~ msgid "5 × 5"
-#~ msgstr "5 × 5"
-
-#~ msgid "Cats"
-#~ msgstr "Katte"
-
-#~ msgid "Numbers"
-#~ msgstr "Tal"
-
-#~ msgid "15-Puzzle"
-#~ msgstr "15-spil"
-
-#~ msgid "16-Puzzle"
-#~ msgstr "16-spil"
-
-#~ msgid "Go back to the current game"
-#~ msgstr "Gå tilbage til nuværende spil"
-
-#~ msgid "_Start Over"
-#~ msgstr "_Start forfra"
-
-#~ msgid "Configure a new game"
-#~ msgstr "Sæt nyt spil op"
-
-#~ msgid "GNOME Taquin"
-#~ msgstr "GNOME Taquin"
-
-#~ msgid "Slide tiles to their correct places"
-#~ msgstr "Flyt brikker til deres rigtige pladser"
-
-#~ msgid ""
-#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
-#~ msgstr "Taquin er en computerudgave af 15-spillet og andre brikflyttespil."
-
-#~ msgid ""
-#~ "The object of Taquin is to move tiles so that they reach their places, "
-#~ "either indicated with numbers, or with parts of a great image."
-#~ msgstr ""
-#~ "Målet med Taquin er at flytte brikker, så de når deres pladser angivet "
-#~ "enten ved tal eller dele af et stort billede."
-
-#~ msgid "A GNOME taquin game preview"
-#~ msgstr "Smugkig på et spil GNOME taquin"
-
-#~ msgid "The GNOME Project"
-#~ msgstr "GNOME-projektet"
-
-#~ msgid "Taquin"
-#~ msgstr "Taquin"
-
-#~ msgid "15-puzzle"
-#~ msgstr "15-spil"
-
-#~ msgid "Number of tiles on each edge."
-#~ msgstr "Antal felter på hver kant."
-
-# ? Virker lidt mystisk.  Men det er GConf så ikke så vigtigt
-#~ msgid ""
-#~ "The game offers to play with a board size from 3 to 5. The setting could "
-#~ "be set from 2 (good for testing) to 9, limited by the way files are "
-#~ "selected."
-#~ msgstr ""
-#~ "Spillet tilbyder en brætstørrelse fra 3 til 5. Indstillingen kunne "
-#~ "angives fra 2 (god til test) til 9, begrænset af måden hvorpå der vælges "
-#~ "filer."
-
-#~ msgid "Name of the theme folder."
-#~ msgstr "Navnet på temamappen."
-
-#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
-#~ msgstr "Taquin har to standardtemaer: “katte” og “tal”."
-
-#~ msgid "Sound"
-#~ msgstr "Lyd"
-
-#~ msgid "Whether or not to play event sounds."
-#~ msgstr "Om der skal afspilles lyde ved begivenheder."
-
-#~ msgid "Width of the window in pixels."
-#~ msgstr "Bredden af vinduet i pixler."
-
-#~ msgid "Height of the window in pixels."
-#~ msgstr "Højden af vinduet i pixler."
-
-#~ msgid "true if the window is maximized."
-#~ msgstr "true hvis vinduet er maksimeret."
-
-#~ msgid "_Start Game"
-#~ msgstr "_Start spil"
-
-#~ msgid "Undo your most recent move"
-#~ msgstr "Fortryd dit seneste træk"
-
-#~ msgid "Play the classical 1880s’ 15-puzzle"
-#~ msgstr "Spil det klassiske 15-spil fra 1880'erne"
-
-#~ msgid "Try this fun alternative 16-puzzle"
-#~ msgstr "Prøv dette underholdende 16-spil som alternativ"
-
-#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
-#~ msgstr "Angiver spillets kantstørrelse (3-5, eller 2-9 for fejlsøgning)"
-
-#~ msgid "Turn off the sound"
-#~ msgstr "Slå lyden fra"
-
-#~ msgid "Turn on the sound"
-#~ msgstr "Slå lyden til"
-
-#~ msgid "Print release version and exit"
-#~ msgstr "Udskriv versionsinformation og afslut"
-
-#~ msgid "(see COPYING.themes for informations)"
-#~ msgstr "(se COPYING.themes for oplysninger)"
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "Ask Hjorth Larsen <asklarsen@gmail.com>\n"
-#~ "\n"
-#~ "Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
-#~ "\n"
-#~ "Mere info: http://www.dansk-gruppen.dk"
-
-#~ msgid "You can’t move this tile!"
-#~ msgstr "Du kan ikke flytte denne brik!"
-
-#~ msgid "Bravo! You finished the game!"
-#~ msgstr "Bravo! Du har gennemført spillet!"
-
-#~ msgid "Size: %d × %d ▾"
-#~ msgstr "Størrelse: %d × %d ▾"
-
-#~ msgid "Theme: Cats ▾"
-#~ msgstr "Tema: Katte ▾"
-
-#~ msgid "Theme: Numbers ▾"
-#~ msgstr "Tema: Tal ▾"
-
-#~ msgid "Start a new game as configured"
-#~ msgstr "Start et nyt spil ifølge opsætning"
+#: src/app-about-dialog.vala:30
+msgid "15-puzzle"
+msgstr "15-spil"

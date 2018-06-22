@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-taquin master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"POT-Creation-Date: 2018-06-23 00:27+0300\n"
 "PO-Revision-Date: 2016-08-20 23:38+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -18,200 +18,43 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.8\n"
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/ui/window.ui:418
 msgid "15"
 msgstr ""
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4 src/app-about-dialog.vala:33
 msgid "A classic 15-puzzle game"
 msgstr "Ett klassiskt 15-pusselspel"
 
 #: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
-#, fuzzy
 msgid "Game;Puzzle;"
-msgstr "pussel;"
+msgstr ""
 
 #: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
 msgid "pyatnashkee"
 msgstr ""
 
-#: src/window.ui:365
-#, fuzzy
+#: src/ui/app-menu.ui:6
+msgid "_About"
+msgstr "_Om"
+
+#: src/ui/app-menu.ui:10
+msgid "_Quit"
+msgstr "_Avsluta"
+
+#: src/ui/window.ui:365
 msgid "Puzzle Solved!"
-msgstr "15-pussel med hål"
+msgstr ""
+
+#: src/ui/window.ui:419
+msgid "puzzle"
+msgstr "pussel"
 
 #. Tooltip New game
-#: src/window.ui:431
+#: src/ui/window.ui:431
 msgid "Start a new game"
 msgstr "Starta ett nytt spel"
 
-#~ msgid "_Sound"
-#~ msgstr "_Ljud"
-
-#~ msgid "_Help"
-#~ msgstr "_Hjälp"
-
-#~ msgid "_About"
-#~ msgstr "_Om"
-
-#~ msgid "_Quit"
-#~ msgstr "_Avsluta"
-
-#~ msgid "3 × 3"
-#~ msgstr "3 × 3"
-
-#~ msgid "4 × 4"
-#~ msgstr "4 × 4"
-
-#~ msgid "5 × 5"
-#~ msgstr "5 × 5"
-
-#~ msgid "Cats"
-#~ msgstr "Katter"
-
-#~ msgid "Numbers"
-#~ msgstr "Siffror"
-
-#~ msgid "15-Puzzle"
-#~ msgstr "15-pussel"
-
-#~ msgid "16-Puzzle"
-#~ msgstr "16-pussel"
-
-#~ msgid "Go back to the current game"
-#~ msgstr "Gå tillbaka till aktuellt spel"
-
-#~ msgid "_Start Over"
-#~ msgstr "_Börja om"
-
-#~ msgid "Configure a new game"
-#~ msgstr "Konfigurera ett nytt spel"
-
-#~ msgid "GNOME Taquin"
-#~ msgstr "GNOME Taquin"
-
-#~ msgid "Slide tiles to their correct places"
-#~ msgstr "Dra brickor till deras rätta platser"
-
-#~ msgid ""
-#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
-#~ msgstr "Taquin är en datorversion av 15-pusslet och andra glidpussel."
-
-#~ msgid ""
-#~ "The object of Taquin is to move tiles so that they reach their places, "
-#~ "either indicated with numbers, or with parts of a great image."
-#~ msgstr ""
-#~ "Målet i Taquin är att flytta brickor så att de når sina platser, vilka "
-#~ "antingen markeras med siffror eller med delar av en stor bild."
-
-#~ msgid "A GNOME taquin game preview"
-#~ msgstr "En förhandsvisning av GNOME taquin"
-
-#~ msgid "The GNOME Project"
-#~ msgstr "GNOME-projektet"
-
-#~ msgid "Taquin"
-#~ msgstr "Taquin"
-
-#~ msgid "15-puzzle"
-#~ msgstr "15-pussel"
-
-#~ msgid "Number of tiles on each edge."
-#~ msgstr "Antal brickor på varje kant."
-
-#~ msgid ""
-#~ "The game offers to play with a board size from 3 to 5. The setting could "
-#~ "be set from 2 (good for testing) to 9, limited by the way files are "
-#~ "selected."
-#~ msgstr ""
-#~ "Spelet erbjuder spel med en brädstorlek från 3 till 5. Inställningen kan "
-#~ "sättas från 2 (bra för tester) till 9, begränsat av sättet som filer "
-#~ "väljs."
-
-#~ msgid "Name of the theme folder."
-#~ msgstr "Namn på temamappen."
-
-#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
-#~ msgstr ""
-#~ "Taquin har två standardteman: 'cats' (katter) och 'numbers' (siffror)."
-
-#~ msgid "Sound"
-#~ msgstr "Ljud"
-
-#~ msgid "Whether or not to play event sounds."
-#~ msgstr "Huruvida händelseljud ska spelas upp."
-
-#~ msgid "Width of the window in pixels."
-#~ msgstr "Bredden på fönstret i bildpunkter."
-
-#~ msgid "Height of the window in pixels."
-#~ msgstr "Höjden på fönstret i bildpunkter."
-
-#~ msgid "true if the window is maximized."
-#~ msgstr "true (sant) om fönstret är maximerat."
-
-#~ msgid "_Start Game"
-#~ msgstr "_Starta spel"
-
-#~ msgid "Undo your most recent move"
-#~ msgstr "Ångra ditt senaste drag"
-
-#~ msgid "Play the classical 1880s’ 15-puzzle"
-#~ msgstr "Spela det klassiska 15-pusslet från 1880-talet"
-
-#~ msgid "Try this fun alternative 16-puzzle"
-#~ msgstr "Pröva detta roliga alternativa 16-pussel"
-
-#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
-#~ msgstr "Ställer in kantstorlek på pusslet (3-5, 2-9 för felsökning)"
-
-#~ msgid "Turn off the sound"
-#~ msgstr "Slå av ljudet"
-
-#~ msgid "Turn on the sound"
-#~ msgstr "Slå på ljudet"
-
-#~ msgid "Print release version and exit"
-#~ msgstr "Visa utgåvans version och avsluta"
-
-#~ msgid "(see COPYING.themes for informations)"
-#~ msgstr "(se COPYING.themes för information)"
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-#~ "\n"
-#~ "Skicka synpunkter på översättningen till\n"
-#~ "<tp-sv@listor.tp-sv.se>."
-
-#~ msgid "You can’t move this tile!"
-#~ msgstr "Du kan inte flytta den här brickan!"
-
-#~ msgid "Bravo! You finished the game!"
-#~ msgstr "Bravo! Du har klarat spelet!"
-
-#~ msgid "Size: %d × %d ▾"
-#~ msgstr "Storlek: %d × %d ▾"
-
-#~ msgid "Theme: Cats ▾"
-#~ msgstr "Tema: Katter ▾"
-
-#~ msgid "Theme: Numbers ▾"
-#~ msgstr "Tema: Siffror ▾"
-
-#~ msgid "Start a new game as configured"
-#~ msgstr "Starta ett nytt spel enligt konfiguration"
-
-#~ msgid "Puzzle with arrays"
-#~ msgstr "Pussel med rutnät"
-
-#~ msgid ""
-#~ "The game is tested and offers to select a size from 3 to 5. There is a "
-#~ "human-understandable maximum value to avoid some bugs. Maximum size is 9 "
-#~ "as the image files are randomly selected depending on the first character "
-#~ "of their filename."
-#~ msgstr ""
-#~ "Spelet är testat och erbjuder val av storlekar från 3 till 5. Det finns "
-#~ "ett maxvärde som kan förstås av människor för att undvika vissa fel. "
-#~ "Maximal storlek är 9 eftersom bildfilerna väljs slumpmässigt beroende på "
-#~ "det första tecknet i deras filnamn."
+#: src/app-about-dialog.vala:30
+msgid "15-puzzle"
+msgstr "15-pussel"

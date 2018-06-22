@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-taquin master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"POT-Creation-Date: 2018-06-23 00:27+0300\n"
 "PO-Revision-Date: 2016-08-19 23:33+0200\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian <openscope at gmail dot com>\n"
@@ -18,198 +18,44 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 1.2\n"
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/ui/window.ui:418
 msgid "15"
 msgstr ""
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4 src/app-about-dialog.vala:33
 msgid "A classic 15-puzzle game"
 msgstr "Egy klasszikus 15-ös kirakós játék"
 
 #: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
-#, fuzzy
 msgid "Game;Puzzle;"
-msgstr "puzzle;kirakó;fejtörő;"
+msgstr ""
 
 #: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
 msgid "pyatnashkee"
 msgstr ""
 
-#: src/window.ui:365
-#, fuzzy
+#: src/ui/app-menu.ui:6
+msgid "_About"
+msgstr "_Névjegy"
+
+#: src/ui/app-menu.ui:10
+msgid "_Quit"
+msgstr "_Kilépés"
+
+#: src/ui/window.ui:365
 msgid "Puzzle Solved!"
-msgstr "15-ös kirakó lyukkal"
+msgstr ""
+
+#: src/ui/window.ui:419
+msgid "puzzle"
+msgstr "ös kirakó"
 
 #. Tooltip New game
-#: src/window.ui:431
+#: src/ui/window.ui:431
 msgid "Start a new game"
 msgstr "Új játék indítása"
 
-#~ msgid "_Sound"
-#~ msgstr "_Hang"
+#: src/app-about-dialog.vala:30
+msgid "15-puzzle"
+msgstr "15-ös kirakó"
 
-#~ msgid "_Help"
-#~ msgstr "_Súgó"
-
-#~ msgid "_About"
-#~ msgstr "_Névjegy"
-
-#~ msgid "_Quit"
-#~ msgstr "_Kilépés"
-
-#~ msgid "3 × 3"
-#~ msgstr "3 × 3"
-
-#~ msgid "4 × 4"
-#~ msgstr "4 × 4"
-
-#~ msgid "5 × 5"
-#~ msgstr "5 × 5"
-
-#~ msgid "Cats"
-#~ msgstr "Macskák"
-
-#~ msgid "Numbers"
-#~ msgstr "Számok"
-
-#~ msgid "15-Puzzle"
-#~ msgstr "15-ös kirakó"
-
-#~ msgid "16-Puzzle"
-#~ msgstr "16-os kirakó"
-
-#~ msgid "Go back to the current game"
-#~ msgstr "Vissza a jelenlegi játékhoz"
-
-#~ msgid "_Start Over"
-#~ msgstr "Újra_kezdés"
-
-#~ msgid "Configure a new game"
-#~ msgstr "Új játék beállítása"
-
-#~ msgid "GNOME Taquin"
-#~ msgstr "GNOME Taquin"
-
-#~ msgid "Slide tiles to their correct places"
-#~ msgstr "Csúsztassa a csempéket a megfelelő helyükre"
-
-#~ msgid ""
-#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
-#~ msgstr ""
-#~ "A Taquin a 15-ös kirakós és egyéb tilitoli kirakós játékok számítógépes "
-#~ "változata."
-
-#~ msgid ""
-#~ "The object of Taquin is to move tiles so that they reach their places, "
-#~ "either indicated with numbers, or with parts of a great image."
-#~ msgstr ""
-#~ "A Taquin lényege a csempék mozgatása, hogy azok elérjenek saját helyükre, "
-#~ "amelyek vagy számokkal vannak jelölve, vagy egy nagy kép részleteivel."
-
-#~ msgid "A GNOME taquin game preview"
-#~ msgstr "Egy GNOME taquin játékelőnézet"
-
-#~ msgid "The GNOME Project"
-#~ msgstr "A GNOME projekt"
-
-#~ msgid "Taquin"
-#~ msgstr "Taquin"
-
-#~ msgid "15-puzzle"
-#~ msgstr "15-ös kirakó"
-
-#~ msgid "Number of tiles on each edge."
-#~ msgstr "Csempék száma minden szélen."
-
-#~ msgid ""
-#~ "The game offers to play with a board size from 3 to 5. The setting could "
-#~ "be set from 2 (good for testing) to 9, limited by the way files are "
-#~ "selected."
-#~ msgstr ""
-#~ "A játék 3 és 5 közötti táblaméreten kínálja a játékot. A beállítás 2-től "
-#~ "(teszteléshez jó) 9-ig állítható a kiválasztott fájlok alapján korlátozva."
-
-#~ msgid "Name of the theme folder."
-#~ msgstr "A témamappa neve."
-
-#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
-#~ msgstr ""
-#~ "A Taquin két alapértelmezett témával rendelkezik: „macskák” és „számok”."
-
-#~ msgid "Sound"
-#~ msgstr "Hang"
-
-#~ msgid "Whether or not to play event sounds."
-#~ msgstr "Legyen-e az eseményeknek hangjuk."
-
-#~ msgid "Width of the window in pixels."
-#~ msgstr "Az ablak szélessége képpontban."
-
-#~ msgid "Height of the window in pixels."
-#~ msgstr "Az ablak magassága képpontban."
-
-#~ msgid "true if the window is maximized."
-#~ msgstr "igaz, ha az ablak teljes méretű."
-
-#~ msgid "_Start Game"
-#~ msgstr "Játék _indítása"
-
-#~ msgid "Undo your most recent move"
-#~ msgstr "A legutóbbi lépés visszavonása"
-
-#~ msgid "Play the classical 1880s’ 15-puzzle"
-#~ msgstr "Az 1880-as klasszikus 15-ös kirakó indítása"
-
-#~ msgid "Try this fun alternative 16-puzzle"
-#~ msgstr "Próbálja ki ezt a vicces alternatív 16-os kirakót"
-
-#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
-#~ msgstr "Beállítja a kirakó széleinek méretét (3-5, 2-9 a hibakereséshez)"
-
-#~ msgid "Turn off the sound"
-#~ msgstr "Hang kikapcsolása"
-
-#~ msgid "Turn on the sound"
-#~ msgstr "Hang bekapcsolása"
-
-#~ msgid "Print release version and exit"
-#~ msgstr "Kiadási verzió kiírása és kilépés"
-
-#~ msgid "(see COPYING.themes for informations)"
-#~ msgstr "(további információkért lásd a COPYING.themes fájlt)"
-
-#~ msgid "translator-credits"
-#~ msgstr "Úr Balázs <urbalazs@gmail.com>, 2014."
-
-#~ msgid "You can’t move this tile!"
-#~ msgstr "Ezt a csempét nem mozdíthatja!"
-
-#~ msgid "Bravo! You finished the game!"
-#~ msgstr "Bravó! Befejezte a játékot!"
-
-#~ msgid "Size: %d × %d ▾"
-#~ msgstr "Méret: %d × %d ▾"
-
-#~ msgid "Theme: Cats ▾"
-#~ msgstr "Téma: Macskák ▾"
-
-#~ msgid "Theme: Numbers ▾"
-#~ msgstr "Téma: Számok ▾"
-
-#~| msgid "Start a new game"
-#~ msgid "Start a new game as configured"
-#~ msgstr "Új játék indítása a beállítás szerint"
-
-#~ msgid "Puzzle with arrays"
-#~ msgstr "Kirakó tömbökkel"
-
-#~ msgid ""
-#~ "The game is tested and offers to select a size from 3 to 5. There is a "
-#~ "human-understandable maximum value to avoid some bugs. Maximum size is 9 "
-#~ "as the image files are randomly selected depending on the first character "
-#~ "of their filename."
-#~ msgstr ""
-#~ "A játék ellenőrzött és 3-5 méretű választást javasol. Létezik egy ember "
-#~ "által megérthető legnagyobb érték a hibák elkerülése érdekében. A "
-#~ "legnagyobb méret 9, mivel a képfájlok véletlenszerűen kerülnek "
-#~ "kiválasztásra a fájlnevük első karakterétől függően."

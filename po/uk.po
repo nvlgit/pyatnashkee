@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-taquin master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"POT-Creation-Date: 2018-06-23 00:27+0300\n"
 "PO-Revision-Date: 2017-03-22 09:29+0300\n"
 "Last-Translator: Daniel Korostil <ted.korostiled@gmail.com>\n"
 "Language-Team: linux.org.ua\n"
@@ -19,179 +19,43 @@ msgstr ""
 "X-Generator: Virtaal 0.7.1\n"
 "X-Project-Style: gnome\n"
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/ui/window.ui:418
 msgid "15"
 msgstr ""
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4 src/app-about-dialog.vala:33
 msgid "A classic 15-puzzle game"
 msgstr "Класична п'ятнадцятка"
 
 #: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
-#, fuzzy
 msgid "Game;Puzzle;"
-msgstr "головоломка;"
+msgstr ""
 
 #: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
 msgid "pyatnashkee"
 msgstr ""
 
-#: src/window.ui:365
+#: src/ui/app-menu.ui:6
+msgid "_About"
+msgstr "_Про програму"
+
+#: src/ui/app-menu.ui:10
+msgid "_Quit"
+msgstr "Ви_йти"
+
+#: src/ui/window.ui:365
 msgid "Puzzle Solved!"
-msgstr ""
+msgstr "Головоломка вирішена!"
+
+#: src/ui/window.ui:419
+msgid "puzzle"
+msgstr "головоломка"
 
 #. Tooltip New game
-#: src/window.ui:431
+#: src/ui/window.ui:431
 msgid "Start a new game"
 msgstr "Розпочати нову гру"
 
-#~ msgid "_Sound"
-#~ msgstr "_Звук"
-
-#~ msgid "_Help"
-#~ msgstr "_Довідка"
-
-#~ msgid "_About"
-#~ msgstr "_Про програму"
-
-#~ msgid "_Quit"
-#~ msgstr "Ви_йти"
-
-#~ msgid "3 × 3"
-#~ msgstr "3 × 3"
-
-#~ msgid "4 × 4"
-#~ msgstr "4 × 4"
-
-#~ msgid "5 × 5"
-#~ msgstr "5 × 5"
-
-#~ msgid "Cats"
-#~ msgstr "Коти"
-
-#~ msgid "Numbers"
-#~ msgstr "Кількість"
-
-#~ msgid "15-Puzzle"
-#~ msgstr "15"
-
-#~ msgid "16-Puzzle"
-#~ msgstr "16"
-
-#~ msgid "Go back to the current game"
-#~ msgstr "Повернутись до поточної гри"
-
-#~ msgid "_Start Over"
-#~ msgstr "_Почати знову"
-
-#~ msgid "Configure a new game"
-#~ msgstr "Налаштувати нову гру"
-
-#~ msgid "GNOME Taquin"
-#~ msgstr "Дратун GNOME"
-
-#~ msgid "Slide tiles to their correct places"
-#~ msgstr "Перетягніть плиточки на їхні місця"
-
-#~ msgid ""
-#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
-#~ msgstr "Дратун — комп'ютерна версія ігор з перетягування плиточок."
-
-#~ msgid ""
-#~ "The object of Taquin is to move tiles so that they reach their places, "
-#~ "either indicated with numbers, or with parts of a great image."
-#~ msgstr ""
-#~ "Ціль Дратуна — розставити мозаїки на свої місця, вони позначені числами "
-#~ "або частинами великого малюнка."
-
-#~ msgid "A GNOME taquin game preview"
-#~ msgstr "Перегляд гри Дратун"
-
-#~ msgid "The GNOME Project"
-#~ msgstr "Проект GNOME"
-
-#~ msgid "Taquin"
-#~ msgstr "Дратун"
-
-#~ msgid "15-puzzle"
-#~ msgstr "15"
-
-#~ msgid "Number of tiles on each edge."
-#~ msgstr "Кількість плиточок на кожному краю."
-
-#~ msgid ""
-#~ "The game offers to play with a board size from 3 to 5. The setting could "
-#~ "be set from 2 (good for testing) to 9, limited by the way files are "
-#~ "selected."
-#~ msgstr ""
-#~ "Пропонується зіграти на дошці розміром 3 to 5. Параметри можуть мати від "
-#~ "2 (добре для тестування) до 9, обмежено способом вибору файлів.  "
-
-#~ msgid "Name of the theme folder."
-#~ msgstr "Назва теки з темами."
-
-#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
-#~ msgstr "Дратун має дві типові теми: «котики» і «числа»."
-
-#~ msgid "Sound"
-#~ msgstr "Звук"
-
-#~ msgid "Whether or not to play event sounds."
-#~ msgstr "Чи супроводжувати події звуками."
-
-#~ msgid "Width of the window in pixels."
-#~ msgstr "Ширина вікна у точках."
-
-#~ msgid "Height of the window in pixels."
-#~ msgstr "Висота вікна у точках."
-
-#~ msgid "true if the window is maximized."
-#~ msgstr "вказано, коли вікно розгорнуто."
-
-#~ msgid "_Start Game"
-#~ msgstr "_Почати гру"
-
-#~ msgid "Undo your most recent move"
-#~ msgstr "Повернути ваш останній хід"
-
-#~ msgid "Play the classical 1880s’ 15-puzzle"
-#~ msgstr "Зіграти класичну п'ятнадцятку з 1880-тих"
-
-#~ msgid "Try this fun alternative 16-puzzle"
-#~ msgstr "Спробувати альтернативну шістнадцятку"
-
-#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
-#~ msgstr "Вказати розмір країв (3-5, 2-9 для тестування)"
-
-#~ msgid "Turn off the sound"
-#~ msgstr "Вимкнути звук"
-
-#~ msgid "Turn on the sound"
-#~ msgstr "Увімкнути звук"
-
-#~ msgid "Print release version and exit"
-#~ msgstr "Показати версію випуску та вийти"
-
-#~ msgid "(see COPYING.themes for informations)"
-#~ msgstr "(докладніше дивіться у COPYING.themes)"
-
-#~ msgid "translator-credits"
-#~ msgstr "Daniel Korostil <ted.korostiled@gmail.com>"
-
-#~ msgid "You can’t move this tile!"
-#~ msgstr "Ви не можете пересунути цю плиточку!"
-
-#~ msgid "Bravo! You finished the game!"
-#~ msgstr "Браво! Ви завершили гру!"
-
-#~ msgid "Size: %d × %d ▾"
-#~ msgstr "Розмір: %d × %d ▾"
-
-#~ msgid "Theme: Cats ▾"
-#~ msgstr "Тема: котики ▾"
-
-#~ msgid "Theme: Numbers ▾"
-#~ msgstr "Тема: числа ▾"
-
-#~ msgid "Start a new game as configured"
-#~ msgstr "Почати нову гру як налаштовано"
+#: src/app-about-dialog.vala:30
+msgid "15-puzzle"
+msgstr "15"
