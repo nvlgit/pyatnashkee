@@ -416,7 +416,7 @@
         <property name="can_focus">False</property>
         <property name="vexpand">True</property>
         <property name="title" translatable="yes">15</property>
-        <property name="subtitle">Puzzle</property>
+        <property name="subtitle" translatable="yes">puzzle</property>
         <property name="show_close_button">True</property>
         <child>
           <object class="GtkBox" id="open_box">

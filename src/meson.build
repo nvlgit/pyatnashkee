@@ -1,6 +1,7 @@
 pyatnashkee_sources = [
   'main.vala',
   'app.vala',
+  'app-about-dialog.vala',
   'app_window.vala',
 ]
 
@@ -17,9 +18,12 @@ c_args = [
   '-DLOCALEDIR="' + join_paths(prefix, localedir) + '"'
 ]
 
+add_project_arguments(['--gresourcesdir', join_paths(meson.current_source_dir(), 'ui')],
+                      language: 'vala')
 
 pyatnashkee_sources += gnome.compile_resources('pyatnashkee-resources',
   'pyatnashkee.gresource.xml',
+  source_dir: join_paths(meson.current_source_dir(), 'ui'),
   c_name: 'pyatnashkee'
 )
 

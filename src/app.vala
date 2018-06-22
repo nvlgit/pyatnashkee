@@ -24,28 +24,51 @@ namespace Pyatnashkee {
 
 	public class Application : Gtk.Application {
 
+		/* The application actions */
+		private const GLib.ActionEntry[] actions = {
+
+			{"about", about_cb},
+			{ "quit", quit_cb }
+		};
+
 		public ApplicationWindow window;
 
 		public Application () {
 
-		application_id = "com.github.nvlgit.pyatnashkee";
+		application_id = "com.gitlab.nvlgit.pyatnashkee";
 	}
 
-	public override void startup () {
+		public override void startup () {
 
-		base.startup ();
-		var css_provider = new Gtk.CssProvider ();
-		css_provider.load_from_resource ("/com/github/nvlgit/pyatnashkee/tiles.css");
-		Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (),
-		                                          css_provider,
-		                                          STYLE_PROVIDER_PRIORITY_APPLICATION);
-	}
+			base.startup ();
+			var css_provider = new Gtk.CssProvider ();
+			css_provider.load_from_resource ("/com/gitlab/nvlgit/pyatnashkee/tiles.css");
+			Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (),
+			                                          css_provider,
+			                                          STYLE_PROVIDER_PRIORITY_APPLICATION);
+
+			add_action_entries (actions, this);
+			var builder = new Gtk.Builder.from_resource ("/com/gitlab/nvlgit/pyatnashkee/app-menu.ui");
+			var appmenu = (GLib.MenuModel) builder.get_object ("app-menu");
+			this.set_app_menu (appmenu);
+		}
 
 		public override void activate () {
 
 			var window = new ApplicationWindow (this);
 			window.new_game();
 			window.present ();
+		}
+
+		private void about_cb (SimpleAction action, Variant? parameter) {
+
+			AppAbout about = new AppAbout (get_active_window () );
+			about.present ();
+		}
+
+		private void quit_cb (SimpleAction action, Variant? parameter) {
+
+			this.quit ();
 		}
 	}
 }
