@@ -1,4 +1,5 @@
 pyatnashkee_sources = [
+  'main.vala',
   'app.vala',
   'app_window.vala',
 ]
