@@ -1,0 +1,194 @@
+# Vietnamese translations for gnome-taquin package
+# Bản dịch Tiếng Việt dành cho gói gnome-taquin.
+# Copyright © 2015 GNOME i18n Project for Vietnamese.
+# This file is distributed under the same license as the gnome-taquin package.
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-taquin gnome-master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"PO-Revision-Date: 2015-09-27 07:55+0700\n"
+"Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
+"Language-Team: Vietnamese <gnome-vi-list@gnome.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 2.91.7\n"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+msgid "15"
+msgstr ""
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+msgid "A classic 15-puzzle game"
+msgstr "Trò chơi 15-puzzle cổ điển"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
+#, fuzzy
+msgid "Game;Puzzle;"
+msgstr "puzzle;ghép;ghep;xếp;hình;xep;hinh;"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
+msgid "pyatnashkee"
+msgstr ""
+
+#: src/window.ui:365
+msgid "Puzzle Solved!"
+msgstr ""
+
+#. Tooltip New game
+#: src/window.ui:431
+msgid "Start a new game"
+msgstr "Bắt đầu ván chơi mới"
+
+#~ msgid "_Sound"
+#~ msgstr "Â_m thanh"
+
+#~ msgid "_Help"
+#~ msgstr "T_rợ giúp"
+
+#~ msgid "_About"
+#~ msgstr "_Giới thiệu"
+
+#~ msgid "_Quit"
+#~ msgstr "T_hoát"
+
+#~ msgid "3 × 3"
+#~ msgstr "3 × 3"
+
+#~ msgid "4 × 4"
+#~ msgstr "4 × 4"
+
+#~ msgid "5 × 5"
+#~ msgstr "5 × 5"
+
+#~ msgid "Cats"
+#~ msgstr "Con mèo"
+
+#~ msgid "Numbers"
+#~ msgstr "Con số"
+
+#~ msgid "15-Puzzle"
+#~ msgstr "15-Puzzle"
+
+#~ msgid "16-Puzzle"
+#~ msgstr "16-Puzzle"
+
+#~ msgid "Go back to the current game"
+#~ msgstr "Quay trở lại ván chơi hiện tại"
+
+#~ msgid "_Start Over"
+#~ msgstr "_Bắt đầu từ đầu"
+
+#~ msgid "Configure a new game"
+#~ msgstr "Cấu hình ván chơi mới"
+
+#~ msgid "GNOME Taquin"
+#~ msgstr "Xếp hình GNOME"
+
+#~ msgid "Slide tiles to their correct places"
+#~ msgstr "Di chuyển các miếng ghép vào đúng chỗ dành cho nó"
+
+#~ msgid ""
+#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
+#~ msgstr ""
+#~ "Taquin là phiên bản chạy trên máy tính của trò chơi ghép hình 15-puzzle "
+#~ "và các kiểu di chuyển miếng ghép khác."
+
+#~ msgid ""
+#~ "The object of Taquin is to move tiles so that they reach their places, "
+#~ "either indicated with numbers, or with parts of a great image."
+#~ msgstr ""
+#~ "Các đối tượng của Taquin là di chuyển các miếng ghép sao cho chúng nằm ở "
+#~ "đúng chỗ, hoặc là được chỉ thị bằng số, hoặc là các phần nhỏ của một bức "
+#~ "ảnh lớn."
+
+#~ msgid "Taquin"
+#~ msgstr "Xếp hình"
+
+#~ msgid "15-puzzle"
+#~ msgstr "15-puzzle"
+
+#~ msgid "Number of tiles on each edge."
+#~ msgstr "Số lượng miếng trên từng cạnh."
+
+#~ msgid ""
+#~ "The game offers to play with a board size from 3 to 5. The setting could "
+#~ "be set from 2 (good for testing) to 9, limited by the way files are "
+#~ "selected."
+#~ msgstr ""
+#~ "Trò chơi đưa ra các cỡ bảng từ 3 đến 5. Cài đặt có thể từ 2 (phù hợp để "
+#~ "thử) đến 9, được giới hạn bởi cách mà các tập tin đã được chọn."
+
+#~ msgid "Name of the theme folder."
+#~ msgstr "Tên của thư mục chứa chủ đề."
+
+#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
+#~ msgstr "Taquin có hai chủ đề mặc định là: “con mèo” và “số”."
+
+#~ msgid "Sound"
+#~ msgstr "Âm thanh"
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "Có bật âm thanh hay không."
+
+#~ msgid "Width of the window in pixels."
+#~ msgstr "Chiều rộng cửa sổ tính theo điểm ảnh."
+
+#~ msgid "Height of the window in pixels."
+#~ msgstr "Chiều cao cửa sổ tính theo điểm ảnh."
+
+#~ msgid "true if the window is maximized."
+#~ msgstr "đặt là đúng nếu cửa sổ được phóng to tối đa."
+
+#~ msgid "_Start Game"
+#~ msgstr "_Bắt đầu chơi"
+
+#~ msgid "Undo your most recent move"
+#~ msgstr "Hoàn lại nước đi gần đây nhất"
+
+#~ msgid "Play the classical 1880s’ 15-puzzle"
+#~ msgstr "Chơi trò chơi 15-puzzle cổ điển của thập niên 1880 "
+
+#~ msgid "Try this fun alternative 16-puzzle"
+#~ msgstr "Thử trò chơi thay thế khá vui là 16-puzzle"
+
+#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
+#~ msgstr "Đặt cỡ các cạnh của trò trơi ghép hình (3-5, 2-9 để gỡ lỗi)"
+
+#~ msgid "Turn off the sound"
+#~ msgstr "Tắt âm thanh"
+
+#~ msgid "Turn on the sound"
+#~ msgstr "Bật âm thanh"
+
+#~ msgid "Print release version and exit"
+#~ msgstr "Hiển thị phiên bản phát hành rồi thoát"
+
+#~ msgid "(see COPYING.themes for informations)"
+#~ msgstr "(xem COPYING.themes để biết thông tin chi tiết)"
+
+#~ msgid "translator-credits"
+#~ msgstr "Nhóm Việt hóa GNOME <gnome-vi-list@gnome.org>"
+
+#~ msgid "You can’t move this tile!"
+#~ msgstr "Bạn không thể di chuyển miếng này!"
+
+#~ msgid "Bravo! You finished the game!"
+#~ msgstr "Hoan hô! Bạn đã hoàn thành trò chơi!"
+
+#~ msgid "Size: %d × %d ▾"
+#~ msgstr "Cỡ: %d × %d ▾"
+
+#~ msgid "Theme: Cats ▾"
+#~ msgstr "Chủ đề: Con mèo ▾"
+
+#~ msgid "Theme: Numbers ▾"
+#~ msgstr "Chủ đề: Con số ▾"
+
+#~ msgid "Start a new game as configured"
+#~ msgstr "Bắt đầu ván chơi đã cấu hình mới"

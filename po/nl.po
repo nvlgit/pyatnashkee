@@ -1,0 +1,196 @@
+# Dutch translation for gnome-taquin.
+# Copyright (C) 2015 gnome-taquin's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-taquin package.
+# Nathan Follens <nathan@anche.no>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-taquin master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"PO-Revision-Date: 2016-09-19 13:21+0100\n"
+"Last-Translator: Justin van Steijn <justin50@live.nl>\n"
+"Language-Team: Dutch <gnome-nl-list@gnome.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+msgid "15"
+msgstr ""
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+msgid "A classic 15-puzzle game"
+msgstr "Een klassiek 15-puzzel-spel"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
+#, fuzzy
+msgid "Game;Puzzle;"
+msgstr "puzzel;schuifpuzzel;"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
+msgid "pyatnashkee"
+msgstr ""
+
+#: src/window.ui:365
+msgid "Puzzle Solved!"
+msgstr ""
+
+#. Tooltip New game
+#: src/window.ui:431
+msgid "Start a new game"
+msgstr "Een nieuw spel beginnen"
+
+#~ msgid "_Sound"
+#~ msgstr "_Geluid"
+
+#~ msgid "_Help"
+#~ msgstr "_Hulp"
+
+#~ msgid "_About"
+#~ msgstr "_Over"
+
+#~ msgid "_Quit"
+#~ msgstr "_Afsluiten"
+
+#~ msgid "3 × 3"
+#~ msgstr "3 × 3"
+
+#~ msgid "4 × 4"
+#~ msgstr "4 × 4"
+
+#~ msgid "5 × 5"
+#~ msgstr "5 × 5"
+
+#~ msgid "Cats"
+#~ msgstr "Katten"
+
+#~ msgid "Numbers"
+#~ msgstr "Nummers"
+
+#~ msgid "15-Puzzle"
+#~ msgstr "15-puzzel"
+
+#~ msgid "16-Puzzle"
+#~ msgstr "16-puzzel"
+
+#~ msgid "Go back to the current game"
+#~ msgstr "Terugkeren naar het huidige spel"
+
+#~ msgid "_Start Over"
+#~ msgstr "O_pnieuw beginnen"
+
+#~ msgid "Configure a new game"
+#~ msgstr "Een nieuw spel configureren"
+
+#~ msgid "GNOME Taquin"
+#~ msgstr "Gnome Taquin"
+
+#~ msgid "Slide tiles to their correct places"
+#~ msgstr "Schuif tegels naar hun juiste plaatsen"
+
+#~ msgid ""
+#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
+#~ msgstr ""
+#~ "Taquin is een computerversie van de 15-puzzel en andere schuifpuzzels."
+
+#~ msgid ""
+#~ "The object of Taquin is to move tiles so that they reach their places, "
+#~ "either indicated with numbers, or with parts of a great image."
+#~ msgstr ""
+#~ "Het doel van Taquin is tegels te verplaatsen zodat ze hun plaats "
+#~ "bereiken, aangeduid met ofwel nummers ofwel delen van een grotere "
+#~ "afbeelding."
+
+#~ msgid "A GNOME taquin game preview"
+#~ msgstr "Een Gnome Taquin-spelvoorbeeld"
+
+#~ msgid "The GNOME Project"
+#~ msgstr "Het Gnome-project"
+
+#~ msgid "Taquin"
+#~ msgstr "Taquin"
+
+#~ msgid "15-puzzle"
+#~ msgstr "15-puzzel"
+
+#~ msgid "Number of tiles on each edge."
+#~ msgstr "Aantal tegels op elke rand."
+
+#~ msgid ""
+#~ "The game offers to play with a board size from 3 to 5. The setting could "
+#~ "be set from 2 (good for testing) to 9, limited by the way files are "
+#~ "selected."
+#~ msgstr ""
+#~ "Het spel biedt de mogelijkheid te spelen met een bordgrootte van 3 tot 5. "
+#~ "De instelling kan ingesteld worden van 2 (goed voor testen) tot 9, "
+#~ "beperkt door de manier waarop bestanden worden geselecteerd."
+
+#~ msgid "Name of the theme folder."
+#~ msgstr "Naam van de themamap."
+
+#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
+#~ msgstr "Taquin heeft twee standaardthema's: 'katten' en 'nummers'."
+
+#~ msgid "Sound"
+#~ msgstr "Geluid"
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "Of er geluiden worden afgespeeld bij gebeurtenissen."
+
+#~ msgid "Width of the window in pixels."
+#~ msgstr "Breedte van het venster in beeldpunten."
+
+#~ msgid "Height of the window in pixels."
+#~ msgstr "Hoogte van het venster in beeldpunten."
+
+#~ msgid "true if the window is maximized."
+#~ msgstr "waar als het venster is gemaximaliseerd."
+
+#~ msgid "_Start Game"
+#~ msgstr "_Spel beginnen"
+
+#~ msgid "Undo your most recent move"
+#~ msgstr "Maak uw laatste zet ongedaan"
+
+#~ msgid "Play the classical 1880s’ 15-puzzle"
+#~ msgstr "Speel de klassieke 15-puzzel van de jaren 1880"
+
+#~ msgid "Try this fun alternative 16-puzzle"
+#~ msgstr "Probeer deze leuke alternatieve 16-puzzel"
+
+#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
+#~ msgstr "Stelt de grootte van de puzzelranden in (3-5, 2-9 voor debuggen)"
+
+#~ msgid "Turn off the sound"
+#~ msgstr "Geluid uitschakelen"
+
+#~ msgid "Turn on the sound"
+#~ msgstr "Geluid inschakelen"
+
+#~ msgid "Print release version and exit"
+#~ msgstr "Releaseversie tonen en afsluiten"
+
+#~ msgid "(see COPYING.themes for informations)"
+#~ msgstr "(zie COPYING.themes voor verdere informatie)"
+
+#~ msgid "translator-credits"
+#~ msgstr "Nathan Follens"
+
+#~ msgid "You can’t move this tile!"
+#~ msgstr "Je kan deze tegel niet verplaatsen!"
+
+#~ msgid "Bravo! You finished the game!"
+#~ msgstr "Bravo! Je bent klaar met het spel!"
+
+#~ msgid "Size: %d × %d ▾"
+#~ msgstr "Grootte: %d × %d ▾"
+
+#~ msgid "Theme: Cats ▾"
+#~ msgstr "Thema: katten ▾"
+
+#~ msgid "Theme: Numbers ▾"
+#~ msgstr "Thema: nummers ▾"

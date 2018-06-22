@@ -1,0 +1,194 @@
+# Chinese (China) translation for gnome-taquin.
+# Copyright (C) 2015 gnome-taquin's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-taquin package.
+# Damned <damnedlies@163.com>, 2015.
+# Jeff Bai <jeffbai@aosc.xyz>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-taquin master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"PO-Revision-Date: 2017-02-13 16:07+0800\n"
+"Last-Translator: Qizhi Zhou <zhouqz@yahoo.com>\n"
+"Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+msgid "15"
+msgstr ""
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+msgid "A classic 15-puzzle game"
+msgstr "经典 15 数字推盘游戏"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
+#, fuzzy
+msgid "Game;Puzzle;"
+msgstr "数字推盘；"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
+msgid "pyatnashkee"
+msgstr ""
+
+#: src/window.ui:365
+msgid "Puzzle Solved!"
+msgstr ""
+
+#. Tooltip New game
+#: src/window.ui:431
+msgid "Start a new game"
+msgstr "开始新游戏"
+
+#~ msgid "_Sound"
+#~ msgstr "声音(_S)"
+
+#~ msgid "_Help"
+#~ msgstr "帮助(_H)"
+
+#~ msgid "_About"
+#~ msgstr "关于(_A)"
+
+#~ msgid "_Quit"
+#~ msgstr "退出(_Q)"
+
+#~ msgid "3 × 3"
+#~ msgstr "3 × 3"
+
+#~ msgid "4 × 4"
+#~ msgstr "4 × 4"
+
+#~ msgid "5 × 5"
+#~ msgstr "5 × 5"
+
+#~ msgid "Cats"
+#~ msgstr "猫"
+
+#~ msgid "Numbers"
+#~ msgstr "数字"
+
+#~ msgid "15-Puzzle"
+#~ msgstr "15 数字推盘"
+
+#~ msgid "16-Puzzle"
+#~ msgstr "16 数字推盘"
+
+#~ msgid "Go back to the current game"
+#~ msgstr "返回当前游戏"
+
+#~ msgid "_Start Over"
+#~ msgstr "重新开始(_S)"
+
+#~ msgid "Configure a new game"
+#~ msgstr "配置新游戏"
+
+#~ msgid "GNOME Taquin"
+#~ msgstr "GNOME 推盘"
+
+#~ msgid "Slide tiles to their correct places"
+#~ msgstr "将方块滑动到正确位置"
+
+#~ msgid ""
+#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
+#~ msgstr "Taquin 是 15 数字推盘和其他滑动数字推盘的计算机版本。"
+
+#~ msgid ""
+#~ "The object of Taquin is to move tiles so that they reach their places, "
+#~ "either indicated with numbers, or with parts of a great image."
+#~ msgstr ""
+#~ "Taquin 的目标是移动方块，让它们到达其位置，方块上显示数字或图像的部分。"
+
+#~ msgid "A GNOME taquin game preview"
+#~ msgstr "GNOME 推盘游戏预览"
+
+#~ msgid "The GNOME Project"
+#~ msgstr "GNOME 项目"
+
+#~ msgid "Taquin"
+#~ msgstr "推盘"
+
+#~ msgid "15-puzzle"
+#~ msgstr "十五数字推盘"
+
+#~ msgid "Number of tiles on each edge."
+#~ msgstr "每条边上的方块数。"
+
+#~ msgid ""
+#~ "The game offers to play with a board size from 3 to 5. The setting could "
+#~ "be set from 2 (good for testing) to 9, limited by the way files are "
+#~ "selected."
+#~ msgstr ""
+#~ "该游戏提供的板尺寸在 3 到 5 之间。可以设置 2 (适合测试)到 9 之间的尺寸，受"
+#~ "选择文件的方式限制。"
+
+#~ msgid "Name of the theme folder."
+#~ msgstr "主题文件夹的名称。"
+
+#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
+#~ msgstr "Taquin 有两个默认主题：“猫”和“数字”。"
+
+#~ msgid "Sound"
+#~ msgstr "声音"
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "是否播放事件声音。"
+
+#~ msgid "Width of the window in pixels."
+#~ msgstr "窗口宽度像素数。"
+
+#~ msgid "Height of the window in pixels."
+#~ msgstr "窗口高度像素数。"
+
+#~ msgid "true if the window is maximized."
+#~ msgstr "适用于窗口最大化。"
+
+#~ msgid "_Start Game"
+#~ msgstr "开始游戏(_S)"
+
+#~ msgid "Undo your most recent move"
+#~ msgstr "撤销最近一次移动"
+
+#~ msgid "Play the classical 1880s’ 15-puzzle"
+#~ msgstr "玩经典的 19 世纪 80 年代 15 数字推盘"
+
+#~ msgid "Try this fun alternative 16-puzzle"
+#~ msgstr "尝试这个有趣的 16 数字推盘"
+
+#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
+#~ msgstr "设置数字推盘边框尺寸(3-5，2-9 用于调试)"
+
+#~ msgid "Turn off the sound"
+#~ msgstr "关闭声音"
+
+#~ msgid "Turn on the sound"
+#~ msgstr "打开声音"
+
+#~ msgid "Print release version and exit"
+#~ msgstr "打印版本并退出"
+
+#~ msgid "(see COPYING.themes for informations)"
+#~ msgstr "(查看 COPYING.themes 以获取信息)"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Damned <damnedlies@163.com>, 2015\n"
+#~ "Jeff Bai <jeffbai@aosc.xyz>, 2016"
+
+#~ msgid "You can’t move this tile!"
+#~ msgstr "您不能移动该方块！"
+
+#~ msgid "Bravo! You finished the game!"
+#~ msgstr "好！您完成了游戏！"
+
+#~ msgid "Size: %d × %d ▾"
+#~ msgstr "尺寸：%d × %d ▾"
+
+#~ msgid "Theme: Cats ▾"
+#~ msgstr "主题：猫 ▾"
+
+#~ msgid "Theme: Numbers ▾"
+#~ msgstr "主题：数字 ▾"

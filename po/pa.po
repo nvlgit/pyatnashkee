@@ -1,0 +1,152 @@
+# Punjabi translation for gnome-taquin.
+# Copyright (C) 2015 gnome-taquin's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-taquin package.
+#
+# A S Alam <aalam@fedoraproject.org>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-taquin master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"PO-Revision-Date: 2015-08-30 09:56UTC-0600\n"
+"Last-Translator: A S Alam <aalam@fedoraproject.org>\n"
+"Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+msgid "15"
+msgstr ""
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+msgid "A classic 15-puzzle game"
+msgstr "ਕਲਾਸਿਕ 15-ਬੁਝਾਰਤ ਖੇਡ"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
+#, fuzzy
+msgid "Game;Puzzle;"
+msgstr "ਬੁਝਾਰਤ;"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
+msgid "pyatnashkee"
+msgstr ""
+
+#: src/window.ui:365
+msgid "Puzzle Solved!"
+msgstr ""
+
+#. Tooltip New game
+#: src/window.ui:431
+msgid "Start a new game"
+msgstr "ਨਵੀਂ ਖੇਡ ਸ਼ੁਰੂ ਕਰੋ"
+
+#~ msgid "_Sound"
+#~ msgstr "ਆਵਾਜ਼(_S):"
+
+#~ msgid "_Help"
+#~ msgstr "ਮਦਦ(_H)"
+
+#~ msgid "_About"
+#~ msgstr "ਇਸ ਬਾਰੇ(_A)"
+
+#~ msgid "_Quit"
+#~ msgstr "ਬੰਦ ਕਰੋ(_Q)"
+
+#~ msgid "3 × 3"
+#~ msgstr "3 × 3"
+
+#~ msgid "4 × 4"
+#~ msgstr "4 × 4"
+
+#~ msgid "5 × 5"
+#~ msgstr "5 × 5"
+
+#~ msgid "Cats"
+#~ msgstr "ਬਿੱਲੀਆਂ"
+
+#~ msgid "Numbers"
+#~ msgstr "ਅੰਕ"
+
+#~ msgid "15-Puzzle"
+#~ msgstr "15-ਬੁਝਾਰਤ"
+
+#~ msgid "16-Puzzle"
+#~ msgstr "16-ਬੁਝਾਰਤ"
+
+#~ msgid "Go back to the current game"
+#~ msgstr "ਮੌਜੂਦਾ ਖੇਡ ਉੱਤੇ ਵਾਪਿਸ ਜਾਓ"
+
+#~ msgid "_Start Over"
+#~ msgstr "ਫੇਰ ਸ਼ੁਰੂ ਕਰੋ(_S)"
+
+#~ msgid "Configure a new game"
+#~ msgstr "ਨਵੀਂ ਖੇਡ ਦੀ ਸੰਰਚਨਾ"
+
+#~ msgid "GNOME Taquin"
+#~ msgstr "ਗਨੋਮ ਤਾਕਿਉਨ"
+
+#~ msgid "Taquin"
+#~ msgstr "ਤਾਕਿਉਨ"
+
+#~ msgid "Number of tiles on each edge."
+#~ msgstr "ਹਰੇਕ ਬਾਹੀ ਲਈ ਟਾਈਲਾਂ ਦੀ ਗਿਣਤੀ"
+
+#~ msgid "Name of the theme folder."
+#~ msgstr "ਥੀਮ ਫੋਲਡਰ ਦਾ ਨਾਂ ਹੈ।"
+
+#~ msgid "Sound"
+#~ msgstr "ਆਵਾਜ਼"
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "ਕੀ ਈਵੈਂਟ ਆਵਾਜ਼ਾਂ ਚਲਾਉਣੀਆਂ ਹਨ"
+
+#~ msgid "Width of the window in pixels."
+#~ msgstr "ਵਿੰਡੋ ਦੀ ਚੌੜਾਈ ਪਿਕਸਲ ਵਿੱਚ ਹੈ।"
+
+#~ msgid "Height of the window in pixels."
+#~ msgstr "ਵਿੰਡੋ ਦੀ ਉਚਾਈ ਪਿਕਸਲ ਵਿੱਚ ਹੈ।"
+
+#~ msgid "true if the window is maximized."
+#~ msgstr "ਸਹੀਂ, ਜੇ ਵਿੰਡੋ ਵੱਧ ਤੋਂ ਵੱਧ ਹੈ।"
+
+#~ msgid "_Start Game"
+#~ msgstr "ਖੇਡ ਸ਼ੁਰੂ ਕਰੋ(_S)"
+
+#~ msgid "Undo your most recent move"
+#~ msgstr "ਆਪਣੀਆਂ ਤਾਜ਼ਾ ਚਾਲਾਂ ਨੂੰ ਵਾਪਿਸ ਕਰੋ"
+
+#~ msgid "Turn off the sound"
+#~ msgstr "ਆਵਾਜ਼ਾਂ ਬੰਦ ਕਰੋ"
+
+#~ msgid "Turn on the sound"
+#~ msgstr "ਆਵਾਜ਼ਾਂ ਚਾਲੂ ਕਰੋ"
+
+#~ msgid "Print release version and exit"
+#~ msgstr "ਵਰਜਨ ਜਾਣਕਾਰੀ ਛਾਪੋ ਅਤੇ ਬੰਦ ਕਰੋ"
+
+#~ msgid "(see COPYING.themes for informations)"
+#~ msgstr "(ਜਾਣਕਾਰੀ ਲਈ COPYING.themes  ਨੂੰ ਵੇਖੋ)"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ\n"
+#~ "ਪੰਜਾਬੀ ਓਪਨਸੋਰਸ ਟੀਮ (POST)"
+
+#~ msgid "You can’t move this tile!"
+#~ msgstr "ਤੁਸੀਂ ਇਹ ਟਾਈਲ ਨੂੰ ਹਟਾ ਨਹੀਂ ਸਕਦੇ ਹੋ!"
+
+#~ msgid "Bravo! You finished the game!"
+#~ msgstr "ਵਾਹ! ਤੁਸੀਂ ਖੇਡ ਪੂਰੀ ਕਰ ਦਿੱਤੀ!"
+
+#~ msgid "Size: %d × %d ▾"
+#~ msgstr "ਆਕਾਰ: %d × %d ▾"
+
+#~ msgid "Theme: Cats ▾"
+#~ msgstr "ਥੀਮ: ਬਿੱਲੀਆਂ ▾"
+
+#~ msgid "Theme: Numbers ▾"
+#~ msgstr "ਥੀਮ: ਅੰਕ ▾"

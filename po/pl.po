@@ -1,0 +1,199 @@
+# Polish translation for gnome-taquin.
+# Copyright © 2015-2016 the gnome-taquin authors.
+# This file is distributed under the same license as the gnome-taquin package.
+# Joanna Lisek <jlisek@gmail.com>, 2015.
+# Piotr Drąg <piotrdrag@gmail.com>, 2015-2016.
+# Aviary.pl <community-poland@mozilla.org>, 2015-2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-taquin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"PO-Revision-Date: 2016-08-16 10:32+0200\n"
+"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
+"Language-Team: Polish <community-poland@mozilla.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+msgid "15"
+msgstr ""
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+msgid "A classic 15-puzzle game"
+msgstr "Klasyczne 15-częściowe puzzle"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
+#, fuzzy
+msgid "Game;Puzzle;"
+msgstr "puzzle;puzle;"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
+msgid "pyatnashkee"
+msgstr ""
+
+#: src/window.ui:365
+msgid "Puzzle Solved!"
+msgstr ""
+
+#. Tooltip New game
+#: src/window.ui:431
+msgid "Start a new game"
+msgstr "Rozpoczyna nową grę"
+
+#~ msgid "_Sound"
+#~ msgstr "_Dźwięk"
+
+#~ msgid "_Help"
+#~ msgstr "Pomo_c"
+
+#~ msgid "_About"
+#~ msgstr "_O grze"
+
+#~ msgid "_Quit"
+#~ msgstr "Za_kończ"
+
+#~ msgid "3 × 3"
+#~ msgstr "3×3"
+
+#~ msgid "4 × 4"
+#~ msgstr "4×4"
+
+#~ msgid "5 × 5"
+#~ msgstr "5×5"
+
+#~ msgid "Cats"
+#~ msgstr "Koty"
+
+#~ msgid "Numbers"
+#~ msgstr "Liczby"
+
+#~ msgid "15-Puzzle"
+#~ msgstr "15-częściowe puzzle"
+
+#~ msgid "16-Puzzle"
+#~ msgstr "16-częściowe puzzle"
+
+#~ msgid "Go back to the current game"
+#~ msgstr "Wraca do gry"
+
+#~ msgid "_Start Over"
+#~ msgstr "_Nowa gra"
+
+#~ msgid "Configure a new game"
+#~ msgstr "Konfiguruje nową grę"
+
+#~ msgid "GNOME Taquin"
+#~ msgstr "GNOME Taquin"
+
+#~ msgid "Slide tiles to their correct places"
+#~ msgstr "Przesuwanie elementów na właściwe miejsca"
+
+#~ msgid ""
+#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
+#~ msgstr "Taquin to komputerowa wersja 15-częściowych przesuwanych puzzli."
+
+#~ msgid ""
+#~ "The object of Taquin is to move tiles so that they reach their places, "
+#~ "either indicated with numbers, or with parts of a great image."
+#~ msgstr ""
+#~ "Taquin polega na przesuwaniu poszczególnych elementów tak, aby każdy "
+#~ "z nich znalazł się na właściwym miejscu, według numeru lub obrazka."
+
+#~ msgid "A GNOME taquin game preview"
+#~ msgstr "Podgląd gry GNOME Taquin"
+
+#~ msgid "The GNOME Project"
+#~ msgstr "Projekt GNOME"
+
+#~ msgid "Taquin"
+#~ msgstr "Taquin"
+
+#~ msgid "15-puzzle"
+#~ msgstr "15-częściowe puzzle"
+
+#~ msgid "Number of tiles on each edge."
+#~ msgstr "Liczba elementów z każdej strony układanki."
+
+#~ msgid ""
+#~ "The game offers to play with a board size from 3 to 5. The setting could "
+#~ "be set from 2 (good for testing) to 9, limited by the way files are "
+#~ "selected."
+#~ msgstr ""
+#~ "Gra oferuje do wyboru rozmiar planszy od 3 do 5. Może być ustawione na od "
+#~ "2 (dobre do testowania) do 9, ograniczone przez sposób wyboru plików."
+
+#~ msgid "Name of the theme folder."
+#~ msgstr "Nazwa katalogu z motywami."
+
+#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
+#~ msgstr ""
+#~ "Taquin posiada dwa domyślne motywy: „cats” (koty) oraz „numbers” (liczby)."
+
+#~ msgid "Sound"
+#~ msgstr "Dźwięk"
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "Czy odtwarzać dźwięki dla zdarzeń."
+
+#~ msgid "Width of the window in pixels."
+#~ msgstr "Szerokość okna w pikselach."
+
+#~ msgid "Height of the window in pixels."
+#~ msgstr "Wysokość okna w pikselach."
+
+#~ msgid "true if the window is maximized."
+#~ msgstr "Wartość „true” oznacza, że okno jest zmaksymalizowane."
+
+#~ msgid "_Start Game"
+#~ msgstr "_Rozpocznij grę"
+
+#~ msgid "Undo your most recent move"
+#~ msgstr "Cofa ostatni ruch"
+
+#~ msgid "Play the classical 1880s’ 15-puzzle"
+#~ msgstr "Włącza klasyczne 15-częściowe puzzle z lat 80-tych XIX wieku"
+
+#~ msgid "Try this fun alternative 16-puzzle"
+#~ msgstr "Włącza zabawną wersję 16-częściowych puzzli"
+
+#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
+#~ msgstr "Ustawia wielkość krawędzi układanki (2-9, 2 tylko do debugowania)"
+
+#~ msgid "Turn off the sound"
+#~ msgstr "Wyłącza dźwięk"
+
+#~ msgid "Turn on the sound"
+#~ msgstr "Włącza dźwięk"
+
+#~ msgid "Print release version and exit"
+#~ msgstr "Wyświetla wersję wydania i kończy działanie"
+
+#~ msgid "(see COPYING.themes for informations)"
+#~ msgstr "(Plik COPYING.themes zawiera więcej informacji)"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Joanna Lisek <jlisek@gmail.com>, 2015\n"
+#~ "Piotr Drąg <piotrdrag@gmail.com>, 2015-2016\n"
+#~ "Aviary.pl <community-poland@mozilla.org>, 2015-2016"
+
+#~ msgid "You can’t move this tile!"
+#~ msgstr "Nie można przesunąć tego elementu"
+
+#~ msgid "Bravo! You finished the game!"
+#~ msgstr "Gratulacje! Ukończono grę!"
+
+#~ msgid "Size: %d × %d ▾"
+#~ msgstr "Rozmiar: %d×%d ▾"
+
+#~ msgid "Theme: Cats ▾"
+#~ msgstr "Motyw: Koty ▾"
+
+#~ msgid "Theme: Numbers ▾"
+#~ msgstr "Motyw: Liczby ▾"

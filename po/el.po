@@ -1,0 +1,224 @@
+# Greek translation for gnome-taquin.
+# Copyright (C) 2014 gnome-taquin's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-taquin package.
+# Dimitris Spingos <dmtrs32@gmail.com>, 2014.
+# Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2014, 2015.
+# Efstathios Iosifidis <iosifidis@opensuse.org>, 2015, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-taquin master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"PO-Revision-Date: 2016-09-07 00:36+0300\n"
+"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
+"Language-Team: Greek, Modern (1453-) <opensuse-translation-el@opensuse.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Project-Style: gnome\n"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+msgid "15"
+msgstr ""
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+msgid "A classic 15-puzzle game"
+msgstr "Ένα κλασικό παιχνίδι γρίφου 15"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
+#, fuzzy
+msgid "Game;Puzzle;"
+msgstr "γρίφος;puzzle;"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
+msgid "pyatnashkee"
+msgstr ""
+
+#: src/window.ui:365
+#, fuzzy
+msgid "Puzzle Solved!"
+msgstr "Γρίφος 15 με οπή"
+
+#. Tooltip New game
+#: src/window.ui:431
+msgid "Start a new game"
+msgstr "Έναρξη ενός νέου παιχνιδιού"
+
+#~ msgid "_Sound"
+#~ msgstr "Ή_χος"
+
+#~ msgid "_Help"
+#~ msgstr "_Βοήθεια"
+
+#~ msgid "_About"
+#~ msgstr "_Περί"
+
+#~ msgid "_Quit"
+#~ msgstr "Έ_ξοδος"
+
+#~ msgid "3 × 3"
+#~ msgstr "3 × 3"
+
+#~ msgid "4 × 4"
+#~ msgstr "4 × 4"
+
+#~ msgid "5 × 5"
+#~ msgstr "5 × 5"
+
+#~ msgid "Cats"
+#~ msgstr "Γάτες"
+
+#~ msgid "Numbers"
+#~ msgstr "Αριθμοί"
+
+#~ msgid "15-Puzzle"
+#~ msgstr "Γρίφος 15"
+
+#~ msgid "16-Puzzle"
+#~ msgstr "Γρίφος 16"
+
+#~ msgid "Go back to the current game"
+#~ msgstr "Επιστροφή στο τρέχον παιχνίδι"
+
+#~ msgid "_Start Over"
+#~ msgstr "Επανε_κκίνηση"
+
+#~ msgid "Configure a new game"
+#~ msgstr "Ρύθμιση νέου παιχνιδιού"
+
+#~ msgid "GNOME Taquin"
+#~ msgstr "GNOME Taquin"
+
+#~ msgid "Slide tiles to their correct places"
+#~ msgstr "Μετακινήστε τα πλακίδια στις σωστές τους θέσεις."
+
+#~ msgid ""
+#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
+#~ msgstr ""
+#~ "Το Taquin (ο κατεργάρης) είναι μια έκδοση για υπολογιστή του γρίφου-15 "
+#~ "και άλλων συρόμενων γρίφων."
+
+#~ msgid ""
+#~ "The object of Taquin is to move tiles so that they reach their places, "
+#~ "either indicated with numbers, or with parts of a great image."
+#~ msgstr ""
+#~ "Ο σκοπός του Taquin είναι να μετακινηθούν τα πλακίδια έτσι ώστε να "
+#~ "φτάσουν στις θέσεις τους, που δείχνονται είτε με αριθμούς, ή με τμήματα "
+#~ "μιας μεγάλης εικόνας."
+
+#~ msgid "A GNOME taquin game preview"
+#~ msgstr "Προεπισκόπηση του παιχνιδιού GNOME Taquin"
+
+#~ msgid "The GNOME Project"
+#~ msgstr "Έργο GNOME"
+
+#~ msgid "Taquin"
+#~ msgstr "Taquin"
+
+#~ msgid "15-puzzle"
+#~ msgstr "Γρίφος 15"
+
+#~ msgid "Number of tiles on each edge."
+#~ msgstr "Αριθμός των πλακιδίων σε κάθε άκρη."
+
+#~ msgid ""
+#~ "The game offers to play with a board size from 3 to 5. The setting could "
+#~ "be set from 2 (good for testing) to 9, limited by the way files are "
+#~ "selected."
+#~ msgstr ""
+#~ "Μπορείτε να παίξετε με πίνακα μεγέθους από 3 έως 5. Μπορείτε να το "
+#~ "ρυθμίσετε από 2 (καλό για δοκιμή) έως 9, με περιορισμό από τον τρόπο με "
+#~ "τον οποίο επιλέγονται τα αρχεία."
+
+#~ msgid "Name of the theme folder."
+#~ msgstr "Όνομα του φακέλου του θέματος."
+
+#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
+#~ msgstr "Το Taquin έχει δύο προεπιλεγμένα θέματα: 'γάτες' και 'αριθμοί'."
+
+#~ msgid "Sound"
+#~ msgstr "Ήχος"
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "Αν θα παίζονται ή όχι ήχοι συμβάντων."
+
+#~ msgid "Width of the window in pixels."
+#~ msgstr "Πλάτος του παραθύρου σε εικονοστοιχεία."
+
+#~ msgid "Height of the window in pixels."
+#~ msgstr "Ύψος του παραθύρου σε εικονοστοιχεία."
+
+#~ msgid "true if the window is maximized."
+#~ msgstr "αληθές αν το παράθυρο είναι μεγιστοποιημένο."
+
+#~ msgid "_Start Game"
+#~ msgstr "Ένα_ρξη παιχνιδιού"
+
+#~ msgid "Undo your most recent move"
+#~ msgstr "Αναίρεση της πιο πρόσφατης κίνησης"
+
+#~ msgid "Play the classical 1880s’ 15-puzzle"
+#~ msgstr "Παίξτε τον κλασικό γρίφο 15 του 1880"
+
+#~ msgid "Try this fun alternative 16-puzzle"
+#~ msgstr "Δοκιμάστε αυτόν τον διασκεδαστικό εναλλακτικό γρίφο 16"
+
+#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
+#~ msgstr "Ορίζει το μέγεθος των άκρων του γρίφου (3-5, 2-9 για αποσφαλμάτωση)"
+
+#~ msgid "Turn off the sound"
+#~ msgstr "Απενεργοποίηση του ήχου"
+
+#~ msgid "Turn on the sound"
+#~ msgstr "Ενεργοποίηση του ήχου"
+
+#~ msgid "Print release version and exit"
+#~ msgstr "Εμφάνιση της έκδοσης και έξοδος"
+
+#~ msgid "(see COPYING.themes for informations)"
+#~ msgstr "(δείτε COPYING.themes για πληροφορίες)"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Ελληνική μεταφραστική ομάδα του GNOME\n"
+#~ " Δημήτρης Σπίγγος <dmtrs32@gmail.com>\n"
+#~ "\n"
+#~ "Για περισσότερες πληροφορίες, επισκεφθείτε τη σελίδα\n"
+#~ "http://gnome.gr/"
+
+#~ msgid "You can’t move this tile!"
+#~ msgstr "Δεν μπορείτε να μετακινήσετε αυτό το πλακίδιο!"
+
+#~ msgid "Bravo! You finished the game!"
+#~ msgstr "Μπράβο! Τελειώσατε το παιχνίδι!"
+
+#~ msgid "Size: %d × %d ▾"
+#~ msgstr "Μέγεθος: %d × %d ▾"
+
+#~ msgid "Theme: Cats ▾"
+#~ msgstr "Θέμα: Γάτες ▾"
+
+#~ msgid "Theme: Numbers ▾"
+#~ msgstr "Θέμα: Αριθμοί ▾"
+
+#~ msgid "Start a new game as configured"
+#~ msgstr "Εκκίνηση νέου παιχνιδιού όπως ρυθμίστηκε"
+
+#~ msgid "Puzzle with arrays"
+#~ msgstr "Γρίφος με πίνακες"
+
+#~ msgid ""
+#~ "The game is tested and offers to select a size from 3 to 5. There is a "
+#~ "human-understandable maximum value to avoid some bugs. Maximum size is 9 "
+#~ "as the image files are randomly selected depending on the first character "
+#~ "of their filename."
+#~ msgstr ""
+#~ "Το παιχνίδι δοκιμάζεται και προσφέρει την επιλογή ενός μεγέθους από 3 έως "
+#~ "5. Υπάρχει μια μέγιστη τιμή κατανοητή από τον άνθρωπο για την αποφυγή "
+#~ "κάποιων σφαλμάτων. Το μέγιστο μέγεθος είναι 9 καθώς τα αρχεία εικόνας "
+#~ "επιλέγονται τυχαία ανάλογα με τον πρώτο χαρακτήρα του ονόματος του "
+#~ "αρχείου τους."

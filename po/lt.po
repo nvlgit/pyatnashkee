@@ -1,0 +1,217 @@
+# Lithuanian translation for gnome-taquin.
+# Copyright (C) 2015 gnome-taquin's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-taquin package.
+# FULL NAME <EMAIL@ADDRESS>, 2015.
+# Aurimas Černius <aurisc4@gmail.com>, 2015, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-taquin master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"PO-Revision-Date: 2016-08-14 21:25+0300\n"
+"Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
+"Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Gtranslator 2.91.7\n"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+msgid "15"
+msgstr ""
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+msgid "A classic 15-puzzle game"
+msgstr "Klasikinis 15-galvosūkio žaidimas"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
+#, fuzzy
+msgid "Game;Puzzle;"
+msgstr "galvosūkis;"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
+msgid "pyatnashkee"
+msgstr ""
+
+#: src/window.ui:365
+#, fuzzy
+msgid "Puzzle Solved!"
+msgstr "15-galvosūkis su skyle"
+
+#. Tooltip New game
+#: src/window.ui:431
+msgid "Start a new game"
+msgstr "Pradėti naują žaidimą"
+
+#~ msgid "_Sound"
+#~ msgstr "_Garsas"
+
+#~ msgid "_Help"
+#~ msgstr "_Žinynas"
+
+#~ msgid "_About"
+#~ msgstr "_Apie"
+
+#~ msgid "_Quit"
+#~ msgstr "_Išeiti"
+
+#~ msgid "3 × 3"
+#~ msgstr "3 × 3"
+
+#~ msgid "4 × 4"
+#~ msgstr "4 × 4"
+
+#~ msgid "5 × 5"
+#~ msgstr "5 × 5"
+
+#~ msgid "Cats"
+#~ msgstr "Katinai"
+
+#~ msgid "Numbers"
+#~ msgstr "Skaičiai"
+
+#~ msgid "15-Puzzle"
+#~ msgstr "15-galvosūkis"
+
+#~ msgid "16-Puzzle"
+#~ msgstr "16-galvosūkis"
+
+#~ msgid "Go back to the current game"
+#~ msgstr "Grįžti į dabartinį žaidimą"
+
+#~ msgid "_Start Over"
+#~ msgstr "Žaisti iš _naujo"
+
+#~ msgid "Configure a new game"
+#~ msgstr "Konfigūruoti naują žaidimą"
+
+#~ msgid "GNOME Taquin"
+#~ msgstr "GNOME Taquin"
+
+#~ msgid "Slide tiles to their correct places"
+#~ msgstr "Tempkite koklius į jų teisingas vietas"
+
+#~ msgid ""
+#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
+#~ msgstr ""
+#~ "Taquin yra 15-galvosūkio ir kitų tempimo galvosūkių kompiuterinė versija."
+
+#~ msgid ""
+#~ "The object of Taquin is to move tiles so that they reach their places, "
+#~ "either indicated with numbers, or with parts of a great image."
+#~ msgstr ""
+#~ "Taquin tikslas yra perkelti koklius taip, kad kiekvienas atsidurtų savo "
+#~ "vietoje, nurodytoje skaičiais arba didesnio paveikslėlio dalimis."
+
+#~ msgid "A GNOME taquin game preview"
+#~ msgstr "GNOME taquin žaidimo peržiūra"
+
+#~ msgid "The GNOME Project"
+#~ msgstr "GNOME projektas"
+
+#~ msgid "Taquin"
+#~ msgstr "Taquin"
+
+#~ msgid "15-puzzle"
+#~ msgstr "15-galvosūkis"
+
+#~ msgid "Number of tiles on each edge."
+#~ msgstr "Koklių skaičius kiekviename pakraštyje."
+
+#~ msgid ""
+#~ "The game offers to play with a board size from 3 to 5. The setting could "
+#~ "be set from 2 (good for testing) to 9, limited by the way files are "
+#~ "selected."
+#~ msgstr ""
+#~ "Žaidimas siūlo žaisti lentoje nuo 3 iki 5. Nustatymas gali būti nuo 2 "
+#~ "(gerai testavimui) iki 9, ribojant pagal failų pasirinkimą."
+
+#~ msgid "Name of the theme folder."
+#~ msgstr "Temos aplanko pavadinimas."
+
+#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
+#~ msgstr "Taquin turi dvi numatytasias temas: „katinai“ ir „skaičiai“."
+
+#~ msgid "Sound"
+#~ msgstr "Garsas"
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "Ar groti įvykių garsus."
+
+#~ msgid "Width of the window in pixels."
+#~ msgstr "Lango plotis pikseliais."
+
+#~ msgid "Height of the window in pixels."
+#~ msgstr "Lango aukštis pikseliais."
+
+#~ msgid "true if the window is maximized."
+#~ msgstr "Teigiama, jei langas yra išdidintas."
+
+#~ msgid "_Start Game"
+#~ msgstr "_Pradėti žaidimą"
+
+#~ msgid "Undo your most recent move"
+#~ msgstr "Atšaukti paskutinį ėjimą"
+
+#~ msgid "Play the classical 1880s’ 15-puzzle"
+#~ msgstr "Žaisti klasikinį 1880-ųjų 15-galvosūkį"
+
+#~ msgid "Try this fun alternative 16-puzzle"
+#~ msgstr "Bandyti šį smagų alternatyvų 16-galvosūkį"
+
+#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
+#~ msgstr "Nustato galvosūkio pakraščių dydį (3-5, 2-9 derinimui)"
+
+#~ msgid "Turn off the sound"
+#~ msgstr "Išjungti garsą"
+
+#~ msgid "Turn on the sound"
+#~ msgstr "Įjungti garsą"
+
+#~ msgid "Print release version and exit"
+#~ msgstr "Atspausdinti leidimo versiją ir išeiti"
+
+#~ msgid "(see COPYING.themes for informations)"
+#~ msgstr "(daugiau informacijos rasite faile COPYING.themes)"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Išvertė:\n"
+#~ "Aurimas Černius <aurisc4@gmail.com>"
+
+#~ msgid "You can’t move this tile!"
+#~ msgstr "Negalima perkelti šio koklio!"
+
+#~ msgid "Bravo! You finished the game!"
+#~ msgstr "Sveikiname! Jūs užbaigėte žaidimą!"
+
+#~ msgid "Size: %d × %d ▾"
+#~ msgstr "Dydis: %d × %d ▾"
+
+#~ msgid "Theme: Cats ▾"
+#~ msgstr "Tema: katinai ▾"
+
+#~ msgid "Theme: Numbers ▾"
+#~ msgstr "Tema: skaičiai ▾"
+
+#~| msgid "Start a new game"
+#~ msgid "Start a new game as configured"
+#~ msgstr "Pradėti naują žaidimą kaip sukonfigūruota"
+
+#~ msgid "Puzzle with arrays"
+#~ msgstr "Galvosūkis su masyvais"
+
+#~ msgid ""
+#~ "The game is tested and offers to select a size from 3 to 5. There is a "
+#~ "human-understandable maximum value to avoid some bugs. Maximum size is 9 "
+#~ "as the image files are randomly selected depending on the first character "
+#~ "of their filename."
+#~ msgstr ""
+#~ "Žaidimas yra testuojamas ir siūlo rinktis dydį nuo 3 iki 5. Yra "
+#~ "didžiausia žmogui suvokiama vertė siekiant išvengti kai kurių klaidų. "
+#~ "Didžiausias dydis yra 9, kadangi paveikslėlių failai yra pasirenkami "
+#~ "atsitiktinai pagal pirmąjį failo pavadinimo simbolį."

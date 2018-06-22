@@ -1,0 +1,200 @@
+# -*- compile-command: "ko-po-check ko.po" -*-
+#
+# Korean translation for gnome-taquin.
+# This file is distributed under the same license as the gnome-taquin package.
+#
+# Changwoo Ryu <cwryu@debian.org>, 2015-2016.
+# DaeHyun Sung <sungdh86@gmail.com>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-taquin master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"PO-Revision-Date: 2017-09-02 17:07+0900\n"
+"Last-Translator: DaeHyun Sung <sungdh86@gmail.com>\n"
+"Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.12\n"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+msgid "15"
+msgstr ""
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+msgid "A classic 15-puzzle game"
+msgstr "전통적인 15-퍼즐 게임"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
+#, fuzzy
+msgid "Game;Puzzle;"
+msgstr "puzzle;퍼즐;"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
+msgid "pyatnashkee"
+msgstr ""
+
+#: src/window.ui:365
+msgid "Puzzle Solved!"
+msgstr ""
+
+#. Tooltip New game
+#: src/window.ui:431
+msgid "Start a new game"
+msgstr "새 게임을 시작합니다"
+
+#~ msgid "_Sound"
+#~ msgstr "소리(_S)"
+
+#~ msgid "_Help"
+#~ msgstr "도움말(_H)"
+
+#~ msgid "_About"
+#~ msgstr "정보(_A)"
+
+#~ msgid "_Quit"
+#~ msgstr "끝내기(_Q)"
+
+#~ msgid "3 × 3"
+#~ msgstr "3 × 3"
+
+#~ msgid "4 × 4"
+#~ msgstr "4 × 4"
+
+#~ msgid "5 × 5"
+#~ msgstr "5 × 5"
+
+#~ msgid "Cats"
+#~ msgstr "고양이"
+
+#~ msgid "Numbers"
+#~ msgstr "숫자"
+
+#~ msgid "15-Puzzle"
+#~ msgstr "15-퍼즐"
+
+#~ msgid "16-Puzzle"
+#~ msgstr "16-퍼즐"
+
+#~ msgid "Go back to the current game"
+#~ msgstr "현재 게임으로 돌아가기"
+
+#~ msgid "_Start Over"
+#~ msgstr "처음부터 시작(_S)"
+
+#~ msgid "Configure a new game"
+#~ msgstr "새 게임을 설정합니다"
+
+#~ msgid "GNOME Taquin"
+#~ msgstr "그놈 타킨"
+
+#~ msgid "Slide tiles to their correct places"
+#~ msgstr "타일을 밀어서 올바른 위치에 놓습니다"
+
+#~ msgid ""
+#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
+#~ msgstr "타킨은 컴퓨터 버전의 15-퍼즐 및 기타 타일 밀기 퍼즐입니다."
+
+#~ msgid ""
+#~ "The object of Taquin is to move tiles so that they reach their places, "
+#~ "either indicated with numbers, or with parts of a great image."
+#~ msgstr ""
+#~ "타킨의 목표는 타일을 움직여서 자기 위치에 놓는 것입니다. 숫자로 표시된 위"
+#~ "치에 놓거나, 전체 그림을 맞추는 방식으로 놓습니다."
+
+#~ msgid "A GNOME taquin game preview"
+#~ msgstr "그놈 타킨 게임 미리보기"
+
+#~ msgid "The GNOME Project"
+#~ msgstr "그놈 프로젝트"
+
+#~ msgid "Taquin"
+#~ msgstr "타킨"
+
+#~ msgid "15-puzzle"
+#~ msgstr "15-퍼즐"
+
+#~ msgid "Number of tiles on each edge."
+#~ msgstr "각 가장자리의 타일 수."
+
+#~ msgid ""
+#~ "The game offers to play with a board size from 3 to 5. The setting could "
+#~ "be set from 2 (good for testing) to 9, limited by the way files are "
+#~ "selected."
+#~ msgstr ""
+#~ "게임에서는 3에서 5까지 크기로 게임할 수 있습니다. 설정은 2(테스트용)에서 9"
+#~ "까지 할 수 있습니다. 파일 선택 방식에 따라서 제한될 수 잇습니다."
+
+#~ msgid "Name of the theme folder."
+#~ msgstr "테마 폴더의 이름."
+
+#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
+#~ msgstr "타킨에 두 개의 기본 테마가 있습니다: 'cats' 및 'numbers'."
+
+#~ msgid "Sound"
+#~ msgstr "소리"
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "이벤트 소리를 낼지 여부."
+
+#~ msgid "Width of the window in pixels."
+#~ msgstr "창의 너비, 픽셀 단위."
+
+#~ msgid "Height of the window in pixels."
+#~ msgstr "창의 높이, 픽셀 단위."
+
+#~ msgid "true if the window is maximized."
+#~ msgstr "참이면 창을 최대화."
+
+#~ msgid "_Start Game"
+#~ msgstr "게임 시작(_S)"
+
+#~ msgid "Undo your most recent move"
+#~ msgstr "가장 최근의 움직임을 실행 취소합니다"
+
+#~ msgid "Play the classical 1880s’ 15-puzzle"
+#~ msgstr "전통적인 1880년대 스타일 15-퍼즐을 플레이합니다"
+
+#~ msgid "Try this fun alternative 16-puzzle"
+#~ msgstr "새로운 16-퍼즐을 해 보십시오"
+
+#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
+#~ msgstr "퍼즐 가장자리 크기를 설정합니다 (3-5, 디버깅용으로 2-9)"
+
+#~ msgid "Turn off the sound"
+#~ msgstr "소리를 끕니다"
+
+#~ msgid "Turn on the sound"
+#~ msgstr "소리를 켭니다"
+
+#~ msgid "Print release version and exit"
+#~ msgstr "릴리스 버전을 표시하고 끝납니다"
+
+#~ msgid "(see COPYING.themes for informations)"
+#~ msgstr "(정보는 COPYING.themes 파일을 참고하십시오)"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "류창우 <cwryu@debian.org>\n"
+#~ "성대현 <sungdh86@gmail.com>"
+
+#~ msgid "You can’t move this tile!"
+#~ msgstr "이 타일을 움직일 수 없습니다!"
+
+#~ msgid "Bravo! You finished the game!"
+#~ msgstr "만세! 게임을 마쳤습니다!"
+
+#~ msgid "Size: %d × %d ▾"
+#~ msgstr "크기: %d × %d ▾"
+
+#~ msgid "Theme: Cats ▾"
+#~ msgstr "테마: Cats ▾"
+
+#~ msgid "Theme: Numbers ▾"
+#~ msgstr "테마: 숫자 ▾"
+
+#~ msgid "Start a new game as configured"
+#~ msgstr "설정한 대로 새 게임을 시작합니다"

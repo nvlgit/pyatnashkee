@@ -13,7 +13,7 @@ pyatnashkee_deps = [
 
 c_args = [
   '-DVERSION="' + meson.project_version() + '"',
-  '-DGETTEXT_PACKAGE="nautilus-metadata-editor-extension"',
+  '-DGETTEXT_PACKAGE="pyatnashkee"',
   '-DLOCALEDIR="' + join_paths(prefix, localedir) + '"'
 ]
 

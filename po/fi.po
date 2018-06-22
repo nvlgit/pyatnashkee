@@ -1,0 +1,197 @@
+# Finnish translation for gnome-taquin.
+# Copyright (C) 2015 gnome-taquin's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-taquin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2015, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-taquin master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"PO-Revision-Date: 2016-08-14 15:39+0300\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
+"Language-Team: suomi <lokalisointi-lista@googlegroups.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.7\n"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+msgid "15"
+msgstr ""
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+msgid "A classic 15-puzzle game"
+msgstr "Klassinen 15-pulmapeli"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
+#, fuzzy
+msgid "Game;Puzzle;"
+msgstr "puzzle;pulma;"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
+msgid "pyatnashkee"
+msgstr ""
+
+#: src/window.ui:365
+msgid "Puzzle Solved!"
+msgstr ""
+
+#. Tooltip New game
+#: src/window.ui:431
+msgid "Start a new game"
+msgstr "Käynnistä uusi peli"
+
+#~ msgid "_Sound"
+#~ msgstr "_Ääni"
+
+#~ msgid "_Help"
+#~ msgstr "_Ohje"
+
+#~ msgid "_About"
+#~ msgstr "_Tietoja"
+
+#~ msgid "_Quit"
+#~ msgstr "_Lopeta"
+
+#~ msgid "3 × 3"
+#~ msgstr "3 × 3"
+
+#~ msgid "4 × 4"
+#~ msgstr "4 × 4"
+
+#~ msgid "5 × 5"
+#~ msgstr "5 × 5"
+
+#~ msgid "Cats"
+#~ msgstr "Kissat"
+
+#~ msgid "Numbers"
+#~ msgstr "Numerot"
+
+#~ msgid "15-Puzzle"
+#~ msgstr "15-peli"
+
+#~ msgid "16-Puzzle"
+#~ msgstr "16-peli"
+
+#~ msgid "Go back to the current game"
+#~ msgstr "Siirry takaisin nykyiseen peliisi"
+
+#~ msgid "_Start Over"
+#~ msgstr "Aloita _uudelleen"
+
+#~ msgid "Configure a new game"
+#~ msgstr "Määritä uusi peli"
+
+#~ msgid "GNOME Taquin"
+#~ msgstr "Gnomen Taquin"
+
+#~ msgid "Slide tiles to their correct places"
+#~ msgstr "Liu'uta laatat oikeille kohdilleen"
+
+#~ msgid ""
+#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
+#~ msgstr ""
+#~ "Taquin on tietokoneversio 15-pelistä ja muista liu'utuksella "
+#~ "ratkaistavista pulmapeleistä."
+
+#~ msgid ""
+#~ "The object of Taquin is to move tiles so that they reach their places, "
+#~ "either indicated with numbers, or with parts of a great image."
+#~ msgstr ""
+#~ "Tavoite Taquinissa on siirtää laatat oikeille kohdilleen siten, että ne "
+#~ "muodostavat numerojatkumon tai kuvan."
+
+#~ msgid "A GNOME taquin game preview"
+#~ msgstr "Gnome Taquin -pelin esikatselu"
+
+#~ msgid "The GNOME Project"
+#~ msgstr "Gnome-projekti"
+
+#~ msgid "Taquin"
+#~ msgstr "Taquin"
+
+#~ msgid "15-puzzle"
+#~ msgstr "15-peli"
+
+#~ msgid "Number of tiles on each edge."
+#~ msgstr "Laattojen lukumäärä joka sivulla."
+
+#~ msgid ""
+#~ "The game offers to play with a board size from 3 to 5. The setting could "
+#~ "be set from 2 (good for testing) to 9, limited by the way files are "
+#~ "selected."
+#~ msgstr ""
+#~ "Peli tarjoaa mahdollisuuden pelata laudalla, jonka koko vaihtelee välillä "
+#~ "3-5. Asetus on mahdollista asettaa arvosta 2 (hyvä testausta varten) "
+#~ "arvoon 9 asti, rajoitettuna tavalla jolla tiedostot valitaan."
+
+#~ msgid "Name of the theme folder."
+#~ msgstr "Teemakansion nimi."
+
+#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
+#~ msgstr "Taquin sisältää kaksi oletusteemaa: 'cats' ja 'numbers'."
+
+#~ msgid "Sound"
+#~ msgstr "Ääni"
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "Toistetaanko peliäänet."
+
+#~ msgid "Width of the window in pixels."
+#~ msgstr "Ikkunan leveys pikseleissä."
+
+#~ msgid "Height of the window in pixels."
+#~ msgstr "Ikkunan korkeus pikseleissä."
+
+#~ msgid "true if the window is maximized."
+#~ msgstr "tosi jos ikkuna on suurennettu."
+
+#~ msgid "_Start Game"
+#~ msgstr "_Aloita peli"
+
+#~ msgid "Undo your most recent move"
+#~ msgstr "Kumoa viimeisin siirtosi"
+
+#~ msgid "Play the classical 1880s’ 15-puzzle"
+#~ msgstr "Pelaa klassista 1870-luvun 15-peliä"
+
+#~ msgid "Try this fun alternative 16-puzzle"
+#~ msgstr "Kokeile tätä hauskaa vaihtoehtoista 16-peliä"
+
+#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
+#~ msgstr "Aseta pulman sivujen koko (3-5, 2-9 vianselvitystä varten)"
+
+#~ msgid "Turn off the sound"
+#~ msgstr "Poista äänet käytöstä"
+
+#~ msgid "Turn on the sound"
+#~ msgstr "Ota äänet käyttöön"
+
+#~ msgid "Print release version and exit"
+#~ msgstr "Tulosta julkaisuversio ja poistu"
+
+#~ msgid "(see COPYING.themes for informations)"
+#~ msgstr "(lisätietoja tiedostossa COPYING.themes)"
+
+#~ msgid "translator-credits"
+#~ msgstr "Jiri Grönroos"
+
+#~ msgid "You can’t move this tile!"
+#~ msgstr "Et voi siirtää tätä laattaa!"
+
+#~ msgid "Bravo! You finished the game!"
+#~ msgstr "Onnittelut, läpäisit pelin!"
+
+#~ msgid "Size: %d × %d ▾"
+#~ msgstr "Koko: %d × %d ▾"
+
+#~ msgid "Theme: Cats ▾"
+#~ msgstr "Teema: kissat ▾"
+
+#~ msgid "Theme: Numbers ▾"
+#~ msgstr "Teema: numerot ▾"

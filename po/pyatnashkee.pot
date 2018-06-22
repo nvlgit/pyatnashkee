@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pyatnashkee\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-26 14:03+0300\n"
+"POT-Creation-Date: 2018-06-22 21:32+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,28 +17,27 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: data/com.github.nvlgit.pyatnashkee.desktop.in:4
-msgid "Classic sliding puzzle game"
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+msgid "15"
 msgstr ""
 
-#: data/com.github.nvlgit.pyatnashkee.desktop.in:5
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+msgid "A classic 15-puzzle game"
+msgstr ""
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
 msgid "Game;Puzzle;"
 msgstr ""
 
-#: data/com.github.nvlgit.pyatnashkee.desktop.in:9
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
 msgid "pyatnashkee"
 msgstr ""
 
-#: src/window.ui:42
+#: src/window.ui:365
 msgid "Puzzle Solved!"
 msgstr ""
 
-#. Puzzle
-#: src/window.ui:373
-msgid "Puzzle"
-msgstr ""
-
 #. Tooltip New game
-#: src/window.ui:387
-msgid "New game"
+#: src/window.ui:431
+msgid "Start a new game"
 msgstr ""

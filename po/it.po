@@ -1,0 +1,198 @@
+# Italian translation for gnome-taquin.
+# Copyright (C) 2015, 2016 gnome-taquin's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-taquin package.
+# Milo Casagrande <milo@milo.name>, 2015, 2016.
+# Gianvito Cavasoli <gianvito@gmx.it>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-taquin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"PO-Revision-Date: 2016-10-04 15:23+0200\n"
+"Last-Translator: Gianvito Cavasoli <gianvito@gmx.it>\n"
+"Language-Team: Italiano <gnome-it-list@gnome.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.7\n"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+msgid "15"
+msgstr ""
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+msgid "A classic 15-puzzle game"
+msgstr "Il classico gioco del 15"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
+#, fuzzy
+msgid "Game;Puzzle;"
+msgstr "puzzle;rompicapo;"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
+msgid "pyatnashkee"
+msgstr ""
+
+#: src/window.ui:365
+msgid "Puzzle Solved!"
+msgstr ""
+
+#. Tooltip New game
+#: src/window.ui:431
+msgid "Start a new game"
+msgstr "Avvia _nuova partita"
+
+#~ msgid "_Sound"
+#~ msgstr "_Audio"
+
+#~ msgid "_Help"
+#~ msgstr "A_iuto"
+
+#~ msgid "_About"
+#~ msgstr "I_nformazioni"
+
+#~ msgid "_Quit"
+#~ msgstr "_Esci"
+
+#~ msgid "3 × 3"
+#~ msgstr "3 × 3"
+
+#~ msgid "4 × 4"
+#~ msgstr "4 × 4"
+
+#~ msgid "5 × 5"
+#~ msgstr "5 × 5"
+
+#~ msgid "Cats"
+#~ msgstr "Gatti"
+
+#~ msgid "Numbers"
+#~ msgstr "Numeri"
+
+#~ msgid "15-Puzzle"
+#~ msgstr "Gioco del 15"
+
+#~ msgid "16-Puzzle"
+#~ msgstr "Gioco del 16"
+
+#~ msgid "Go back to the current game"
+#~ msgstr "Torna alla partita in corso"
+
+#~ msgid "_Start Over"
+#~ msgstr "_Riparti"
+
+#~ msgid "Configure a new game"
+#~ msgstr "Configura una nuova partita"
+
+#~ msgid "GNOME Taquin"
+#~ msgstr "Taquin GNOME"
+
+#~ msgid "Slide tiles to their correct places"
+#~ msgstr "Fai scorrere le tessere nella loro corretta posizione"
+
+#~ msgid ""
+#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
+#~ msgstr ""
+#~ "Taquin è la versione per computer del classico gioco del 15 e di altri "
+#~ "puzzle simili."
+
+#~ msgid ""
+#~ "The object of Taquin is to move tiles so that they reach their places, "
+#~ "either indicated with numbers, or with parts of a great image."
+#~ msgstr ""
+#~ "L'obiettivo di Taquin è quello di spostare le tessere in modo tale che "
+#~ "raggiungano la loro designata posizione, indicata da numeri o da parti di "
+#~ "un'immagine."
+
+#~ msgid "A GNOME taquin game preview"
+#~ msgstr "Un'anteprima del gioco GNOME taquin"
+
+#~ msgid "The GNOME Project"
+#~ msgstr "Il progetto GNOME"
+
+#~ msgid "Taquin"
+#~ msgstr "Taquin"
+
+#~ msgid "15-puzzle"
+#~ msgstr "Gioco del 15"
+
+#~ msgid "Number of tiles on each edge."
+#~ msgstr "Numero di caselle su ogni lato."
+
+#~ msgid ""
+#~ "The game offers to play with a board size from 3 to 5. The setting could "
+#~ "be set from 2 (good for testing) to 9, limited by the way files are "
+#~ "selected."
+#~ msgstr ""
+#~ "Il gioco consente di giocare con una tavola di dimensione 3 o 5. "
+#~ "L'impostazione può essere modificata a partire dal valore 2 (utile per "
+#~ "eseguire test) fino a 9, limitata da come i file sono selezionati."
+
+#~ msgid "Name of the theme folder."
+#~ msgstr "Nome della cartella del tema."
+
+#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
+#~ msgstr "Taquin dispone di due temi predefiniti: \"cats\" e \"numbers\"."
+
+#~ msgid "Sound"
+#~ msgstr "Audio"
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "Indica se riprodurre dei suoni per gli eventi."
+
+#~ msgid "Width of the window in pixels."
+#~ msgstr "Larghezza della finestra in pixel."
+
+#~ msgid "Height of the window in pixels."
+#~ msgstr "Altezza della finestra in pixel."
+
+#~ msgid "true if the window is maximized."
+#~ msgstr "VERO se la finestra è massimizzata"
+
+#~ msgid "_Start Game"
+#~ msgstr "_Avvia partita"
+
+#~ msgid "Undo your most recent move"
+#~ msgstr "Annulla la mossa più recente"
+
+#~ msgid "Play the classical 1880s’ 15-puzzle"
+#~ msgstr "Gioca al classico puzzle dei 15"
+
+#~ msgid "Try this fun alternative 16-puzzle"
+#~ msgstr "Prova questa alternativa divertente del 16"
+
+#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
+#~ msgstr "Imposta la dimensione dei lati del puzzle (3-5, 2-9 per debug)"
+
+#~ msgid "Turn off the sound"
+#~ msgstr "Disattiva audio"
+
+#~ msgid "Turn on the sound"
+#~ msgstr "Attiva audio"
+
+#~ msgid "Print release version and exit"
+#~ msgstr "Stampa la versione ed esce"
+
+#~ msgid "(see COPYING.themes for informations)"
+#~ msgstr "(consultare COPYING.themes per informazioni)"
+
+#~ msgid "translator-credits"
+#~ msgstr "Milo Casagrande <milo@milo.name>"
+
+#~ msgid "You can’t move this tile!"
+#~ msgstr "Non puoi muovere questa tessera!"
+
+#~ msgid "Bravo! You finished the game!"
+#~ msgstr "Ottimo! Hai terminato la partita!"
+
+#~ msgid "Size: %d × %d ▾"
+#~ msgstr "Dimensione: %d × %d ▾"
+
+#~ msgid "Theme: Cats ▾"
+#~ msgstr "Tema: Gatti ▾"
+
+#~ msgid "Theme: Numbers ▾"
+#~ msgstr "Tema: Numeri ▾"

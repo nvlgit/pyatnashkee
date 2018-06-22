@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# mousavi.arash@gmail.com <mousavi.arash@gmail.com>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"PO-Revision-Date: 2016-09-15 11:54+0430\n"
+"Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+msgid "15"
+msgstr ""
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+msgid "A classic 15-puzzle game"
+msgstr "یک بازی ۱۵-پازل کلاسیک"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
+#, fuzzy
+msgid "Game;Puzzle;"
+msgstr "puzzle;پازل;"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
+msgid "pyatnashkee"
+msgstr ""
+
+#: src/window.ui:365
+msgid "Puzzle Solved!"
+msgstr ""
+
+#. Tooltip New game
+#: src/window.ui:431
+msgid "Start a new game"
+msgstr "شروع بازی جدید"
+
+#~ msgid "_Sound"
+#~ msgstr "_صدا"
+
+#~ msgid "_Help"
+#~ msgstr "_راهنما"
+
+#~ msgid "_About"
+#~ msgstr "_درباره"
+
+#~ msgid "_Quit"
+#~ msgstr "_خروج"
+
+#~ msgid "3 × 3"
+#~ msgstr "۳ × ۳"
+
+#~ msgid "4 × 4"
+#~ msgstr "۴ × ۴"
+
+#~ msgid "5 × 5"
+#~ msgstr "۵ × ۵"
+
+#~ msgid "Cats"
+#~ msgstr "گربه‌ها"
+
+#~ msgid "Numbers"
+#~ msgstr "اعداد"
+
+#~ msgid "15-Puzzle"
+#~ msgstr "۱۵-پازل"
+
+#~ msgid "16-Puzzle"
+#~ msgstr "۱۶-پازل"
+
+#~ msgid "Go back to the current game"
+#~ msgstr "برگشت به بازی فعلی"
+
+#~ msgid "_Start Over"
+#~ msgstr "_شروع دوباره"
+
+#~ msgid "Configure a new game"
+#~ msgstr "پیکربندی بازی جدید"
+
+#~ msgid "GNOME Taquin"
+#~ msgstr "گنوم تاکین"
+
+#~ msgid "Slide tiles to their correct places"
+#~ msgstr "مهره‌ها را به جای صحیح خود جابه‌جا کنید"
+
+#~ msgid ""
+#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
+#~ msgstr ""
+#~ "«تاکین» یک نسخه رایانه‌ای از ۱۵-پازل و سایر بازی‌های پازل اسلایدی است."
+
+#~ msgid ""
+#~ "The object of Taquin is to move tiles so that they reach their places, "
+#~ "either indicated with numbers, or with parts of a great image."
+#~ msgstr ""
+#~ "هدف در «تاکین» این است که مهره را برای رسیدن به جایگاه خود جابه‌جا کنید، "
+#~ "یا از طریق اعداد، یا با قسمتی از یک عکس."
+
+#~ msgid "A GNOME taquin game preview"
+#~ msgstr "پیش‌نمایش بازی گنوم تاکین"
+
+#~ msgid "The GNOME Project"
+#~ msgstr "پروژه گنوم"
+
+#~ msgid "Taquin"
+#~ msgstr "تاکین"
+
+#~ msgid "15-puzzle"
+#~ msgstr "۱۵-پازل"
+
+#~ msgid "Number of tiles on each edge."
+#~ msgstr "تعداد مهره‌ها در هر گوشه."
+
+#~ msgid ""
+#~ "The game offers to play with a board size from 3 to 5. The setting could "
+#~ "be set from 2 (good for testing) to 9, limited by the way files are "
+#~ "selected."
+#~ msgstr ""
+#~ "بازی امکان انتخاب تخته‌ای با اندازه ۳ تا ۵ را می‌دهد. تنظیمات می‌تواند از ۲ "
+#~ "(خوب برای آزمایش) تا ۹ تنظیم شوند، محدود به پرونده‌های که انتخاب می‌شوند."
+
+#~ msgid "Name of the theme folder."
+#~ msgstr "نام شاخه تم‌ها."
+
+#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
+#~ msgstr "تاکین شامل دو تم پیش‌فرض است: «گربه‌ها» و «اعداد»"
+
+#~ msgid "Sound"
+#~ msgstr "صدا"
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "اینکه آیا صدایی برای رویدادها پخش شود یا خیر."
+
+#~ msgid "Width of the window in pixels."
+#~ msgstr "عرض پنجره به پیکسل."
+
+#~ msgid "Height of the window in pixels."
+#~ msgstr "ارتفاع پنجره به پیکسل."
+
+#~ msgid "true if the window is maximized."
+#~ msgstr "درست اگر پنجره بیشینه باشد."
+
+#~ msgid "_Start Game"
+#~ msgstr "_شروع بازی"
+
+#~ msgid "Undo your most recent move"
+#~ msgstr "برگردان آخرین حرکت"
+
+#~ msgid "Play the classical 1880s’ 15-puzzle"
+#~ msgstr "بازی ۱۵-پازل کلاسیک ۱۸۸۰"
+
+#~ msgid "Try this fun alternative 16-puzzle"
+#~ msgstr "این ۱۶-پازل را به عنوان یک جایگزین هیجان انگیز امتحان کنید"
+
+#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
+#~ msgstr "تنظیم اندازهٔ گوشه‌های پازل (۳-۵، ۲-۹ برای رفع‌اشکال)"
+
+#~ msgid "Turn off the sound"
+#~ msgstr "خاموش کردن صدا"
+
+#~ msgid "Turn on the sound"
+#~ msgstr "روشن کردن صدا"
+
+#~ msgid "Print release version and exit"
+#~ msgstr "نمایش نسخه‌ی انتشار و خروج"
+
+#~ msgid "(see COPYING.themes for informations)"
+#~ msgstr "(برای اطلاعات بیشتر COPYING.themes را ببینید)"
+
+#~ msgid "translator-credits"
+#~ msgstr "آرش موسوی <mousavi.arash@gmail.com>"
+
+#~ msgid "You can’t move this tile!"
+#~ msgstr "شما نمی‌توانید این مهره را جابه‌جا کنید!"
+
+#~ msgid "Bravo! You finished the game!"
+#~ msgstr "دست مریزاد! بازی رو تموم کردی!"
+
+#~ msgid "Size: %d × %d ▾"
+#~ msgstr "اندازه: %Id × %Id ▾"
+
+#~ msgid "Theme: Cats ▾"
+#~ msgstr "تم: گربه‌ها ▾"
+
+#~ msgid "Theme: Numbers ▾"
+#~ msgstr "تم: اعداد ▾"

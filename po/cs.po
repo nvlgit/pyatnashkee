@@ -1,0 +1,196 @@
+# Czech translation for gnome-taquin.
+# Copyright (C) 2014 gnome-taquin's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-taquin package.
+# Marek Černocký <marek@manet.cz>, 2014, 2015, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-taquin master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"PO-Revision-Date: 2016-08-13 23:34+0200\n"
+"Last-Translator: Marek Černocký <marek@manet.cz>\n"
+"Language-Team: čeština <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Gtranslator 2.91.7\n"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+msgid "15"
+msgstr ""
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+msgid "A classic 15-puzzle game"
+msgstr "Klasický posuvný hlavolam s 15 díly"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
+#, fuzzy
+msgid "Game;Puzzle;"
+msgstr "posuvné;posuvná;puzzle;hlavolam;skládačka;"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
+msgid "pyatnashkee"
+msgstr ""
+
+#: src/window.ui:365
+msgid "Puzzle Solved!"
+msgstr ""
+
+#. Tooltip New game
+#: src/window.ui:431
+msgid "Start a new game"
+msgstr "Začít novou hru"
+
+#~ msgid "_Sound"
+#~ msgstr "_Zvuk"
+
+#~ msgid "_Help"
+#~ msgstr "Nápo_věda"
+
+#~ msgid "_About"
+#~ msgstr "O _aplikaci"
+
+#~ msgid "_Quit"
+#~ msgstr "U_končit"
+
+#~ msgid "3 × 3"
+#~ msgstr "3 × 3"
+
+#~ msgid "4 × 4"
+#~ msgstr "4 × 4"
+
+#~ msgid "5 × 5"
+#~ msgstr "5 × 5"
+
+#~ msgid "Cats"
+#~ msgstr "Kočky"
+
+#~ msgid "Numbers"
+#~ msgstr "Čísla"
+
+#~ msgid "15-Puzzle"
+#~ msgstr "Skládačka s 15 díly"
+
+#~ msgid "16-Puzzle"
+#~ msgstr "Skládačka s 16 díly"
+
+#~ msgid "Go back to the current game"
+#~ msgstr "Zpátky na současnou hru"
+
+#~ msgid "_Start Over"
+#~ msgstr "_Začít jinou hru"
+
+#~ msgid "Configure a new game"
+#~ msgstr "Nastavit novou hru"
+
+#~ msgid "GNOME Taquin"
+#~ msgstr "Taquin GNOME"
+
+#~ msgid "Slide tiles to their correct places"
+#~ msgstr "Presuňte díly na jejich správné místo"
+
+#~ msgid ""
+#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
+#~ msgstr ""
+#~ "Taquin je počítačová verze posuvného hlavolamu s 15 nebo i jiným počtem "
+#~ "dílů."
+
+#~ msgid ""
+#~ "The object of Taquin is to move tiles so that they reach their places, "
+#~ "either indicated with numbers, or with parts of a great image."
+#~ msgstr ""
+#~ "Cílem hlavolamu Taquin je přesunout díly na jejich správná místa, která "
+#~ "jsou daná buď číslem nebo částmi velkého obrázku."
+
+#~ msgid "A GNOME taquin game preview"
+#~ msgstr "Ukázková verze hry Taquin GNOME"
+
+#~ msgid "The GNOME Project"
+#~ msgstr "Projekt GNOME"
+
+#~ msgid "Taquin"
+#~ msgstr "Taquin"
+
+#~ msgid "15-puzzle"
+#~ msgstr "Skládačka s 15 díly"
+
+#~ msgid "Number of tiles on each edge."
+#~ msgstr "Počet dílů na každé straně."
+
+#~ msgid ""
+#~ "The game offers to play with a board size from 3 to 5. The setting could "
+#~ "be set from 2 (good for testing) to 9, limited by the way files are "
+#~ "selected."
+#~ msgstr ""
+#~ "Hra nabízí hraní s herní deskou od velikosti 3 do velikosti 5. Nastavení "
+#~ "může být už od 2 (vhodné pro testování) do 9, což je mimochodem omezeno "
+#~ "vybranými soubory."
+
+#~ msgid "Name of the theme folder."
+#~ msgstr "Název složky s motivem"
+
+#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
+#~ msgstr "Taquin má dva výchozí motivy: „kočky“ a „čísla“."
+
+#~ msgid "Sound"
+#~ msgstr "Zvuk"
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "Zda přehrávat nebo nepřehrávat zvuky při událostech."
+
+#~ msgid "Width of the window in pixels."
+#~ msgstr "Šířka okna v pixelech."
+
+#~ msgid "Height of the window in pixels."
+#~ msgstr "Výška okna v pixelech."
+
+#~ msgid "true if the window is maximized."
+#~ msgstr "Zapnuto, když je okno maximalizováno."
+
+#~ msgid "_Start Game"
+#~ msgstr "_Začít hru"
+
+#~ msgid "Undo your most recent move"
+#~ msgstr "Vrátit zpět poslední tah"
+
+#~ msgid "Play the classical 1880s’ 15-puzzle"
+#~ msgstr "Hrát klasický posuvný hlavolam z 80 let s 15 díly"
+
+#~ msgid "Try this fun alternative 16-puzzle"
+#~ msgstr "Zkusit vtipnou alternativu posuvného hlavolamu s 16 díly"
+
+#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
+#~ msgstr "Nastavit velikost stran (3 až 5, pro účely ladění 2 až 9)"
+
+#~ msgid "Turn off the sound"
+#~ msgstr "Vypnout zvuk"
+
+#~ msgid "Turn on the sound"
+#~ msgstr "Zapnout zvuk"
+
+#~ msgid "Print release version and exit"
+#~ msgstr "Vypsat verzi vydání a skončit"
+
+#~ msgid "(see COPYING.themes for informations)"
+#~ msgstr "(viz COPYING.themes ohledně informací)"
+
+#~ msgid "translator-credits"
+#~ msgstr "Marek Černocký <marek@manet.cz>"
+
+#~ msgid "You can’t move this tile!"
+#~ msgstr "Tímto dílem nemůžete táhnout!"
+
+#~ msgid "Bravo! You finished the game!"
+#~ msgstr "Výborně! Dokončili jste hru."
+
+#~ msgid "Size: %d × %d ▾"
+#~ msgstr "Velikost: %d × %d ▾"
+
+#~ msgid "Theme: Cats ▾"
+#~ msgstr "Motiv: Kočky ▾"
+
+#~ msgid "Theme: Numbers ▾"
+#~ msgstr "Motiv: Čísla ▾"

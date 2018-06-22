@@ -1,0 +1,217 @@
+# French translation of gnome-taquin.
+# Copyright (C) 2014 Arnaud Bonatti
+# This file is distributed under the same license as the gnome-taquin package.
+#
+# Arnaud Bonatti <arnaud.bonatti@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: taquin master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"PO-Revision-Date: 2017-09-08 19:28+0200\n"
+"Last-Translator: Arnaud Bonatti <arnaud.bonatti@gmail.com>\n"
+"Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+msgid "15"
+msgstr ""
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+msgid "A classic 15-puzzle game"
+msgstr "Un taquin classique"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
+#, fuzzy
+msgid "Game;Puzzle;"
+msgstr "puzzle; pousse-pousse; taquin;"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
+msgid "pyatnashkee"
+msgstr ""
+
+#: src/window.ui:365
+#, fuzzy
+msgid "Puzzle Solved!"
+msgstr "Pousse-pousse, avec un trou"
+
+#. Tooltip New game
+#: src/window.ui:431
+msgid "Start a new game"
+msgstr "Commence une nouvelle partie"
+
+#~ msgid "_Sound"
+#~ msgstr "_Son"
+
+#~ msgid "_Help"
+#~ msgstr "Aid_e"
+
+#~ msgid "_About"
+#~ msgstr "À _propos"
+
+#~ msgid "_Quit"
+#~ msgstr "_Quitter"
+
+#~ msgid "3 × 3"
+#~ msgstr "3 × 3"
+
+#~ msgid "4 × 4"
+#~ msgstr "4 × 4"
+
+#~ msgid "5 × 5"
+#~ msgstr "5 × 5"
+
+#~ msgid "Cats"
+#~ msgstr "Chats"
+
+#~ msgid "Numbers"
+#~ msgstr "Nombres"
+
+#~ msgid "15-Puzzle"
+#~ msgstr "Pousse-pousse"
+
+#~ msgid "16-Puzzle"
+#~ msgstr "Glisse-glisse"
+
+#~ msgid "Go back to the current game"
+#~ msgstr "Revenir au jeu en cours"
+
+#~ msgid "_Start Over"
+#~ msgstr "_Recommencer"
+
+#~ msgid "Configure a new game"
+#~ msgstr "Configurer une nouvelle partie"
+
+#~ msgid "GNOME Taquin"
+#~ msgstr "Taquin de GNOME"
+
+#~ msgid "Slide tiles to their correct places"
+#~ msgstr "Glisser les pièces jusqu’à leur position correcte"
+
+#~ msgid ""
+#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
+#~ msgstr ""
+#~ "Taquin est une version informatisée du taquin et d’autres casse-têtes du "
+#~ "genre."
+
+#~ msgid ""
+#~ "The object of Taquin is to move tiles so that they reach their places, "
+#~ "either indicated with numbers, or with parts of a great image."
+#~ msgstr ""
+#~ "L’objectif de Taquin est de déplacer les pièces pour qu’elles atteignent "
+#~ "leur position correcte, devinable soit par un nombre, soit par les "
+#~ "morceaux d’une chouette image."
+
+#~ msgid "A GNOME taquin game preview"
+#~ msgstr "Un aperçu d’une partie de Taquin de GNOME"
+
+#~ msgid "The GNOME Project"
+#~ msgstr "Le projet GNOME"
+
+#~ msgid "Taquin"
+#~ msgstr "Taquin"
+
+#~ msgid "15-puzzle"
+#~ msgstr "Pousse-pousse"
+
+#~ msgid "Number of tiles on each edge."
+#~ msgstr "Nombre de pièces sur chaque côté."
+
+#~ msgid ""
+#~ "The game offers to play with a board size from 3 to 5. The setting could "
+#~ "be set from 2 (good for testing) to 9, limited by the way files are "
+#~ "selected."
+#~ msgstr ""
+#~ "Ce jeu permet de jouer avec un plateau de 3 à 5 pièces de côté. Il peut "
+#~ "être paramétré de 2 (bien pour essayer) à 9, selon la façon dont les "
+#~ "fichiers sont sélectionnés."
+
+#~ msgid "Name of the theme folder."
+#~ msgstr "Nom du dossier de thèmes."
+
+#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
+#~ msgstr ""
+#~ "Taquin a deux thèmes proposés par défaut : « cats » et "
+#~ "« numbers » (littéralement « chats » et « nombres »)"
+
+#~ msgid "Sound"
+#~ msgstr "Son"
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "S’il faut ou non jouer les sons du jeu."
+
+#~ msgid "Width of the window in pixels."
+#~ msgstr "Largeur de la fenêtre en pixels."
+
+#~ msgid "Height of the window in pixels."
+#~ msgstr "Hauteur de la fenêtre en pixels."
+
+#~ msgid "true if the window is maximized."
+#~ msgstr "Vrai si la fenêtre est maximisée."
+
+#~ msgid "_Start Game"
+#~ msgstr "_Lancer le jeu"
+
+#~ msgid "Undo your most recent move"
+#~ msgstr "Annule votre dernier déplacement"
+
+#~ msgid "Play the classical 1880s’ 15-puzzle"
+#~ msgstr "Jouer au pousse-pousse classique des années 1880."
+
+#~ msgid "Try this fun alternative 16-puzzle"
+#~ msgstr "Essaye cet amusant puzzle alternatif à 16 pièces"
+
+#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
+#~ msgstr "Configure la taille du côté du puzzle (3 à 5, 2 à 9 pour débugger)"
+
+#~ msgid "Turn off the sound"
+#~ msgstr "Coupe le son"
+
+#~ msgid "Turn on the sound"
+#~ msgstr "Active le son"
+
+#~ msgid "Print release version and exit"
+#~ msgstr "Affiche le numéro de version et quitte"
+
+#~ msgid "(see COPYING.themes for informations)"
+#~ msgstr "(voir COPYING.themes pour plus d’informations)"
+
+#~ msgid "translator-credits"
+#~ msgstr "Arnaud Bonatti <arnaud.bonatti@gmail.com>"
+
+#~ msgid "You can’t move this tile!"
+#~ msgstr "Impossible de déplacer cette pièce !"
+
+#~ msgid "Bravo! You finished the game!"
+#~ msgstr "Bravo ! Vous avez terminé le jeu !"
+
+#~ msgid "Size: %d × %d ▾"
+#~ msgstr "Taille : %d × %d ▾"
+
+#~ msgid "Theme: Cats ▾"
+#~ msgstr "Thème : Chats ▾"
+
+#~ msgid "Theme: Numbers ▾"
+#~ msgstr "Thème : Nombres ▾"
+
+#~ msgid "Start a new game as configured"
+#~ msgstr "Commence une nouvelle partie telle que configurée"
+
+#~ msgid "Puzzle with arrays"
+#~ msgstr "Puzzle avec des flèches"
+
+#~ msgid ""
+#~ "The game is tested and offers to select a size from 3 to 5. There is a "
+#~ "human-understandable maximum value to avoid some bugs. Maximum size is 9 "
+#~ "as the image files are randomly selected depending on the first character "
+#~ "of their filename."
+#~ msgstr ""
+#~ "Le jeu est testé et propose de choisir une taille entre 3 et 5. Il faut "
+#~ "une valeur maximale à tailles humaine pour éviter certains bugs. La "
+#~ "taille maximale est de 9 car les images sont sélectionnées au hasard "
+#~ "selon le premier caractère de leur nom de fichier."

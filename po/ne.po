@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gnome Nepali Translation Project\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 21:32+0300\n"
+"PO-Revision-Date: 2017-08-18 10:41+0545\n"
+"Last-Translator: Pawan Chitrakar <chautari@gmail.com>\n"
+"Language-Team: Nepali Translation Team <chautari@gmail.com>\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/window.ui:418
+msgid "15"
+msgstr ""
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+msgid "A classic 15-puzzle game"
+msgstr "एक क्लासिक १५-पजल खेल"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:5
+#, fuzzy
+msgid "Game;Puzzle;"
+msgstr "पजल;"
+
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
+msgid "pyatnashkee"
+msgstr ""
+
+#: src/window.ui:365
+msgid "Puzzle Solved!"
+msgstr ""
+
+#. Tooltip New game
+#: src/window.ui:431
+msgid "Start a new game"
+msgstr "नयाँ खेल सुरु गर्नुहोस्"
+
+#~ msgid "_Sound"
+#~ msgstr "ध्वनि"
+
+#~ msgid "_Help"
+#~ msgstr "मद्दत"
+
+#~ msgid "_About"
+#~ msgstr "बारेमा"
+
+#~ msgid "_Quit"
+#~ msgstr "बन्द गर्नुहोस्"
+
+#~ msgid "3 × 3"
+#~ msgstr "३ × ३"
+
+#~ msgid "4 × 4"
+#~ msgstr "४ × ४"
+
+#~ msgid "5 × 5"
+#~ msgstr "५ × ५"
+
+#~ msgid "Cats"
+#~ msgstr "बिरालो"
+
+#~ msgid "Numbers"
+#~ msgstr "सङ्ख्याहरू"
+
+#~ msgid "15-Puzzle"
+#~ msgstr "१५-पजल खेल"
+
+#~ msgid "16-Puzzle"
+#~ msgstr "१६-पजल खेल"
+
+#~ msgid "Go back to the current game"
+#~ msgstr "हालको खेलमा फर्कनुहोस्"
+
+#~ msgid "_Start Over"
+#~ msgstr "सुरुआत गर्नुहोस्"
+
+#~ msgid "Configure a new game"
+#~ msgstr "नयाँ खेल कन्फिगर गर्नुहोस्"
+
+#~ msgid "GNOME Taquin"
+#~ msgstr "जिनोम टाक्विन"
+
+#~ msgid "Slide tiles to their correct places"
+#~ msgstr "सहि स्थानमा टायलहरू स्लाइड गर्नुहोस्"
+
+#~ msgid ""
+#~ "Taquin is a computer version of the 15-puzzle and other sliding puzzles."
+#~ msgstr "टाक्विन १५-पजल र अन्य स्लाइडिङ्ग खेल को  कम्प्युटर संस्करण हो।"
+
+#~ msgid ""
+#~ "The object of Taquin is to move tiles so that they reach their places, "
+#~ "either indicated with numbers, or with parts of a great image."
+#~ msgstr ""
+#~ "टाक्विनको उदेश्य टायल सहि स्थानमा सार्नु हो , टायल संख्या वा छवि को भागहरू मा सङ्केत "
+#~ "हुन्छ"
+
+#~ msgid "A GNOME taquin game preview"
+#~ msgstr "जिनोम टाक्विन खेल पुर्वावलोकन"
+
+#~ msgid "The GNOME Project"
+#~ msgstr "जिनोम परियोजना"
+
+#~ msgid "Taquin"
+#~ msgstr "टाक्विन"
+
+#~ msgid "15-puzzle"
+#~ msgstr "१५-पजल खेल"
+
+#~ msgid "Number of tiles on each edge."
+#~ msgstr "प्रत्येक किनारमा टायलहरूको सङ्ख्या"
+
+#~ msgid ""
+#~ "The game offers to play with a board size from 3 to 5. The setting could "
+#~ "be set from 2 (good for testing) to 9, limited by the way files are "
+#~ "selected."
+#~ msgstr ""
+#~ "खेलले ३ देखि ५ सम्म बोर्ड साइज खेल्न प्रस्ताव गर्दछ। सेटिङ २ (परीक्षणको लागि राम्रो) "
+#~ "देखि ९सम्म हुनसक्छ, फाइलहरू चयन गरिएका फाइलहरू द्वारा सीमित हुन्छ"
+
+#~ msgid "Name of the theme folder."
+#~ msgstr "विषयवस्तु फोल्डरको नाम"
+
+#~ msgid "Taquin has two default themes: 'cats' and 'numbers'."
+#~ msgstr "ताइक्न दुई डिफल्ट विषयवस्तुहरू छन्: 'बिरालो' र 'सङ्ख्या'।"
+
+#~ msgid "Sound"
+#~ msgstr "ध्वनि"
+
+#~ msgid "Whether or not to play event sounds."
+#~ msgstr "घटना ध्वनि प्ले गर्ने या नगर्ने ।"
+
+#~ msgid "Width of the window in pixels."
+#~ msgstr "मुख्य सञ्झ्यालको चौडाइ पिक्सेलमा"
+
+#~ msgid "Height of the window in pixels."
+#~ msgstr "मुख्य सञ्झ्यालको उचाइ पिक्सेलमा"
+
+#~ msgid "true if the window is maximized."
+#~ msgstr "सत्य यदि सञ्झ्याल अधिकतम छ।"
+
+#~ msgid "_Start Game"
+#~ msgstr "खेल सुरु गर्नुहोस्"
+
+#~ msgid "Undo your most recent move"
+#~ msgstr "हालको चाल पूर्ववत गर्नुहोस्"
+
+#~ msgid "Play the classical 1880s’ 15-puzzle"
+#~ msgstr "क्लासिकल १८८० को १५-पजल खेल्नुहोस्"
+
+#~ msgid "Try this fun alternative 16-puzzle"
+#~ msgstr "यो रमाइलो वैकल्पिक १६-पजल प्रयास गर्नुहोस्"
+
+#~ msgid "Sets the puzzle edges’ size (3-5, 2-9 for debug)"
+#~ msgstr "पजल किनाराहरूको आकार सेट गर्दछ (३-५, डिबगको लागि २-९)"
+
+#~ msgid "Turn off the sound"
+#~ msgstr "ध्वनि बन्द गर्नुहोस्"
+
+#~ msgid "Turn on the sound"
+#~ msgstr "ध्वनि खोल्नुहोस्"
+
+#~ msgid "Print release version and exit"
+#~ msgstr "मुद्रण संस्करण विवरण अनि बाहिरनुहोस्"
+
+#~ msgid "(see COPYING.themes for informations)"
+#~ msgstr "(सुचनाको लागि COPYING.themes हेर्नुहोस्)"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "अनुवादक श्रेय\n"
+#~ "\n"
+#~ "Launchpad Contributions:\n"
+#~ "  Nabin Gautam https://launchpad.net/~nabin"
+
+#~ msgid "You can’t move this tile!"
+#~ msgstr "यो टायल सार्न सकिदैन"
+
+#~ msgid "Bravo! You finished the game!"
+#~ msgstr "वाह ! तपाईँले खेल समाप्त गर्नुभयो !"
+
+#~ msgid "Size: %d × %d ▾"
+#~ msgstr "Size: %d × %d ▾"
+
+#~ msgid "Theme: Cats ▾"
+#~ msgstr "विषयवस्तु:बिरालो▾"
+
+#~ msgid "Theme: Numbers ▾"
+#~ msgstr "विषयवस्तु:सङ्ख्या ▾"
