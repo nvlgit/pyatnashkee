@@ -26,7 +26,7 @@ namespace Pyatnashkee {
 			this.set_destroy_with_parent (true);
 			this.set_modal (true);
 
-			this.logo_icon_name = "pyatnashkee";
+			this.logo_icon_name = "com.gitlab.nvlgit.pyatnashkee";
 			this.program_name = _("15-puzzle");
 
 			this.version = "0.1.0";

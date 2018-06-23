@@ -2,8 +2,8 @@
 Name=15
 Comment=A classic 15-puzzle game
 Keywords=Game;Puzzle;
-Exec=pyatnashkee
+Exec=com.gitlab.nvlgit.pyatnashkee
 Terminal=false
 Type=Application
-Icon=pyatnashkee
+Icon=com.gitlab.nvlgit.pyatnashkee
 Categories=GNOME;GTK;Game;LogicGame;
