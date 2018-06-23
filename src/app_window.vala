@@ -96,14 +96,12 @@ namespace Pyatnashkee {
 		private void button_3_3_clicked_handler() { tile_clicked (3, 3); }
 		[GtkCallback]
 		private void new_game_clicked_handler() { new_game(); }
-		private bool first;
 
 
 		/*======================================================*/
 		public ApplicationWindow (Gtk.Application application) {
 			GLib.Object (application: application);
 
-			first = true;
 			info_revealer.notify["child-revealed"].connect (info_revealed_cb);
 			tiles_revealer.notify["child-revealed"].connect (tiles_revealed_cb);
 		}
@@ -111,12 +109,13 @@ namespace Pyatnashkee {
 		/*======================================================*/
 		public void new_game () {
 
-			do { arr = mixing(arr); }
-			while ( is_solved(arr) );
-			
-			if (first) {
-				first = false;
-				redraw_tiles(arr);
+			do {
+				arr = mixing(arr);
+			} while ( is_solved(arr) );
+
+			if (!info_revealer.reveal_child) {
+				tiles_revealer.set_reveal_child (false);
+			warning ("--++++++++++----");
 			}
 
 			if (info_grid.visible) {
@@ -425,7 +424,7 @@ namespace Pyatnashkee {
 		/*======================================================*/
 		private void arr_print (int[,] a) {
 
-			stdout.printf ("==============\n");
+			stdout.printf ("\n==============\n");
 
 			for (int y = 0; y < 4; y++) {
 				for (int x = 0; x < 4; x++) {
@@ -434,7 +433,7 @@ namespace Pyatnashkee {
 					if (x > 2) { print ("\n"); }
 				}
 			}
-			stdout.printf ("==============\n\n");
+			stdout.printf ("==============\n");
 		}
 		/*=========================================*/
 	} // end Class ApplicationWindow
