@@ -56,9 +56,11 @@ namespace Pyatnashkee {
 		[GtkChild]
 		public Gtk.Button reload;
 		[GtkChild]
-		private Gtk.Revealer revealer;
+		private Gtk.Revealer info_revealer;
 		[GtkChild]
-		private Gtk.Grid grid;
+		private Gtk.Revealer tiles_revealer;
+		[GtkChild]
+		private Gtk.Grid info_grid;
 		/*======================================================*/
 		[GtkCallback]
 		private void button_0_0_clicked_handler () { tile_clicked (0, 0); }
@@ -94,13 +96,16 @@ namespace Pyatnashkee {
 		private void button_3_3_clicked_handler() { tile_clicked (3, 3); }
 		[GtkCallback]
 		private void new_game_clicked_handler() { new_game(); }
+		private bool first;
 
 
 		/*======================================================*/
 		public ApplicationWindow (Gtk.Application application) {
 			GLib.Object (application: application);
 
-			revealer.notify["child-revealed"].connect (revealed_cb);
+			first = true;
+			info_revealer.notify["child-revealed"].connect (info_revealed_cb);
+			tiles_revealer.notify["child-revealed"].connect (tiles_revealed_cb);
 		}
 		private int[,] arr = new int[4,4];
 		/*======================================================*/
@@ -109,17 +114,28 @@ namespace Pyatnashkee {
 			do { arr = mixing(arr); }
 			while ( is_solved(arr) );
 			
-			redraw_tiles(arr);
+			if (first) {
+				first = false;
+				redraw_tiles(arr);
+			}
 
-			if (grid.visible) {
-				revealer.set_reveal_child (false);
+			if (info_grid.visible) {
+				info_revealer.set_reveal_child (false);
 			}
 		}
 		/*======================================================*/
-		private void revealed_cb () {
+		private void info_revealed_cb () {
 
-			if (!revealer.get_reveal_child () )
-				grid.visible = false;
+			if (!info_revealer.get_reveal_child () ) {
+				tiles_revealer.set_reveal_child (false);
+			}
+		}
+		/*======================================================*/
+		private void tiles_revealed_cb () {
+
+				redraw_tiles(arr);
+				tiles_revealer.set_reveal_child (true);
+				info_grid.visible = false;
 		}
 		/*======================================================*/
 		private void tile_clicked (int x, int y) {
@@ -170,10 +186,10 @@ namespace Pyatnashkee {
 			redraw_tiles(arr);
 
 			if (is_solved(arr) ) {
-				grid.visible = true;
-				revealer.set_reveal_child (true);
+				info_grid.visible = true;
+				info_revealer.set_reveal_child (true);
 			} else {
-				revealer.set_reveal_child (false);
+				info_revealer.set_reveal_child (false);
 			}
 		}
 		/*======================================================*/
@@ -385,7 +401,7 @@ namespace Pyatnashkee {
 			if ( (pos_y % 2 == 0) && (pos_x % 2 == 0) && (inv_count % 2 != 0) ) {
 				stdout.printf ("solvible\n");
 				return true;
-		/*	} else if ( (pos_y % 2 != 0) && (inv_count % 2 == 0) ) {
+			/*} else if ( (pos_y % 2 != 0) && (inv_count % 2 == 0) ) {
 				stdout.printf ("solvable\n");
 				return true; */
 			} else {
