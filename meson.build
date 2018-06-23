@@ -2,6 +2,9 @@ project('pyatnashkee','c', 'vala',
   version: '0.1.0',
   meson_version: '>= 0.40.0',
 )
+
+app_id = 'com.gitlab.nvlgit.' + meson.project_name()
+
 i18n = import('i18n')
 gnome = import('gnome')
 

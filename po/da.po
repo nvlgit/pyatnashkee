@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-taquin master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-23 00:27+0300\n"
+"POT-Creation-Date: 2018-06-23 18:10+0300\n"
 "PO-Revision-Date: 2016-09-08 02:50+0200\n"
 "Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -17,11 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/ui/window.ui:418
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/ui/window.ui:440
 msgid "15"
 msgstr ""
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4 src/app-about-dialog.vala:33
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+#: data/com.gitlab.nvlgit.pyatnashkee.appdata.xml.in:7
+#: data/com.gitlab.nvlgit.pyatnashkee.appdata.xml.in:9
+#: src/app-about-dialog.vala:33
 msgid "A classic 15-puzzle game"
 msgstr "Et klassisk 15-spil"
 
@@ -30,30 +33,34 @@ msgid "Game;Puzzle;"
 msgstr ""
 
 #: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
-msgid "pyatnashkee"
+msgid "@app_id@"
 msgstr ""
 
+#: data/com.gitlab.nvlgit.pyatnashkee.appdata.xml.in:6
+#: src/app-about-dialog.vala:30
+msgid "15-puzzle"
+msgstr "15-spil"
+
+#. App menu item About
 #: src/ui/app-menu.ui:6
 msgid "_About"
 msgstr "_Om"
 
+#. App menu item Quit
 #: src/ui/app-menu.ui:10
 msgid "_Quit"
 msgstr "_Afslut"
 
-#: src/ui/window.ui:365
+#: src/ui/window.ui:390
 msgid "Puzzle Solved!"
 msgstr ""
 
-#: src/ui/window.ui:419
+#. window subtitle
+#: src/ui/window.ui:441
 msgid "puzzle"
 msgstr "spil"
 
-#. Tooltip New game
-#: src/ui/window.ui:431
+#. Button tooltip New game
+#: src/ui/window.ui:453
 msgid "Start a new game"
 msgstr "Start et nyt spil"
-
-#: src/app-about-dialog.vala:30
-msgid "15-puzzle"
-msgstr "15-spil"

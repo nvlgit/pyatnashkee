@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-taquin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-23 00:27+0300\n"
+"POT-Creation-Date: 2018-06-23 18:10+0300\n"
 "PO-Revision-Date: 2016-10-04 15:23+0200\n"
 "Last-Translator: Gianvito Cavasoli <gianvito@gmx.it>\n"
 "Language-Team: Italiano <gnome-it-list@gnome.org>\n"
@@ -19,11 +19,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Gtranslator 2.91.7\n"
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/ui/window.ui:418
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/ui/window.ui:440
 msgid "15"
 msgstr ""
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4 src/app-about-dialog.vala:33
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+#: data/com.gitlab.nvlgit.pyatnashkee.appdata.xml.in:7
+#: data/com.gitlab.nvlgit.pyatnashkee.appdata.xml.in:9
+#: src/app-about-dialog.vala:33
 msgid "A classic 15-puzzle game"
 msgstr "Il classico gioco del 15"
 
@@ -32,31 +35,34 @@ msgid "Game;Puzzle;"
 msgstr ""
 
 #: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
-msgid "pyatnashkee"
+msgid "@app_id@"
 msgstr ""
 
-#: src/ui/app-menu.ui:6
-msgid "_About"
-msgstr "I_nformazioni"
-
-#: src/ui/app-menu.ui:10
-msgid "_Quit"
-msgstr "_Esci"
-
-#: src/ui/window.ui:365
-msgid "Puzzle Solved!"
-msgstr ""
-
-#: src/ui/window.ui:419
-msgid "puzzle"
-msgstr "puzzle"
-
-#. Tooltip New game
-#: src/ui/window.ui:431
-msgid "Start a new game"
-msgstr "Avvia _nuova partita"
-
+#: data/com.gitlab.nvlgit.pyatnashkee.appdata.xml.in:6
 #: src/app-about-dialog.vala:30
 msgid "15-puzzle"
 msgstr "Gioco del 15"
 
+#. App menu item About
+#: src/ui/app-menu.ui:6
+msgid "_About"
+msgstr "I_nformazioni"
+
+#. App menu item Quit
+#: src/ui/app-menu.ui:10
+msgid "_Quit"
+msgstr "_Esci"
+
+#: src/ui/window.ui:390
+msgid "Puzzle Solved!"
+msgstr ""
+
+#. window subtitle
+#: src/ui/window.ui:441
+msgid "puzzle"
+msgstr "puzzle"
+
+#. Button tooltip New game
+#: src/ui/window.ui:453
+msgid "Start a new game"
+msgstr "Avvia _nuova partita"

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-taquin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-23 00:27+0300\n"
+"POT-Creation-Date: 2018-06-23 18:10+0300\n"
 "PO-Revision-Date: 2015-03-22 11:44-0400\n"
 "Last-Translator: Xavi Ivars <xavi.ivars@gmail.com>\n"
 "Language-Team: ca_ES <tradgnome@softcatala.net>\n"
@@ -20,11 +20,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/ui/window.ui:418
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:3 src/ui/window.ui:440
 msgid "15"
 msgstr ""
 
-#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4 src/app-about-dialog.vala:33
+#: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:4
+#: data/com.gitlab.nvlgit.pyatnashkee.appdata.xml.in:7
+#: data/com.gitlab.nvlgit.pyatnashkee.appdata.xml.in:9
+#: src/app-about-dialog.vala:33
 msgid "A classic 15-puzzle game"
 msgstr "Un trencaclosques clàssic de 15 fitxes"
 
@@ -33,30 +36,34 @@ msgid "Game;Puzzle;"
 msgstr ""
 
 #: data/com.gitlab.nvlgit.pyatnashkee.desktop.in:9
-msgid "pyatnashkee"
+msgid "@app_id@"
 msgstr ""
 
+#: data/com.gitlab.nvlgit.pyatnashkee.appdata.xml.in:6
+#: src/app-about-dialog.vala:30
+msgid "15-puzzle"
+msgstr "Trencaclosques de 15 fitxes"
+
+#. App menu item About
 #: src/ui/app-menu.ui:6
 msgid "_About"
 msgstr "Qu_ant a"
 
+#. App menu item Quit
 #: src/ui/app-menu.ui:10
 msgid "_Quit"
 msgstr "I_x"
 
-#: src/ui/window.ui:365
+#: src/ui/window.ui:390
 msgid "Puzzle Solved!"
 msgstr ""
 
-#: src/ui/window.ui:419
+#. window subtitle
+#: src/ui/window.ui:441
 msgid "puzzle"
 msgstr "trencaclosques"
 
-#. Tooltip New game
-#: src/ui/window.ui:431
+#. Button tooltip New game
+#: src/ui/window.ui:453
 msgid "Start a new game"
 msgstr "Comença un joc nou"
-
-#: src/app-about-dialog.vala:30
-msgid "15-puzzle"
-msgstr "Trencaclosques de 15 fitxes"

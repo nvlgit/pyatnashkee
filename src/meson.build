@@ -14,7 +14,7 @@ pyatnashkee_deps = [
 
 c_args = [
   '-DVERSION="' + meson.project_version() + '"',
-  '-DGETTEXT_PACKAGE="pyatnashkee"',
+  '-DGETTEXT_PACKAGE="com.gitlab.nvlgit.pyatnashkee"',
   '-DLOCALEDIR="' + join_paths(prefix, localedir) + '"'
 ]
 
@@ -28,7 +28,7 @@ pyatnashkee_sources += gnome.compile_resources('pyatnashkee-resources',
 )
 
 
-executable('com.gitlab.nvlgit.pyatnashkee', pyatnashkee_sources,
+executable(app_id, pyatnashkee_sources,
   vala_args: '--target-glib=2.50',
   c_args: c_args,
   dependencies: pyatnashkee_deps,
