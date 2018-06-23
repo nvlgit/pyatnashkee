@@ -1,4 +1,4 @@
-# ![icon](data/icons/hicolor/64x64/apps/pyatnashkee.svg) 15-puzzle
+# ![icon](data/icons/hicolor/64x64/apps/com.gitlab.nvlgit.pyatnashkee.svg) 15-puzzle
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
 A classic 15-puzzle game
