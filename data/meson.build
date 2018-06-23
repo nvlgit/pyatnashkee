@@ -23,19 +23,4 @@ if desktop_utils.found()
   )
 endif
 
-appstream_file = i18n.merge_file(
-  input: '@0@.appdata.xml.in'.format(app_id),
-  output: '@0@.appdata.xml.in'.format(app_id),
-  po_dir: po_dir,
-  install: true,
-  install_dir: join_paths(datadir, 'appdata')
-)
-
-appstream_util = find_program('appstream-util', required: false)
-if appstream_util.found()
-  test('Validate appstream file', appstream_util,
-    args: ['validate', appstream_file]
-  )
-endif
-
 subdir('icons')
