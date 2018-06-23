@@ -115,7 +115,6 @@ namespace Pyatnashkee {
 
 			if (!info_revealer.reveal_child) {
 				tiles_revealer.set_reveal_child (false);
-			warning ("--++++++++++----");
 			}
 
 			if (info_grid.visible) {
