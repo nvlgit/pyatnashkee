@@ -17,7 +17,7 @@ po_dir = join_paths(meson.source_root(), 'po')
 prefix = get_option('prefix')
 
 doc_subdir = join_paths(datadir, 'doc', meson.project_name())
-install_data('README.md', 'INSTALL', 'AUTHORS',
+install_data('README.md',
     install_dir: doc_subdir)
 
 licenses_subdir = join_paths(datadir, 'licenses', meson.project_name())
