@@ -42,7 +42,7 @@ namespace Pyatnashkee {
 
 			base.startup ();
 			var css_provider = new Gtk.CssProvider ();
-			css_provider.load_from_resource ("/com/gitlab/nvlgit/pyatnashkee/tiles.css");
+			css_provider.load_from_resource ("/com/gitlab/nvlgit/pyatnashkee/style.css");
 			Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (),
 			                                          css_provider,
 			                                          STYLE_PROVIDER_PRIORITY_APPLICATION);

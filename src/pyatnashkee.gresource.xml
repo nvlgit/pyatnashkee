@@ -3,6 +3,6 @@
   <gresource prefix="/com/gitlab/nvlgit/pyatnashkee">
     <file preprocess="xml-stripblanks">app-menu.ui</file>
     <file preprocess="xml-stripblanks">window.ui</file>
-    <file>tiles.css</file>
+    <file>style.css</file>
   </gresource>
 </gresources>
