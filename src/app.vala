@@ -43,10 +43,9 @@ namespace Pyatnashkee {
 			base.startup ();
 			var css_provider = new Gtk.CssProvider ();
 			css_provider.load_from_resource ("/com/gitlab/nvlgit/pyatnashkee/style.css");
-			Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (),
+			Gtk.StyleContext.add_provider_for_display (Gdk.Display.get_default (),
 			                                          css_provider,
 			                                          STYLE_PROVIDER_PRIORITY_APPLICATION);
-
 			add_action_entries (actions, this);
 			var builder = new Gtk.Builder.from_resource ("/com/gitlab/nvlgit/pyatnashkee/app-menu.ui");
 			var appmenu = (GLib.MenuModel) builder.get_object ("app-menu");

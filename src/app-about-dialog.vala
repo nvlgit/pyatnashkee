@@ -29,7 +29,7 @@ namespace Pyatnashkee {
 			this.logo_icon_name = "com.gitlab.nvlgit.pyatnashkee";
 			this.program_name = _("15-puzzle");
 
-			this.version = "0.1.0";
+			this.version = VERSION;
 			this.comments = _("A classic 15-puzzle game");
 			this.website = "https://gitlab.com/nvlgit/pyatnashkee";
 			this.website_label = null;

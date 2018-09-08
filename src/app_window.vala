@@ -56,11 +56,14 @@ namespace Pyatnashkee {
 		[GtkChild]
 		public Gtk.Button reload;
 		[GtkChild]
+		public Gtk.MenuButton button_menu;
+		[GtkChild]
 		private Gtk.Revealer info_revealer;
 		[GtkChild]
-		private Gtk.Revealer tiles_revealer;
-		[GtkChild]
 		private Gtk.Grid info_grid;
+
+		private Gtk.Builder builder;
+		private int[,] arr;
 		/*======================================================*/
 		[GtkCallback]
 		private void button_0_0_clicked_handler () { tile_clicked (0, 0); }
@@ -102,10 +105,22 @@ namespace Pyatnashkee {
 		public ApplicationWindow (Gtk.Application application) {
 			GLib.Object (application: application);
 
+			bind_menu_to_button_menu ();
+			arr = new int[4,4];
 			info_revealer.notify["child-revealed"].connect (info_revealed_cb);
-			tiles_revealer.notify["child-revealed"].connect (tiles_revealed_cb);
 		}
-		private int[,] arr = new int[4,4];
+
+		private void bind_menu_to_button_menu () {
+
+			builder = new Gtk.Builder ();
+			try {
+				builder.add_from_resource ("/com/gitlab/nvlgit/pyatnashkee/app-menu.ui");
+				var menu = (GLib.MenuModel) builder.get_object ("app-menu") as MenuModel;
+				button_menu.set_menu_model (menu);
+			} catch (Error e) {
+				error ("%s", e.message);
+			}
+		}
 		/*======================================================*/
 		public void new_game () {
 
@@ -114,7 +129,7 @@ namespace Pyatnashkee {
 			} while ( is_solved(arr) );
 
 			if (!info_revealer.reveal_child) {
-				tiles_revealer.set_reveal_child (false);
+				redraw_tiles(arr);
 			}
 
 			if (info_grid.visible) {
@@ -124,16 +139,15 @@ namespace Pyatnashkee {
 		/*======================================================*/
 		private void info_revealed_cb () {
 
-			if (!info_revealer.get_reveal_child () ) {
-				tiles_revealer.set_reveal_child (false);
-			}
+			redraw_tiles(arr);
 		}
 		/*======================================================*/
 		private void tiles_revealed_cb () {
 
 				redraw_tiles(arr);
-				tiles_revealer.set_reveal_child (true);
+				//tiles_revealer.set_reveal_child (true);
 				info_grid.visible = false;
+			message("in tiles_revealed_cb");
 		}
 		/*======================================================*/
 		private void tile_clicked (int x, int y) {

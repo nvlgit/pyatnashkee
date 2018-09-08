@@ -8,13 +8,13 @@ pyatnashkee_sources = [
 
 pyatnashkee_deps = [
   dependency('gio-2.0', version: '>= 2.50'),
-  dependency('gtk+-3.0'),
+  dependency('gtk+-4.0'),
 ]
 
 
 c_args = [
   '-DVERSION="' + meson.project_version() + '"',
-  '-DGETTEXT_PACKAGE="com.gitlab.nvlgit.pyatnashkee"',
+  '-DGETTEXT_PACKAGE="' + app_id + '"',
   '-DLOCALEDIR="' + join_paths(prefix, localedir) + '"'
 ]
 

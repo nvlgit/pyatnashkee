@@ -16,6 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+[CCode(cname="VERSION")] extern const string VERSION;
 [CCode(cname="GETTEXT_PACKAGE")] extern const string GETTEXT_PACKAGE;
 [CCode(cname="LOCALEDIR")] extern const string LOCALEDIR;
 
