@@ -53,8 +53,8 @@ msgid "_Quit"
 msgstr "_Iziet"
 
 #: src/ui/window.ui:390
-msgid "Puzzle Solved!"
-msgstr ""
+msgid "Solved!"
+msgstr "Atrisināts!"
 
 #. window subtitle
 #: src/ui/window.ui:441

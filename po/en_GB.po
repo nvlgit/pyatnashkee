@@ -52,8 +52,8 @@ msgid "_Quit"
 msgstr "_Quit"
 
 #: src/ui/window.ui:390
-msgid "Puzzle Solved!"
-msgstr "Puzzle Solved!"
+msgid "Solved!"
+msgstr "Solved!"
 
 #. window subtitle
 #: src/ui/window.ui:441

@@ -54,8 +54,8 @@ msgid "_Quit"
 msgstr "Ви_йти"
 
 #: src/ui/window.ui:390
-msgid "Puzzle Solved!"
-msgstr "Головоломка вирішена!"
+msgid "Solved!"
+msgstr "Вирішено!"
 
 #. window subtitle
 #: src/ui/window.ui:441

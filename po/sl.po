@@ -55,8 +55,8 @@ msgid "_Quit"
 msgstr "_Končaj"
 
 #: src/ui/window.ui:390
-msgid "Puzzle Solved!"
-msgstr ""
+msgid "Solved!"
+msgstr "Rešeno!"
 
 #. window subtitle
 #: src/ui/window.ui:441
