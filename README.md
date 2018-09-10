@@ -3,7 +3,7 @@
 
 A classic 15-puzzle game
 
-![Alt text](https://user-images.githubusercontent.com/29505119/28335203-4a434180-6c06-11e7-8c10-7ffa4047b3be.png)
+![Alt text](https://user-images.githubusercontent.com/29505119/45298211-80cfb400-b510-11e8-8da7-d00fcf112cc8.png)
 
 ### Building and Installation
 
