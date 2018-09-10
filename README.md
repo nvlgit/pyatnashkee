@@ -13,4 +13,9 @@ meson builddir --prefix=/usr && cd builddir
 ninja
 sudo ninja install
 ```
+
+### Build Dependencies
+* gtk+-4.0 (tested on 3.94)
+* meson
+
 For rpmbuild: <a href="https://gitlab.com/nvlgit/fedora-specs/blob/master/pyatnashkee.spec">pyatnashkee.spec</a> 
