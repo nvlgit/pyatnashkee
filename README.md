@@ -20,18 +20,25 @@ sudo ninja install
 
 For rpmbuild: <a href="https://gitlab.com/nvlgit/fedora-specs/blob/master/pyatnashkee.spec">pyatnashkee.spec</a> 
 
-### Flatpak
-##### Building
+### Flatpak Building and Installation
 
+Make temp dir
+```bash
+mkdir temp && cd temp
+```
+Build
 ```bash
 wget https://gitlab.com/nvlgit/pyatnashkee/raw/master/com.gitlab.nvlgit.pyatnashkee.yml
 flatpak-builder build-dir com.gitlab.nvlgit.pyatnashkee.yml
 flatpak build-export my-repo build-dir
 flatpak build-bundle my-repo pyatnashkee.flatpak com.gitlab.nvlgit.pyatnashkee
 ```
-##### Installation
-
+Install
 ```bash
 flatpak install pyatnashkee.flatpak
+```
+Remove temp dir
+```bash
+cd .. && rm -R temp
 ```
 
