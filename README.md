@@ -19,3 +19,19 @@ sudo ninja install
 * meson
 
 For rpmbuild: <a href="https://gitlab.com/nvlgit/fedora-specs/blob/master/pyatnashkee.spec">pyatnashkee.spec</a> 
+
+### Flatpak
+##### Building
+
+```bash
+wget https://gitlab.com/nvlgit/pyatnashkee/raw/master/com.gitlab.nvlgit.pyatnashkee.yml
+flatpak-builder build-dir com.gitlab.nvlgit.pyatnashkee.yml
+flatpak build-export my-repo build-dir
+flatpak build-bundle my-repo pyatnashkee.flatpak com.gitlab.nvlgit.pyatnashkee
+```
+##### Installation
+
+```bash
+flatpak install pyatnashkee.flatpak
+```
+
