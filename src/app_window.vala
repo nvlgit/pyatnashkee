@@ -142,14 +142,6 @@ namespace Pyatnashkee {
 			redraw_tiles(arr);
 		}
 		/*======================================================*/
-		private void tiles_revealed_cb () {
-
-				redraw_tiles(arr);
-				//tiles_revealer.set_reveal_child (true);
-				info_grid.visible = false;
-			message("in tiles_revealed_cb");
-		}
-		/*======================================================*/
 		private void tile_clicked (int x, int y) {
 			
 			if ( !is_solved(arr) ) {
