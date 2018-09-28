@@ -64,6 +64,7 @@ namespace Pyatnashkee {
 
 		private Gtk.Builder builder;
 		private int[,] arr;
+		private Gtk.Button[,] ba;
 		/*======================================================*/
 		[GtkCallback]
 		private void button_0_0_clicked_handler () { tile_clicked (0, 0); }
@@ -104,6 +105,11 @@ namespace Pyatnashkee {
 		/*======================================================*/
 		public ApplicationWindow (Gtk.Application application) {
 			GLib.Object (application: application);
+
+			ba = {{button_0_0, button_1_0, button_2_0, button_3_0},
+			      {button_0_1, button_1_1, button_2_1, button_3_1},
+			      {button_0_2, button_1_2, button_2_2, button_3_2},
+			      {button_0_3, button_1_3, button_2_3, button_3_3}};
 
 			bind_menu_to_button_menu ();
 			arr = new int[4,4];
@@ -201,155 +207,16 @@ namespace Pyatnashkee {
 
 			for (int y = 0; y < 4; y++) {
 				for (int x = 0; x < 4; x++) {
-					switch (y) {
-					case 0:
-							switch (x) {
-							case 0:
-									button_0_0.label = a[y,x].to_string();
-									if ( a[y,x] == 0 ) {
-										button_0_0.visible = false;
-									} else {
-										button_0_0.visible = true;
-									}
-									break;
-							case 1:
-									button_1_0.label = a[y,x].to_string();
-									if ( a[y,x] == 0 ) {
-										button_1_0.visible = false;
-									} else {
-										button_1_0.visible = true;
-									}
-									break;
-							case 2:
-									button_2_0.label = a[y,x].to_string();
-									if ( a[y,x] == 0 ) {
-										button_2_0.visible = false;
-									} else {
-										button_2_0.visible = true;
-									}
-									break;
-							case 3:
-									button_3_0.label = a[y,x].to_string();
-									if ( a[y,x] == 0 ) {
-										button_3_0.visible = false;
-									} else {
-										button_3_0.visible = true;
-									}
-									break;
-							}
-							break;
-					case 1:
-							switch (x) {
-							case 0:
-									button_0_1.label = a[y,x].to_string();
-									if ( a[y,x] == 0 ) {
-										button_0_1.visible = false;
-									} else {
-										button_0_1.visible = true;
-									}
-									break;
-							case 1:
-									button_1_1.label = a[y,x].to_string();
-									if ( a[y,x] == 0 ) {
-										button_1_1.visible = false;
-									} else {
-										button_1_1.visible = true;
-									}
-									break;
-							case 2:
-									button_2_1.label = a[y,x].to_string();
-									if ( a[y,x] == 0 ) {
-										button_2_1.visible = false;
-									} else {
-										button_2_1.visible = true;
-									}
-									break;
-							case 3:
-									button_3_1.label = a[y,x].to_string();
-									if ( a[y,x] == 0 ) {
-										button_3_1.visible = false;
-									} else {
-										button_3_1.visible = true;
-									}
-									break;
-							}
-							break;
-					case 2:
-							switch (x) {
-							case 0:
-									button_0_2.label = a[y,x].to_string();
-									if ( a[y,x] == 0 ) {
-										button_0_2.visible = false;
-									} else {
-										button_0_2.visible = true;
-									}
-									break;
-							case 1:
-									button_1_2.label = a[y,x].to_string();
-									if ( a[y,x] == 0 ) {
-										button_1_2.visible = false;
-									} else {
-										button_1_2.visible = true;
-									}
-									break;
-							case 2:
-									button_2_2.label = a[y,x].to_string();
-									if ( a[y,x] == 0 ) {
-										button_2_2.visible = false;
-									} else {
-										button_2_2.visible = true;
-									}
-									break;
-							case 3:
-									button_3_2.label = a[y,x].to_string();
-									if ( a[y,x] == 0 ) {
-										button_3_2.visible = false;
-									} else {
-										button_3_2.visible = true;
-									}
-									break;
-							}
-							break;
-					case 3:
-							switch (x) {
-							case 0:
-									button_0_3.label = a[y,x].to_string();
-									if ( a[y,x] == 0 ) {
-										button_0_3.visible = false;
-									} else {
-										button_0_3.visible = true;
-									}
-									break;
-							case 1:
-									button_1_3.label = a[y,x].to_string();
-									if ( a[y,x] == 0 ) {
-										button_1_3.visible = false;
-									} else {
-										button_1_3.visible = true;
-									}
-									break;
-							case 2:
-									button_2_3.label = a[y,x].to_string();
-									if ( a[y,x] == 0 ) {
-										button_2_3.visible = false;
-									} else {
-										button_2_3.visible = true;
-									}
-									break;
-							case 3:
-									button_3_3.label = a[y,x].to_string();
-									if ( a[y,x] == 0 ) {
-										button_3_3.visible = false;
-									} else {
-										button_3_3.visible = true;
-									}
-									break;
-							}
-							break;
-					}  // end switch (y)
-				} // end for x
-			}  // end for y
-		} // end redraw_tiles()
+
+					ba[y,x].label = a[y,x].to_string();
+					if ( a[y,x] == 0 ) {
+						ba[y,x].visible = false;
+					} else {
+						ba[y,x].visible = true;
+					}
+				}
+			}
+		}
 		/*======================================================*/
 		private int[,] mixing ( int[,] a ) {
 
