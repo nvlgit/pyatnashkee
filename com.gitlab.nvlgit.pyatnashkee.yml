@@ -12,11 +12,8 @@ cleanup:
 
 finish-args:
     - "--device=dri"
-    - "--share=ipc"
     - "--socket=x11"
     - "--socket=wayland"
-    - "--talk-name=ca.desrt.conf"
-    - "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
 
 modules:
     - name: wayland
