@@ -15,7 +15,7 @@ sudo ninja install
 ```
 
 ### Build Dependencies
-* gtk+-4.0 >= 3.94
+* gtk+-4.0 >= 4.2.0
 * meson
 
 For rpmbuild: <a href="https://gitlab.com/nvlgit/fedora-specs/blob/master/pyatnashkee.spec">pyatnashkee.spec</a> 
