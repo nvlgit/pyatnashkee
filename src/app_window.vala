@@ -144,9 +144,6 @@ namespace Pyatnashkee {
 			}
 
 			show_infobar(false);
-			//if (info_grid.visible) {
-				//info_revealer.set_reveal_child (true); //!
-			//}
 		}
 		/*======================================================*/
 		private void tile_clicked (int x, int y) {
@@ -198,9 +195,6 @@ namespace Pyatnashkee {
 
 			if (puzzle.is_solved(puzzle.arr) ) {
 				show_infobar(true);
-				stdout.printf ("\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n");
-			} else {
-				stdout.printf ("\n!!!!!!!!!!!else!!!!!!!!!!!!!!!!!!\n");
 			}
 		}
 		/*======================================================*/
