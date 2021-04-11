@@ -18,31 +18,28 @@
 
 namespace Pyatnashkee {
 
-	public class AppAbout : Gtk.AboutDialog {
+	public void show_about() {
 
-		public AppAbout (Gtk.Window window) {
+		var about = new Gtk.AboutDialog();
 
-			GLib.Object (transient_for: window, use_header_bar: 1);
-			this.set_destroy_with_parent (true);
-			this.set_modal (true);
+		about.logo_icon_name = "com.gitlab.nvlgit.pyatnashkee";
+		about.program_name = _("15-puzzle");
 
-			this.logo_icon_name = "com.gitlab.nvlgit.pyatnashkee";
-			this.program_name = _("15-puzzle");
+		about.version = VERSION;
+		about.comments = _("A classic 15-puzzle game");
+		about.website = "https://gitlab.com/nvlgit/pyatnashkee";
+		about.website_label = null;
+		about.copyright = "Copyright © 2018 Nick";
 
-			this.version = VERSION;
-			this.comments = _("A classic 15-puzzle game");
-			this.website = "https://gitlab.com/nvlgit/pyatnashkee";
-			this.website_label = null;
-			this.copyright = "Copyright © 2018 Nick";
+		about.artists = null;
+		about.authors = {"Nick", ""};
+		about.documenters = null;
+		about.translator_credits = null;
 
-			this.artists = null;
-			this.authors = {"Nick", ""};
-			this.documenters = null;
-			this.translator_credits = null;
+		about.license = "GNU Public Licence version 3";
+		about.wrap_license = true;
 
-			this.license = "GNU Public Licence version 3";
-			this.wrap_license = true;
-		}
+		about.show();
 	}
 }
 

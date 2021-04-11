@@ -52,7 +52,7 @@ modules:
       sources:
           - type: git
             url: https://gitlab.gnome.org/GNOME/gtk.git
-            tag: 3.94.0
+            tag: 4.2.0
       config-opts:
           - "--libdir=lib"
           - "-Dintrospection=false"

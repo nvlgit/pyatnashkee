@@ -1,5 +1,6 @@
 pyatnashkee_sources = [
   'main.vala',
+  'fifteen-core.vala',
   'app.vala',
   'app-about-dialog.vala',
   'app_window.vala',
@@ -8,7 +9,7 @@ pyatnashkee_sources = [
 
 pyatnashkee_deps = [
   dependency('gio-2.0', version: '>= 2.50'),
-  dependency('gtk+-4.0'),
+  dependency('gtk4', version: '>= 4.2.0'),
 ]
 
 

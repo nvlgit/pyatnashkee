@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <interface>
+  <requires lib="gtk" version="4.0"/>
+
+  <menu id="app-menu">
+    <section>
+      <item>
+        <attribute name="label" translatable="yes" comments="App menu item About">_About</attribute>
+        <attribute name="action">app.about</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes" comments="App menu item Quit">_Quit</attribute>
+        <attribute name="action">app.quit</attribute>
+      </item>
+    </section>
+  </menu>
+
   <template class="PyatnashkeeApplicationWindow" parent="GtkApplicationWindow">
     <property name="can_focus">False</property>
     <property name="resizable">False</property>
@@ -16,8 +31,6 @@
             <property name="can_focus">False</property>
             <property name="hexpand">True</property>
             <property name="vexpand">True</property>
-            <property name="label_xalign">0</property>
-            <property name="shadow_type">in</property>
             <child>
               <object class="GtkOverlay">
                 <property name="visible">True</property>
@@ -41,14 +54,14 @@
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
                         <signal name="clicked" handler="button_0_0_clicked_handler" swapped="no"/>
+                        <layout>
+                          <property name="row">0</property>
+                          <property name="column">0</property>
+                        </layout>
                         <style>
                           <class name="tile"/>
                         </style>
                       </object>
-                      <packing>
-                        <property name="left_attach">0</property>
-                        <property name="top_attach">0</property>
-                      </packing>
                     </child>
                     <child>
                       <object class="GtkButton" id="button_1_0">
@@ -58,14 +71,14 @@
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
                         <signal name="clicked" handler="button_1_0_clicked_handler" swapped="no"/>
+                        <layout>
+                          <property name="row">1</property>
+                          <property name="column">0</property>
+                        </layout>
                         <style>
                           <class name="tile"/>
                         </style>
                       </object>
-                      <packing>
-                        <property name="left_attach">1</property>
-                        <property name="top_attach">0</property>
-                      </packing>
                     </child>
                     <child>
                       <object class="GtkButton" id="button_2_0">
@@ -75,14 +88,14 @@
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
                         <signal name="clicked" handler="button_2_0_clicked_handler" swapped="no"/>
+                        <layout>
+                          <property name="row">2</property>
+                          <property name="column">0</property>
+                        </layout>
                         <style>
                           <class name="tile"/>
                         </style>
                       </object>
-                      <packing>
-                        <property name="left_attach">2</property>
-                        <property name="top_attach">0</property>
-                      </packing>
                     </child>
                     <child>
                       <object class="GtkButton" id="button_3_0">
@@ -92,14 +105,14 @@
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
                         <signal name="clicked" handler="button_3_0_clicked_handler" swapped="no"/>
+                        <layout>
+                          <property name="row">3</property>
+                          <property name="column">0</property>
+                        </layout>
                         <style>
                           <class name="tile"/>
                         </style>
                       </object>
-                      <packing>
-                        <property name="left_attach">3</property>
-                        <property name="top_attach">0</property>
-                      </packing>
                     </child>
                     <child>
                       <object class="GtkButton" id="button_0_1">
@@ -109,14 +122,14 @@
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
                         <signal name="clicked" handler="button_0_1_clicked_handler" swapped="no"/>
+                        <layout>
+                          <property name="row">0</property>
+                          <property name="column">1</property>
+                        </layout>
                         <style>
                           <class name="tile"/>
                         </style>
                       </object>
-                      <packing>
-                        <property name="left_attach">0</property>
-                        <property name="top_attach">1</property>
-                      </packing>
                     </child>
                     <child>
                       <object class="GtkButton" id="button_1_1">
@@ -126,14 +139,14 @@
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
                         <signal name="clicked" handler="button_1_1_clicked_handler" swapped="no"/>
+                        <layout>
+                          <property name="row">1</property>
+                          <property name="column">1</property>
+                        </layout>
                         <style>
                           <class name="tile"/>
                         </style>
                       </object>
-                      <packing>
-                        <property name="left_attach">1</property>
-                        <property name="top_attach">1</property>
-                      </packing>
                     </child>
                     <child>
                       <object class="GtkButton" id="button_2_1">
@@ -143,14 +156,14 @@
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
                         <signal name="clicked" handler="button_2_1_clicked_handler" swapped="no"/>
+                        <layout>
+                          <property name="row">2</property>
+                          <property name="column">1</property>
+                        </layout>
                         <style>
                           <class name="tile"/>
                         </style>
                       </object>
-                      <packing>
-                        <property name="left_attach">2</property>
-                        <property name="top_attach">1</property>
-                      </packing>
                     </child>
                     <child>
                       <object class="GtkButton" id="button_3_1">
@@ -160,14 +173,14 @@
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
                         <signal name="clicked" handler="button_3_1_clicked_handler" swapped="no"/>
+                        <layout>
+                          <property name="row">3</property>
+                          <property name="column">1</property>
+                        </layout>
                         <style>
                           <class name="tile"/>
                         </style>
                       </object>
-                      <packing>
-                        <property name="left_attach">3</property>
-                        <property name="top_attach">1</property>
-                      </packing>
                     </child>
                     <child>
                       <object class="GtkButton" id="button_0_2">
@@ -177,14 +190,14 @@
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
                         <signal name="clicked" handler="button_0_2_clicked_handler" swapped="no"/>
+                        <layout>
+                          <property name="row">0</property>
+                          <property name="column">2</property>
+                        </layout>
                         <style>
                           <class name="tile"/>
                         </style>
                       </object>
-                      <packing>
-                        <property name="left_attach">0</property>
-                        <property name="top_attach">2</property>
-                      </packing>
                     </child>
                     <child>
                       <object class="GtkButton" id="button_1_2">
@@ -194,14 +207,14 @@
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
                         <signal name="clicked" handler="button_1_2_clicked_handler" swapped="no"/>
+                        <layout>
+                          <property name="row">1</property>
+                          <property name="column">2</property>
+                        </layout>
                         <style>
                           <class name="tile"/>
                         </style>
                       </object>
-                      <packing>
-                        <property name="left_attach">1</property>
-                        <property name="top_attach">2</property>
-                      </packing>
                     </child>
                     <child>
                       <object class="GtkButton" id="button_2_2">
@@ -211,14 +224,14 @@
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
                         <signal name="clicked" handler="button_2_2_clicked_handler" swapped="no"/>
+                        <layout>
+                          <property name="row">2</property>
+                          <property name="column">2</property>
+                        </layout>
                         <style>
                           <class name="tile"/>
                         </style>
                       </object>
-                      <packing>
-                        <property name="left_attach">2</property>
-                        <property name="top_attach">2</property>
-                      </packing>
                     </child>
                     <child>
                       <object class="GtkButton" id="button_3_2">
@@ -228,14 +241,14 @@
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
                         <signal name="clicked" handler="button_3_2_clicked_handler" swapped="no"/>
+                        <layout>
+                          <property name="row">3</property>
+                          <property name="column">2</property>
+                        </layout>
                         <style>
                           <class name="tile"/>
                         </style>
                       </object>
-                      <packing>
-                        <property name="left_attach">3</property>
-                        <property name="top_attach">2</property>
-                      </packing>
                     </child>
                     <child>
                       <object class="GtkButton" id="button_0_3">
@@ -245,14 +258,14 @@
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
                         <signal name="clicked" handler="button_0_3_clicked_handler" swapped="no"/>
+                        <layout>
+                          <property name="row">0</property>
+                          <property name="column">3</property>
+                        </layout>
                         <style>
                           <class name="tile"/>
                         </style>
                       </object>
-                      <packing>
-                        <property name="left_attach">0</property>
-                        <property name="top_attach">3</property>
-                      </packing>
                     </child>
                     <child>
                       <object class="GtkButton" id="button_1_3">
@@ -262,14 +275,14 @@
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
                         <signal name="clicked" handler="button_1_3_clicked_handler" swapped="no"/>
+                        <layout>
+                          <property name="row">1</property>
+                          <property name="column">3</property>
+                        </layout>
                         <style>
                           <class name="tile"/>
                         </style>
                       </object>
-                      <packing>
-                        <property name="left_attach">1</property>
-                        <property name="top_attach">3</property>
-                      </packing>
                     </child>
                     <child>
                       <object class="GtkButton" id="button_2_3">
@@ -279,14 +292,14 @@
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
                         <signal name="clicked" handler="button_2_3_clicked_handler" swapped="no"/>
+                        <layout>
+                          <property name="row">2</property>
+                          <property name="column">3</property>
+                        </layout>
                         <style>
                           <class name="tile"/>
                         </style>
                       </object>
-                      <packing>
-                        <property name="left_attach">2</property>
-                        <property name="top_attach">3</property>
-                      </packing>
                     </child>
                     <child>
                       <object class="GtkButton" id="button_3_3">
@@ -295,45 +308,39 @@
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
                         <signal name="clicked" handler="button_3_3_clicked_handler" swapped="no"/>
+                        <layout>
+                          <property name="row">3</property>
+                          <property name="column">3</property>
+                        </layout>
                         <style>
                           <class name="tile"/>
                         </style>
                       </object>
-                      <packing>
-                        <property name="left_attach">3</property>
-                        <property name="top_attach">3</property>
-                      </packing>
                     </child>
                   </object>
-                  <packing>
+                  <!--packing>
                     <property name="index">-1</property>
-                  </packing>
+                  </packing-->
                 </child>
                 <child type="overlay">
                   <object class="GtkGrid" id="info_grid">
-                    <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="valign">start</property>
                     <child>
                       <object class="GtkRevealer" id="info_revealer">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="transition_type">slide-up</property>
-                        <child>
-                          <object class="GtkBox">
-                            <property name="width_request">-1</property>
-                            <property name="height_request">-1</property>
-                            <property name="visible">True</property>
-                            <property name="can_focus">False</property>
-                            <property name="hexpand">True</property>
-                            <property name="vexpand">True</property>
-                            <property name="orientation">vertical</property>
+                        <property name="transition_type">slide-down</property>
+                        <property name="transition_duration">700</property>
+
+                            <child>
+                              <object class="GtkBox">
+
                             <child>
                               <object class="GtkBox" id="win_box">
                                 <property name="visible">True</property>
                                 <property name="can_focus">False</property>
                                 <property name="hexpand">True</property>
                                 <property name="vexpand">True</property>
+                                <property name="valign">center</property>
                                 <property name="orientation">vertical</property>
                                 <child>
                                   <object class="GtkImage" id="smile">
@@ -342,11 +349,6 @@
                                     <property name="icon_name">face-smile</property>
                                     <property name="pixel_size">64</property>
                                   </object>
-                                  <packing>
-                                    <property name="expand">False</property>
-                                    <property name="fill">True</property>
-                                    <property name="position">0</property>
-                                  </packing>
                                 </child>
                                 <child>
                                   <object class="GtkLabel" id="win_label">
@@ -354,90 +356,102 @@
                                     <property name="can_focus">False</property>
                                     <property name="label" translatable="yes">Solved!</property>
                                   </object>
-                                  <packing>
-                                    <property name="expand">False</property>
-                                    <property name="fill">True</property>
-                                    <property name="position">1</property>
-                                  </packing>
                                 </child>
                                 <style>
                                   <class name="info_box_style"/>
                                 </style>
                               </object>
-                              <packing>
+                              <!--packing>
                                 <property name="expand">False</property>
                                 <property name="fill">False</property>
                                 <property name="position">0</property>
-                              </packing>
+                              </packing-->
                             </child>
-                          </object>
-                        </child>
+                            <child>
+                             <placeholder></placeholder>
+                            </child>
+
+                              </object>
+                            </child>
+
+
+
+
                         <style>
                           <class name="win_box_style"/>
                         </style>
+                        <layout>
+                          <property name="row">0</property>
+                          <property name="column">0</property>
+                        </layout>
                       </object>
-                      <packing>
+                      <!--packing>
                         <property name="left_attach">0</property>
                         <property name="top_attach">0</property>
-                      </packing>
+                      </packing-->
                     </child>
                   </object>
                 </child>
               </object>
             </child>
           </object>
-          <packing>
+          <!--packing>
             <property name="expand">False</property>
             <property name="fill">True</property>
             <property name="position">0</property>
-          </packing>
+          </packing-->
         </child>
       </object>
     </child>
     <child type="titlebar">
       <object class="GtkHeaderBar" id="header">
-        <property name="visible">True</property>
-        <property name="can_focus">False</property>
-        <property name="vexpand">True</property>
-        <property name="title" translatable="yes">15</property>
-        <property name="subtitle" translatable="yes" comments="window subtitle">puzzle</property>
-        <property name="show_title_buttons">True</property>
-        <child>
+        <property name="title-widget">
+            <object class="GtkBox">
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="vexpand">1</property>
+                <property name="valign">center</property>
+                <property name="orientation">vertical</property>
+                <child>
+                    <object class="GtkLabel">
+                        <property name="label" translatable="yes">15</property>
+                        <property name="single-line-mode">True</property>
+                        <property name="ellipsize">end</property>
+                        <property name="width-chars">10</property>
+                        <style>
+                          <class name="title"/>
+                        </style>
+                    </object>
+                </child>
+                <child>
+                    <object class="GtkLabel" id="subtitle">
+                        <property name="label" translatable="yes">puzzle</property>
+                        <property name="single-line-mode">True</property>
+                        <property name="ellipsize">end</property>
+                        <property name="width-chars">10</property>
+                        <style>
+                          <class name="subtitle"/>
+                        </style>
+                    </object>
+                </child>
+            </object>
+        </property>
+        <child type="start">
           <object class="GtkButton" id="reload">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
             <property name="receives_default">False</property>
+            <property name="icon_name">view-refresh-symbolic</property>
             <property name="tooltip_text" translatable="yes" comments="Button tooltip New game">Start a new game</property>
-            <property name="relief">none</property>
             <signal name="clicked" handler="new_game_clicked_handler" swapped="no"/>
-            <child>
-              <object class="GtkImage" id="new_image">
-                <property name="visible">True</property>
-                <property name="can_focus">False</property>
-                <property name="icon_name">view-refresh-symbolic</property>
-                <property name="icon_size">1</property>
-              </object>
-            </child>
           </object>
         </child>
-        <child>
+        <child type="end">
           <object class="GtkMenuButton" id="button_menu">
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="relief">none</property>
-            <child>
-              <object class="GtkImage">
-                <property name="visible">True</property>
-                <property name="can_focus">False</property>
-                <property name="icon_name">open-menu-symbolic</property>
-              </object>
-            </child>
+            <property name="icon_name">open-menu-symbolic</property>
+            <property name="menu-model">app-menu</property>
           </object>
-          <packing>
-            <property name="pack_type">end</property>
-            <property name="position">3</property>
-          </packing>
         </child>
       </object>
     </child>

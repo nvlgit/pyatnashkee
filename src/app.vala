@@ -47,9 +47,9 @@ namespace Pyatnashkee {
 			                                          css_provider,
 			                                          STYLE_PROVIDER_PRIORITY_APPLICATION);
 			add_action_entries (actions, this);
-			var builder = new Gtk.Builder.from_resource ("/com/gitlab/nvlgit/pyatnashkee/app-menu.ui");
+/*			var builder = new Gtk.Builder.from_resource ("/com/gitlab/nvlgit/pyatnashkee/app-menu.ui");
 			var appmenu = (GLib.MenuModel) builder.get_object ("app-menu");
-			this.set_app_menu (appmenu);
+			this.set_app_menu (appmenu);*/
 		}
 
 		public override void activate () {
@@ -61,8 +61,7 @@ namespace Pyatnashkee {
 
 		private void about_cb (SimpleAction action, Variant? parameter) {
 
-			AppAbout about = new AppAbout (get_active_window () );
-			about.present ();
+			show_about();
 		}
 
 		private void quit_cb (SimpleAction action, Variant? parameter) {
